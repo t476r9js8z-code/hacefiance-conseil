@@ -531,7 +531,7 @@ def preparer(conseil: Conseil, s: Seance, tour: int, p: dict) -> tuple[str, str,
         # lecture croisée, ordre des autres propre à chaque lecteur
         autres = [m for m in s.membres() if m["id"] != p["id"]]
         random.Random(f"{s.meta['graine']}-{p['id']}").shuffle(autres)
-        blocs = "\n\n".join(f"### Participant {s.lettre(m['id'])}\n\n{s.reponse(1, m['id']).strip()}" for m in autres)
+        blocs = "\n\n".join(f"### Participant {s.lettre(m['id'])}\n\n{masquer(s.reponse(1, m['id']).strip())}" for m in autres)
         verif = ""
         if s.meta.get("verificateur") == p["id"]:
             verif = (
@@ -552,7 +552,7 @@ def preparer(conseil: Conseil, s: Seance, tour: int, p: dict) -> tuple[str, str,
     for q in recues:
         de = s.lettre(q["de"])
         blocs.append(f"### Question de {de}\n\n> {q['question']}\n\n**Ce que {de} a écrit au tour précédent :**\n\n"
-                     f"{(s.reponse(tour - 1, q['de']) or '').strip()}")
+                     f"{masquer((s.reponse(tour - 1, q['de']) or '').strip())}")
     relance = ("Si une réponse appelle une précision, tu peux poser au plus une question de relance dans le champ "
                "« questions » ; elle recevra une réponse au tour suivant." if tour == 3 else
                "C'est le dernier tour de questions de cette séance : n'en pose pas de nouvelle.")
@@ -564,6 +564,18 @@ def preparer(conseil: Conseil, s: Seance, tour: int, p: dict) -> tuple[str, str,
     ctx["questions_de"] = sorted({s.lettre(q["de"]) for q in recues})
     ctx["autres_lettres"] = [s.lettre(m["id"]) for m in s.membres() if m["id"] != p["id"]]
     return consigne, dossier, ctx
+
+
+MASQUES = [r"Chat ?GPT(?:-\d+(?:\.\d+)?)?", r"GPT-\d+(?:\.\d+)?(?: Astra)?", r"\bGPT\b", r"OpenAI",
+           r"Gemini(?: \d+(?:\.\d+)?)?(?: Pro| Flash)?", r"Google DeepMind", r"Grok(?: \d+)?", r"\bxAI\b",
+           r"Claude(?: (?:Opus|Sonnet|Haiku|Fable|Mythos))?(?: \d+(?:\.\d+)?)?", r"Anthropic"]
+
+
+def masquer(texte: str) -> str:
+    """Retire d'un texte relayé les noms des modèles assis à la table, pour préserver l'anonymat."""
+    for motif in MASQUES:
+        texte = re.sub(motif, "[modèle]", texte)
+    return texte
 
 
 def questions_pour_fabien(s: Seance) -> list[dict]:
@@ -619,6 +631,10 @@ def carte_mecanique(s: Seance) -> tuple[str, dict]:
         acc, rej = d.get("accepte") or [], d.get("rejette") or []
         rev = d.get("revision") or {}
         l.append(f"| {nom[m['id']]} | {len(acc)} | {len(rej)} | {'oui' if rev.get('change') else 'non'} | lue |")
+        acc = [a if isinstance(a, dict) else {"point": str(a)} for a in acc]
+        rej = [r if isinstance(r, dict) else {"point": str(r)} for r in rej]
+        if not isinstance(rev, dict):
+            rev = {}
         for a in acc:
             accords.append(f"- **{s.lettre(m['id'])}** retient de **{a.get('cible', '?')}** : {a.get('point', '')}")
         for r in rej:
@@ -626,12 +642,15 @@ def carte_mecanique(s: Seance) -> tuple[str, dict]:
         if rev.get("change"):
             revisions.append(f"- **{s.lettre(m['id'])}** passe de « {rev.get('avant', '')} » à « {rev.get('apres', '')} » (argument décisif : {rev.get('argument_decisif', '?')})")
         for f in d.get("faits") or []:
+            if not isinstance(f, dict):
+                faits.append(f"- **{s.lettre(m['id'])}** signale : {f}")
+                continue
             faits.append(f"- **{s.lettre(m['id'])}** met en doute chez **{f.get('cible', '?')}** : {f.get('affirmation', '')} — *{f.get('doute', '')}*")
         if d.get("question_ouverte"):
             questions.append(f"- **{s.lettre(m['id'])}** : {d['question_ouverte']}")
     lues = [d for d in decl.values() if d]
     n_rej = sum(len(d.get("rejette") or []) for d in lues)
-    n_chg = sum(1 for d in lues if (d.get("revision") or {}).get("change"))
+    n_chg = sum(1 for d in lues if isinstance(d.get("revision"), dict) and d["revision"].get("change"))
     signaux = []
     if len(lues) >= 3 and n_rej == 0:
         signaux.append("**Convergence suspecte** : aucun rejet déclaré. Désigner un participant pour défendre la position abandonnée.")
