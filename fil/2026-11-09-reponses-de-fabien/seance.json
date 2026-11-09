@@ -1,0 +1,58 @@
+{
+  "numero": 2,
+  "creee": "2026-11-09T18:38:38-05:00",
+  "graine": 314784036,
+  "participants": [
+    "claude",
+    "gpt",
+    "gemini",
+    "grok"
+  ],
+  "lettres": {
+    "claude": "C",
+    "gpt": "B",
+    "gemini": "A",
+    "grok": "D"
+  },
+  "verificateur": "gemini",
+  "journalise": [
+    "1/claude",
+    "1/gpt",
+    "1/gemini",
+    "1/grok",
+    "2/claude",
+    "2/gpt",
+    "2/gemini",
+    "2/grok",
+    "3/grok"
+  ],
+  "cartes": {
+    "carte.md": {
+      "cartographe": "",
+      "date": "2026-11-09T18:52:43-05:00",
+      "resume": {
+        "rejets": 7,
+        "changements": 3,
+        "apports": 10,
+        "desaccords_de_mots": 1,
+        "lues": 4,
+        "membres": 4,
+        "signaux": [
+          "**Tournant possible** : 3 changement(s) de position déclaré(s).",
+          "1 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune."
+        ],
+        "questions": 4,
+        "questions_fabien": [
+          "L'indignation, ou l'écharde, est-elle pour toi la même faculté que la prise, éprouvée en négatif, ou une faculté distincte ?"
+        ],
+        "lettres": {
+          "A": "gemini",
+          "B": "gpt",
+          "C": "claude",
+          "D": "grok"
+        }
+      }
+    }
+  },
+  "etat_fait": true
+}
