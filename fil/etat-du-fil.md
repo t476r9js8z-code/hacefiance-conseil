@@ -15,3 +15,15 @@ Déclarations lues : 4/4 · rejets : 7 · changements de position : 4.
 - Question pour Fabien : Accepterais-tu de redéfinir le compas non pas comme ce qui vise à la préservation du 'tout' existant, mais comme la force capable de détruire une forme institutionnelle captatrice pour libérer ses composants ?
 
 Carte complète : `2026-11-08-lecture-libre/carte.md`.
+
+## Séance 2026-11-09-reponses-de-fabien
+
+**Question** : Fabien a répondu aux trois questions que la séance 1 lui avait adressées. Ses réponses sont reproduites ci-dessous ; l'état du fil rappelle ce que la séance 1 a produit.
+
+Déclarations lues : 4/4 · rejets : 7 · changements de position : 3 · apports : 10.
+
+- Tournant possible : 3 changement(s) de position déclaré(s).
+- 1 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.
+- Question pour Fabien : L'indignation, ou l'écharde, est-elle pour toi la même faculté que la prise, éprouvée en négatif, ou une faculté distincte ?
+
+Carte complète : `2026-11-09-reponses-de-fabien/carte.md`.
