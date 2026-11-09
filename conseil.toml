@@ -23,6 +23,10 @@ sources = [
 # Participants
 #   siege       : proche | initie | etranger | hors-table
 #   adaptateur  : commande (outil en ligne de commande) | api (compatible OpenAI) | manuel (relais à la main ou par Chrome)
+#   joindre_dossier       : en relais, le corpus part en pièce jointe plutôt que dans le texte
+#   dossier_dans_sources  : le corpus est déjà dans les sources d'un projet (ChatGPT) ; on ne le renvoie pas
+#   fil_persistant        : une seule discussion dédiée, qui garde sa mémoire ; le corpus n'est renvoyé
+#                           que s'il a changé ou après « rafraichir »
 #   Pour "commande" : {sortie} est remplacé par un fichier où l'outil écrit sa réponse,
 #                     {systeme} par le chemin du fichier de consignes système.
 # ---------------------------------------------------------------------------
@@ -39,48 +43,37 @@ id = "gpt"
 nom = "GPT"
 siege = "initie"
 adaptateur = "manuel"
-relais = "Chrome : chatgpt.com, discussion temporaire (sans mémoire) ; joindre le dossier"
-joindre_dossier = true
-# Plus tard, par Codex CLI sur l'ordinateur de Fabien :
-# adaptateur = "commande"
-# commande = ["codex", "exec", "--skip-git-repo-check", "--ephemeral", "--sandbox", "read-only", "-o", "{sortie}", "-"]
+relais = "Chrome : projet ChatGPT « Conseil Hacéfiance » (compte sales, mémoire projet seulement)"
+dossier_dans_sources = true
+fil_persistant = true
 
 [[participant]]
 id = "gemini"
 nom = "Gemini"
 siege = "initie"
 adaptateur = "manuel"
-relais = "Chrome : gemini.google.com, discussion temporaire (sans mémoire) ; joindre le dossier"
+relais = "Chrome : gemini.google.com, discussion dédiée au conseil ; joindre le dossier"
 joindre_dossier = true
-# Plus tard, par Gemini CLI sur l'ordinateur de Fabien :
-# adaptateur = "commande"
-# commande = ["gemini", "--approval-mode", "plan", "--output-format", "text", "-p", "Réponds à la consigne reçue sur l'entrée standard, en français."]
-
-[[participant]]
-id = "deepseek"
-nom = "DeepSeek"
-siege = "initie"
-adaptateur = "manuel"
-relais = "Chrome : chat.deepseek.com, discussion neuve ; joindre le dossier en pièce jointe"
-joindre_dossier = true
-# Variante par API (quelques dollars suffisent pour des mois) :
-# adaptateur = "api"
-# base = "https://api.deepseek.com"
-# modele = "deepseek-chat"
-# cle_env = "DEEPSEEK_API_KEY"
+fil_persistant = true
 
 [[participant]]
 id = "grok"
 nom = "Grok"
 siege = "initie"
 adaptateur = "manuel"
-relais = "Chrome : grok.com, discussion privée (sans mémoire) ; joindre le dossier"
+relais = "Chrome : grok.com (compte Byron Wat), discussion dédiée au conseil ; joindre le dossier"
 joindre_dossier = true
-# Variante par API :
+fil_persistant = true
+
+# En attente : DeepSeek (Chrome bloque son site ; l'API coûte quelques cents par séance).
+# [[participant]]
+# id = "deepseek"
+# nom = "DeepSeek"
+# siege = "initie"
 # adaptateur = "api"
-# base = "https://api.x.ai/v1"
-# modele = "grok-4"            # à vérifier dans la console xAI
-# cle_env = "XAI_API_KEY"
+# base = "https://api.deepseek.com"
+# modele = "deepseek-chat"
+# cle_env = "DEEPSEEK_API_KEY"
 
 # Exemple de cartographe hors table (à activer en mettant cartographe = "cartographe" plus haut) :
 # [[participant]]

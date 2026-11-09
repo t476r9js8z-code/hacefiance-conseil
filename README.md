@@ -4,11 +4,12 @@
 
 ## Le principe
 
-Le dépôt est la mémoire du conseil, pas les conversations. Chaque séance part d'une question. Les participants reçoivent le même dossier : le corpus de l'Hacéfiance (texte central, sujets, carnet de travail) et l'état du fil, c'est-à-dire un résumé tenu à jour de là où en est le dialogue. Une séance se déroule en deux tours, suivis d'une carte :
+Le dépôt est la mémoire du conseil, pas les conversations. Chaque séance part d'une question. Les participants reçoivent le même dossier : le corpus de l'Hacéfiance (texte central, sujets, carnet de travail) et l'état du fil, c'est-à-dire un résumé tenu à jour de là où en est le dialogue. Une séance se déroule en deux tours, parfois suivis de questions et réponses, puis d'une carte :
 
 1. **Premier tour, à l'aveugle.** Chacun répond seul.
 2. **Lecture croisée.** Chacun lit les réponses des autres sous des lettres (A, B, C…), dans un ordre propre à chaque lecteur, puis dit ce qu'il accepte, ce qu'il rejette et s'il a changé de position. Il termine par une déclaration structurée. Un vérificateur, désigné à tour de rôle, relève les faits douteux.
-3. **Carte des désaccords.** Elle est assemblée mécaniquement à partir des déclarations. Un cartographe qui n'est pas assis à la table peut y ajouter une carte en prose. Elle ne contient ni synthèse ni verdict, seulement ce qui converge, ce qui résiste, qui a bougé et pourquoi, les faits signalés, les questions ouvertes et les tournants possibles. Deux signaux sont automatiques : la *convergence suspecte*, quand personne ne rejette rien ou que tout le monde change d'avis, et le *tournant possible*, dès qu'un participant change de position.
+3. **Questions et réponses, s'il y a lieu.** À la lecture croisée, chacun peut poser au plus deux questions : à un participant, à tous, ou à Fabien. Si des questions ont été posées, un tour de réponses s'ouvre pour leurs seuls destinataires, avec au plus une relance et un second tour. Les questions adressées à Fabien sont réunies dans `questions-pour-fabien.md` ; ses réponses, s'il en donne, vont dans `reponses-de-fabien.md` et entrent dans la carte et l'état du fil.
+4. **Carte des désaccords.** Elle est assemblée mécaniquement à partir des déclarations. Un cartographe qui n'est pas assis à la table peut y ajouter une carte en prose. Elle ne contient ni synthèse ni verdict, seulement ce qui converge, ce qui résiste, qui a bougé et pourquoi, les faits signalés, les questions ouvertes et les tournants possibles. Deux signaux sont automatiques : la *convergence suspecte*, quand personne ne rejette rien ou que tout le monde change d'avis, et le *tournant possible*, dès qu'un participant change de position.
 
 L'état du fil est ensuite mis à jour, et la séance suivante part de là. L'auteur confirme les tournants et décide des publications : rien n'est publié par le conseil lui-même.
 
@@ -21,6 +22,10 @@ Tous les participants sont initiés : un dialogue entre gens qui partagent le vo
 - **Hors table** : le cartographe, qui dresse la carte sans avoir débattu.
 
 Le programme connaît aussi un siège **étranger**, qui ne reçoit que la question, avec des consignes qui ne nomment pas le cadre. Personne ne l'occupe. Le test qu'il permettait, savoir si une thèse tient sans le vocabulaire, a sa place au moment de publier : un lecteur extérieur relit le texte avant sa sortie, non pour débattre mais pour vérifier qu'il se comprend.
+
+## La mémoire des participants
+
+Le dépôt est la mémoire de référence. Chaque participant peut aussi tenir **un fil persistant** : une seule discussion dédiée au conseil, sur un compte ou dans un projet cloisonné, qui garde sa propre continuité. Le corpus n'y est envoyé qu'une fois, puis seulement s'il a changé ; `memoire.json` note la version reçue par chacun. Quand un participant dérive (formulations abandonnées, positions mal attribuées), `python conseil.py rafraichir <id>` lui fait renvoyer le corpus complet à la séance suivante. GPT siège dans un projet ChatGPT en mémoire « projet seulement », où le corpus est déposé comme source.
 
 ## Les garde-fous
 
@@ -54,11 +59,12 @@ python conseil.py nouvelle "La question de la séance" --slug nom-court
 python conseil.py seance      # avance aussi loin que possible, s'arrête aux relais en attente
 python conseil.py statut      # qui a répondu, qui est en attente
 python conseil.py carte --cartographe <id> --sortie carte-contre.md   # contre-greffe
-python conseil.py dossier deepseek --sortie dossier.md                # voir ce qu'un participant reçoit
+python conseil.py dossier gemini --sortie dossier.md                  # voir ce qu'un participant reçoit
+python conseil.py rafraichir grok                                     # renvoyer le corpus complet à un fil persistant
 python conseil.py --simulation seance                                 # essai à blanc, sans aucun appel
 ```
 
-**Relais.** Pour un participant en relais manuel, le programme écrit la consigne complète dans `fil/<séance>/relais/<id>-tour-N.consigne.md`, avec le corpus à part dans un fichier `.dossier.md` si `joindre_dossier = true`. Le relais (l'auteur, ou Claude par Chrome) colle la consigne dans une discussion neuve, sans mémoire, joint le dossier, puis dépose la réponse mot pour mot dans `fil/<séance>/tour-N/<id>.md`. On relance ensuite `seance`.
+**Relais.** Pour un participant en relais manuel, le programme écrit la consigne complète dans `fil/<séance>/relais/<id>-tour-N.consigne.md`, avec le corpus à part dans un fichier `.dossier.md` si `joindre_dossier = true`. Le relais (l'auteur, ou Claude par Chrome) colle la consigne dans le fil dédié du participant, ou dans une discussion neuve s'il n'en a pas, joint le dossier s'il y en a un, puis dépose la réponse mot pour mot dans `fil/<séance>/tour-N/<id>.md`. On relance ensuite `seance`.
 
 **Rythme.** Une séance par jour au plus. Les abonnements ne sont pas faits pour l'automatisation intensive, et le dialogue gagne à mûrir.
 
@@ -68,12 +74,16 @@ python conseil.py --simulation seance                                 # essai à
 fil/
   etat-du-fil.md
   journal.md
+  memoire.json
   2026-11-09-appartenances-croisees/
     00-question.md
     01-dossiers.md
     seance.json        (lettres, vérificateur, graine)
     tour-1/<id>.md
     tour-2/<id>.md
+    tour-3/<id>.md     (réponses aux questions, s'il y en a)
+    tour-4/<id>.md     (réponses aux relances)
+    questions-pour-fabien.md
     carte.md
     carte-contre.md    (facultatif)
 ```
