@@ -1,0 +1,93 @@
+# Conseil Hacéfiance — configuration
+# Les chemins relatifs partent du dossier de ce fichier.
+
+[conseil]
+fil = "fil"                       # dossier où vivent les séances, le journal et l'état du fil
+longueur = "600 à 1200 mots"      # longueur demandée aux participants à chaque tour
+longueur_etat = "1200 mots"       # longueur maximale de l'état du fil
+# Cartographe : id d'un participant de siège "hors-table" qui rédige la carte en prose.
+# Vide = carte mécanique seulement (assemblée à partir des déclarations, sans interprétation).
+# Il ne devrait pas être un modèle assis à la table.
+cartographe = ""
+delai_secondes = 900              # délai maximal d'un appel à un outil ou à une API
+
+[corpus]
+# Ordre = priorité quand le budget d'un participant est serré.
+budget_caracteres = 400000
+sources = [
+  { chemin = "../hacefiance", motifs = ["hacefiance_essentiel.md", "hacefiance_integral.md", "articles/*.md"], exclure = ["*_en.md"] },
+  { chemin = "../hacefiance-carnet", motifs = ["index-concepts.md", "pistes-ouvertes.md", "chronologie.md", "erreurs-corrigees.md", "echanges/**/*.md"], exclure = [] },
+]
+
+# ---------------------------------------------------------------------------
+# Participants
+#   siege       : proche | initie | etranger | hors-table
+#   adaptateur  : commande (outil en ligne de commande) | api (compatible OpenAI) | manuel (relais à la main ou par Chrome)
+#   Pour "commande" : {sortie} est remplacé par un fichier où l'outil écrit sa réponse,
+#                     {systeme} par le chemin du fichier de consignes système.
+# ---------------------------------------------------------------------------
+
+[[participant]]
+id = "claude"
+nom = "Claude"
+siege = "proche"
+adaptateur = "manuel"
+relais = "Claude, dans la conversation avec Fabien (porte l'historique des échanges)"
+
+[[participant]]
+id = "gpt"
+nom = "GPT"
+siege = "initie"
+adaptateur = "manuel"
+relais = "Chrome : chatgpt.com, discussion temporaire (sans mémoire) ; joindre le dossier"
+joindre_dossier = true
+# Plus tard, par Codex CLI sur l'ordinateur de Fabien :
+# adaptateur = "commande"
+# commande = ["codex", "exec", "--skip-git-repo-check", "--ephemeral", "--sandbox", "read-only", "-o", "{sortie}", "-"]
+
+[[participant]]
+id = "gemini"
+nom = "Gemini"
+siege = "initie"
+adaptateur = "manuel"
+relais = "Chrome : gemini.google.com, discussion temporaire (sans mémoire) ; joindre le dossier"
+joindre_dossier = true
+# Plus tard, par Gemini CLI sur l'ordinateur de Fabien :
+# adaptateur = "commande"
+# commande = ["gemini", "--approval-mode", "plan", "--output-format", "text", "-p", "Réponds à la consigne reçue sur l'entrée standard, en français."]
+
+[[participant]]
+id = "deepseek"
+nom = "DeepSeek"
+siege = "initie"
+adaptateur = "manuel"
+relais = "Chrome : chat.deepseek.com, discussion neuve ; joindre le dossier en pièce jointe"
+joindre_dossier = true
+# Variante par API (quelques dollars suffisent pour des mois) :
+# adaptateur = "api"
+# base = "https://api.deepseek.com"
+# modele = "deepseek-chat"
+# cle_env = "DEEPSEEK_API_KEY"
+
+[[participant]]
+id = "grok"
+nom = "Grok"
+siege = "initie"
+adaptateur = "manuel"
+relais = "Chrome : grok.com, discussion privée (sans mémoire) ; joindre le dossier"
+joindre_dossier = true
+# Variante par API :
+# adaptateur = "api"
+# base = "https://api.x.ai/v1"
+# modele = "grok-4"            # à vérifier dans la console xAI
+# cle_env = "XAI_API_KEY"
+
+# Exemple de cartographe hors table (à activer en mettant cartographe = "cartographe" plus haut) :
+# [[participant]]
+# id = "cartographe"
+# nom = "Cartographe"
+# siege = "hors-table"
+# adaptateur = "api"
+# base = "https://openrouter.ai/api/v1"
+# modele = "mistralai/mistral-large"   # un modèle qui n'est pas assis à la table
+# cle_env = "OPENROUTER_API_KEY"

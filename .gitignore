@@ -1,0 +1,4 @@
+# Copies des consignes envoyées (elles contiennent le corpus entier) : reconstituables
+# à partir de 01-dossiers.md, qui note la version exacte du corpus lu par chacun.
+fil/*/relais/
+__pycache__/
