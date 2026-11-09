@@ -123,6 +123,21 @@ class Conseil:
         self.consignes = self.base / "consignes"
         self.etat_fichier = self.fil / "etat-du-fil.md"
         self.journal_fichier = self.fil / "journal.md"
+        self.memoire_fichier = self.fil / "memoire.json"
+
+    # -- mémoire des fils persistants : version du corpus déjà reçue par chacun
+    def memoire(self) -> dict:
+        if self.memoire_fichier.exists():
+            return json.loads(lire(self.memoire_fichier))
+        return {}
+
+    def memoriser(self, pid: str, version: str | None) -> None:
+        m = self.memoire()
+        if version is None:
+            m.pop(pid, None)
+        else:
+            m[pid] = {"corpus": version, "date": maintenant()}
+        ecrire(self.memoire_fichier, json.dumps(m, ensure_ascii=False, indent=2) + "\n")
 
     # -- participants
     def table(self) -> list[dict]:
@@ -234,16 +249,33 @@ class Seance:
             f"tour-{tour}/{p['id']}.md · sha256:{empreinte(texte)[:16]}"
         )
         self.meta["journalise"].append(cle)
+        envoye = self.meta.get("dossier_envoye", {}).get(f"{tour}/{p['id']}")
+        if envoye and p.get("fil_persistant"):
+            self.c.memoriser(p["id"], envoye)
         self.sauver()
 
+    def cibles(self, tour: int) -> list[dict]:
+        """Participants appelés à ce tour : tous aux tours 1 et 2, les destinataires de questions ensuite."""
+        if tour in (1, 2):
+            return self.membres()
+        ids = {q["cible"] for q in questions_du_tour(self, tour - 1) if q["cible"] != "Fabien"}
+        return [m for m in self.membres() if m["id"] in ids]
+
     def complet(self, tour: int) -> bool:
-        return all(self.reponse(tour, p["id"]) for p in self.membres())
+        return all(self.reponse(tour, p["id"]) for p in self.cibles(tour))
+
+    def par_lettre(self, lettre: str) -> str | None:
+        for pid, l in self.meta["lettres"].items():
+            if l == lettre:
+                return pid
+        return None
 
 
 def seances(conseil: Conseil) -> list[Path]:
     if not conseil.fil.exists():
         return []
-    return sorted(d for d in conseil.fil.iterdir() if d.is_dir() and (d / "seance.json").exists())
+    dossiers = [d for d in conseil.fil.iterdir() if d.is_dir() and (d / "seance.json").exists()]
+    return sorted(dossiers, key=lambda d: json.loads(lire(d / "seance.json")).get("numero", 0))
 
 
 def seance_courante(conseil: Conseil, nom: str | None) -> Seance:
@@ -271,7 +303,7 @@ def appeler(conseil: Conseil, p: dict, s: Seance, tour: int, systeme: str, consi
     mode = "simulation" if conseil.simulation else p.get("adaptateur", "manuel")
     if p["siege"] == "etranger":
         systeme, consigne = neutraliser(systeme), neutraliser(consigne)
-    complet = consigne.replace("{dossier}", corpus_integre(dossier))
+    complet = consigne.replace("{dossier}", corpus_integre(dossier) if dossier else contexte.get("note_dossier", ""))
 
     if mode == "simulation":
         return simuler(p, tour, contexte)
@@ -365,7 +397,7 @@ def appeler_commande(conseil: Conseil, p: dict, systeme: str, consigne: str) -> 
         return r.stdout
 
 
-def simuler(p: dict, tour: int, ctx: dict) -> str:
+def simuler(p: dict, tour, ctx: dict) -> str:
     rnd = random.Random(f"{p['id']}-{tour}-{ctx.get('seance')}")
     if tour == 1:
         return (
@@ -375,14 +407,27 @@ def simuler(p: dict, tour: int, ctx: dict) -> str:
             f"Argument n° {rnd.randint(1, 99)}.\n\nQuestion ouverte : que vaut un compas sans canal de retour ?"
         )
     autres = ctx.get("autres_lettres", [])
+    if tour in (3, 4):
+        relance = []
+        if tour == 3 and autres and rnd.random() < 0.5:
+            relance = [{"cible": rnd.choice(autres), "question": "Peux-tu préciser ce que tu entends par canal ?"}]
+        decl = {"repond_a": ctx.get("questions_de", []), "questions": relance}
+        return (f"[Réponses simulées de {p['nom']} ({ctx.get('lettre')}) aux questions de "
+                f"{', '.join(ctx.get('questions_de', []))}.]\n\n```json\n{json.dumps(decl, ensure_ascii=False)}\n```\n")
     cible_a = rnd.choice(autres) if autres else "?"
     cible_r = rnd.choice([x for x in autres if x != cible_a] or autres or ["?"])
     change = rnd.random() < 0.4
+    questions = []
+    if rnd.random() < 0.6 and autres:
+        questions.append({"cible": rnd.choice(autres), "question": "Qu'est-ce qui, chez toi, distingue la place de l'expérience ?"})
+    if rnd.random() < 0.3:
+        questions.append({"cible": "Fabien", "question": "Le compas d'un collectif peut-il se tromper de tout ?"})
     decl = {
         "accepte": [{"cible": cible_a, "point": "l'idée que le canal précède la règle"}],
         "rejette": [{"cible": cible_r, "point": "la confusion entre place et expérience", "raison": "elle suppose ce qu'elle veut montrer"}],
         "revision": {"change": change, "avant": "le compas est une règle" if change else "", "apres": "le compas est un couplage" if change else "", "argument_decisif": cible_a if change else ""},
         "faits": [{"cible": cible_r, "affirmation": "date citée de mémoire", "doute": "non vérifiée"}] if ctx.get("verificateur") else [],
+        "questions": questions,
         "question_ouverte": "ce qu'ajoute la révélation au ressenti",
     }
     return (
@@ -394,15 +439,41 @@ def simuler(p: dict, tour: int, ctx: dict) -> str:
 
 # --------------------------------------------------------------------------- tours
 
+MAX_QUESTIONS = {2: 2, 3: 1}  # questions permises par participant : lecture croisée, puis relance unique
+
+
+def questions_du_tour(s: Seance, tour: int) -> list[dict]:
+    """Questions posées dans les déclarations d'un tour (2 = lecture croisée, 3 = relances)."""
+    if tour not in MAX_QUESTIONS:
+        return []
+    sortie = []
+    for m in s.membres():
+        d = extraire_declaration(s.reponse(tour, m["id"]) or "") or {}
+        qs = [q for q in (d.get("questions") or []) if isinstance(q, dict) and str(q.get("question", "")).strip()]
+        for q in qs[: MAX_QUESTIONS[tour]]:
+            cible = str(q.get("cible", "")).strip()
+            texte = str(q["question"]).strip()
+            if cible.lower() in ("fabien", "l'auteur", "auteur"):
+                sortie.append({"de": m["id"], "cible": "Fabien", "question": texte, "tour": tour})
+            elif cible.lower() in ("tous", "toutes", "*"):
+                for autre in s.membres():
+                    if autre["id"] != m["id"]:
+                        sortie.append({"de": m["id"], "cible": autre["id"], "question": texte, "tour": tour})
+            else:
+                pid = s.par_lettre(cible.upper()[:1]) if cible else None
+                if pid and pid != m["id"]:
+                    sortie.append({"de": m["id"], "cible": pid, "question": texte, "tour": tour})
+    return sortie
+
 
 def executer_tour(conseil: Conseil, s: Seance, tour: int, seulement: list[str] | None = None) -> dict:
-    if tour == 2 and not s.complet(1):
-        manquants = [p["id"] for p in s.membres() if not s.reponse(1, p["id"])]
-        print(f"Le premier tour n'est pas complet (manquent : {', '.join(manquants)}).")
+    if tour > 1 and not s.complet(tour - 1):
+        manquants = [p["id"] for p in s.cibles(tour - 1) if not s.reponse(tour - 1, p["id"])]
+        print(f"Le tour {tour - 1} n'est pas complet (manquent : {', '.join(manquants)}).")
         return {"attente": manquants}
     systeme = conseil.consigne("systeme")
     bilan = {"faits": [], "attente": [], "erreurs": []}
-    for p in s.membres():
+    for p in s.cibles(tour):
         if seulement and p["id"] not in seulement:
             continue
         if s.reponse(tour, p["id"]):
@@ -426,10 +497,29 @@ def executer_tour(conseil: Conseil, s: Seance, tour: int, seulement: list[str] |
     return bilan
 
 
+def choisir_dossier(conseil: Conseil, s: Seance, tour: int, p: dict) -> tuple[str, str]:
+    """Décide si le corpus part avec la consigne. Renvoie (dossier, note qui le remplace sinon)."""
+    dossier, _ = conseil.dossier(p)
+    if not dossier:
+        return "", ""
+    if p.get("dossier_dans_sources"):
+        return "", ("Le corpus du cadre se trouve dans les sources de ce projet (dossier-hacefiance.md). "
+                    "Lis-le en entier avant de répondre, pas seulement les passages qu'une recherche ferait remonter.")
+    if p.get("fil_persistant"):
+        version = empreinte(dossier)[:16]
+        if tour != 1:
+            return "", "Le corpus est celui que tu as reçu dans cette discussion."
+        if conseil.memoire().get(p["id"], {}).get("corpus") == version:
+            return "", "Tu as déjà reçu le corpus dans cette discussion, et il n'a pas changé depuis."
+        s.meta.setdefault("dossier_envoye", {})[f"1/{p['id']}"] = version
+        s.sauver()
+    return dossier, ""
+
+
 def preparer(conseil: Conseil, s: Seance, tour: int, p: dict) -> tuple[str, str, dict]:
     siege = TEXTE_SIEGE[p["siege"]]
-    dossier, _ = conseil.dossier(p)
-    ctx = {"seance": s.nom, "lettre": s.lettre(p["id"])}
+    dossier, note = choisir_dossier(conseil, s, tour, p)
+    ctx = {"seance": s.nom, "lettre": s.lettre(p["id"]), "note_dossier": note}
     if tour == 1:
         etat = conseil.etat() if p["siege"] != "etranger" else "(Tu ne reçois pas l'état du fil.)"
         consigne = conseil.consigne("tour1").format(
@@ -437,24 +527,62 @@ def preparer(conseil: Conseil, s: Seance, tour: int, p: dict) -> tuple[str, str,
             longueur=conseil.longueur, dossier="{dossier}",
         )
         return consigne, dossier, ctx
-    # tour 2 : lecture croisée, ordre des autres propre à chaque lecteur
-    autres = [m for m in s.membres() if m["id"] != p["id"]]
-    random.Random(f"{s.meta['graine']}-{p['id']}").shuffle(autres)
-    blocs = "\n\n".join(f"### Participant {s.lettre(m['id'])}\n\n{s.reponse(1, m['id']).strip()}" for m in autres)
-    verif = ""
-    if s.meta.get("verificateur") == p["id"]:
-        verif = (
-            "\nTu es aussi le vérificateur de cette séance : si des affirmations factuelles des autres te paraissent "
-            "douteuses, signale-les avec la raison du doute, et reporte-les dans le champ « faits » du bloc final.\n"
+    if tour == 2:
+        # lecture croisée, ordre des autres propre à chaque lecteur
+        autres = [m for m in s.membres() if m["id"] != p["id"]]
+        random.Random(f"{s.meta['graine']}-{p['id']}").shuffle(autres)
+        blocs = "\n\n".join(f"### Participant {s.lettre(m['id'])}\n\n{s.reponse(1, m['id']).strip()}" for m in autres)
+        verif = ""
+        if s.meta.get("verificateur") == p["id"]:
+            verif = (
+                "\nTu es aussi le vérificateur de cette séance : si des affirmations factuelles des autres te paraissent "
+                "douteuses, signale-les avec la raison du doute, et reporte-les dans le champ « faits » du bloc final.\n"
+            )
+            ctx["verificateur"] = True
+        consigne = conseil.consigne("tour2").format(
+            seance=s.nom, siege=siege, lettre=s.lettre(p["id"]), question=s.question(),
+            propre=s.reponse(1, p["id"]).strip(), autres=blocs, longueur=conseil.longueur, verification=verif,
         )
-        ctx["verificateur"] = True
-    consigne = conseil.consigne("tour2").format(
+        consigne += "\n{dossier}"
+        ctx["autres_lettres"] = [s.lettre(m["id"]) for m in autres]
+        return consigne, dossier, ctx
+    # tours 3 et 4 : réponses aux questions reçues
+    recues = [q for q in questions_du_tour(s, tour - 1) if q["cible"] == p["id"]]
+    blocs = []
+    for q in recues:
+        de = s.lettre(q["de"])
+        blocs.append(f"### Question de {de}\n\n> {q['question']}\n\n**Ce que {de} a écrit au tour précédent :**\n\n"
+                     f"{(s.reponse(tour - 1, q['de']) or '').strip()}")
+    relance = ("Si une réponse appelle une précision, tu peux poser au plus une question de relance dans le champ "
+               "« questions » ; elle recevra une réponse au tour suivant." if tour == 3 else
+               "C'est le dernier tour de questions de cette séance : n'en pose pas de nouvelle.")
+    consigne = conseil.consigne("reponses").format(
         seance=s.nom, siege=siege, lettre=s.lettre(p["id"]), question=s.question(),
-        propre=s.reponse(1, p["id"]).strip(), autres=blocs, longueur=conseil.longueur, verification=verif,
+        questions="\n\n".join(blocs), relance=relance, rang="premier tour" if tour == 3 else "relances",
     )
     consigne += "\n{dossier}"
-    ctx["autres_lettres"] = [s.lettre(m["id"]) for m in autres]
+    ctx["questions_de"] = sorted({s.lettre(q["de"]) for q in recues})
+    ctx["autres_lettres"] = [s.lettre(m["id"]) for m in s.membres() if m["id"] != p["id"]]
     return consigne, dossier, ctx
+
+
+def questions_pour_fabien(s: Seance) -> list[dict]:
+    return [q for t in (2, 3) for q in questions_du_tour(s, t) if q["cible"] == "Fabien"]
+
+
+def ecrire_questions_fabien(conseil: Conseil, s: Seance) -> None:
+    qs = questions_pour_fabien(s)
+    f = s.dir / "questions-pour-fabien.md"
+    if not qs or f.exists():
+        return
+    lignes = [f"# Questions pour Fabien — séance {s.nom}", "",
+              "*Posées par les participants pendant la séance. Tes réponses, si tu en donnes, vont dans "
+              "`reponses-de-fabien.md` à côté de ce fichier : elles entreront dans la carte et l'état du fil.*", ""]
+    for q in qs:
+        lignes.append(f"- **{s.lettre(q['de'])}** (tour {q['tour']}) : {q['question']}")
+    ecrire(f, "\n".join(lignes) + "\n")
+    conseil.journaliser(f"séance {s.nom} · {len(qs)} question(s) pour Fabien")
+    print(f"  ? {len(qs)} question(s) pour Fabien : {f}")
 
 
 # --------------------------------------------------------------------------- carte
@@ -513,16 +641,30 @@ def carte_mecanique(s: Seance) -> tuple[str, dict]:
         signaux.append(f"**Tournant possible** : {n_chg} changement(s) de position déclaré(s).")
     if len(lues) < len(membres):
         signaux.append(f"{len(membres) - len(lues)} déclaration(s) illisible(s) ou absente(s) : lire les réponses brutes.")
+    qr = []
+    for t in (2, 3):
+        for q in questions_du_tour(s, t):
+            if q["cible"] == "Fabien":
+                qr.append(f"- **{s.lettre(q['de'])}** → **Fabien** (tour {t}) : {q['question']}")
+                continue
+            rep_f = s.reponse_fichier(t + 1, q["cible"])
+            statut = f"réponse : `tour-{t + 1}/{q['cible']}.md`" if rep_f.exists() else "*sans réponse*"
+            qr.append(f"- **{s.lettre(q['de'])}** → **{s.lettre(q['cible'])}** (tour {t}) : {q['question']} — {statut}")
+    fabien = s.dir / "reponses-de-fabien.md"
+    if fabien.exists():
+        qr.append(f"- Fabien a répondu : `reponses-de-fabien.md`")
     for titre, lignes in (("Rejets", rejets), ("Acceptations", accords), ("Changements de position", revisions),
-                          ("Faits signalés", faits), ("Questions ouvertes", questions), ("Signaux", [f"- {x}" for x in signaux])):
+                          ("Faits signalés", faits), ("Questions et réponses", qr), ("Questions ouvertes", questions),
+                          ("Signaux", [f"- {x}" for x in signaux])):
         l += ["", f"### {titre}", ""] + (lignes or ["- aucun"])
     l += ["", "### Intégrité", "", "| Fichier | SHA-256 |", "|---|---|"]
-    for t in (1, 2):
+    for t in (1, 2, 3, 4):
         for m in membres:
             texte = s.reponse(t, m["id"])
             if texte:
                 l.append(f"| tour-{t}/{m['id']}.md | `{empreinte(lire(s.reponse_fichier(t, m['id'])))[:16]}` |")
     resume = {"rejets": n_rej, "changements": n_chg, "lues": len(lues), "membres": len(membres), "signaux": signaux,
+              "questions": len(qr), "questions_fabien": [q["question"] for q in questions_pour_fabien(s)],
               "lettres": {k: v["id"] for k, v in par_lettre.items()}}
     return "\n".join(l) + "\n", resume
 
@@ -545,16 +687,19 @@ def faire_carte(conseil: Conseil, s: Seance, cartographe: str | None, nom_fichie
             sieges="\n".join(f"- {s.lettre(m['id'])} : {NOM_SIEGE[m['siege']]}" for m in sorted(membres, key=lambda m: s.lettre(m['id']))),
             tour1="\n\n".join(f"### {s.lettre(m['id'])}\n\n{s.reponse(1, m['id']).strip()}" for m in sorted(membres, key=lambda m: s.lettre(m['id']))),
             tour2="\n\n".join(f"### {s.lettre(m['id'])}\n\n{s.reponse(2, m['id']).strip()}" for m in sorted(membres, key=lambda m: s.lettre(m['id']))),
+            qr="\n\n".join(f"### {s.lettre(m['id'])}, tour {t}\n\n{s.reponse(t, m['id']).strip()}"
+                            for t in (3, 4) for m in sorted(membres, key=lambda m: s.lettre(m['id'])) if s.reponse(t, m['id']))
+               or "(Aucune question n'a été posée entre participants.)",
         )
         try:
-            deja = s.reponse(3, cid)
+            deja = s.reponse("carte", cid)
             if deja:
                 narration = "## Carte du cartographe\n\n" + deja.strip() + "\n"
             elif conseil.simulation:
                 narration = "## Carte du cartographe\n\n[Carte simulée.]\n\n7. **Tournant** — simulation : aucun.\n"
             else:
                 narration = "## Carte du cartographe\n\n" + appeler(
-                    conseil, cp, s, 3, conseil.consigne("systeme"), consigne, "", {"seance": s.nom}).strip() + "\n"
+                    conseil, cp, s, "carte", conseil.consigne("systeme"), consigne, "", {"seance": s.nom}).strip() + "\n"
         except EnAttente as e:
             print(f"  … cartographe : {e}")
             narration = f"## Carte du cartographe\n\n*En attente du relais ({cid}).*\n"
@@ -588,8 +733,8 @@ def mettre_a_jour_etat(conseil: Conseil, s: Seance) -> None:
         cp = conseil.participant(conseil.cartographe_id)
         consigne = conseil.consigne("etat").format(seance=s.nom, etat=conseil.etat(), carte=carte, longueur_etat=conseil.longueur_etat)
         try:
-            nouveau = (s.reponse(4, cp["id"]) or appeler(
-                conseil, cp, s, 4, conseil.consigne("systeme"), consigne, "", {"seance": s.nom})).strip()
+            nouveau = (s.reponse("etat", cp["id"]) or appeler(
+                conseil, cp, s, "etat", conseil.consigne("systeme"), consigne, "", {"seance": s.nom})).strip()
         except EnAttente as e:
             print(f"  … état du fil : {e}")
             return
@@ -601,6 +746,7 @@ def mettre_a_jour_etat(conseil: Conseil, s: Seance) -> None:
                 f"Déclarations lues : {resume.get('lues', '?')}/{resume.get('membres', '?')} · rejets : {resume.get('rejets', '?')} · "
                 f"changements de position : {resume.get('changements', '?')}.\n"
                 + "".join(f"\n- {re.sub(r'[*]', '', x)}" for x in resume.get("signaux", []))
+                + "".join(f"\n- Question pour Fabien : {q}" for q in resume.get("questions_fabien", []))
                 + f"\n\nCarte complète : `{s.nom}/carte.md`.\n")
         sections = (sections + [bloc])[-6:]
         nouveau = ("# État du fil\n\n*État mécanique : les six dernières séances. Un cartographe hors table "
@@ -689,6 +835,14 @@ def cmd_seance(conseil: Conseil, a) -> None:
                 return
         else:
             executer_tour(conseil, s, t)  # journalise d'éventuels relais déposés
+    for t in (3, 4):  # questions et réponses, seulement si des questions ont été posées
+        if not s.cibles(t):
+            break
+        executer_tour(conseil, s, t)
+        if not s.complet(t):
+            print(f"Arrêt : tour {t} (réponses aux questions) incomplet. Relaie puis relance « seance ».")
+            return
+    ecrire_questions_fabien(conseil, s)
     if not (s.dir / "carte.md").exists():
         if faire_carte(conseil, s, None) is None:
             return
@@ -703,9 +857,11 @@ def cmd_statut(conseil: Conseil, a) -> None:
     s = seance_courante(conseil, a.seance)
     print(f"Séance {s.nom} (n° {s.meta['numero']}) — {s.question()[:90]}")
     print(f"Vérificateur : {s.meta.get('verificateur')}")
-    for t in (1, 2):
-        print(f"Tour {t} :")
-        for p in s.membres():
+    for t in (1, 2, 3, 4):
+        if t > 2 and not s.cibles(t):
+            continue
+        print(f"Tour {t} :" + (" (réponses aux questions)" if t > 2 else ""))
+        for p in s.cibles(t):
             if s.reponse(t, p["id"]):
                 etat = "fait"
             elif (s.dir / "relais" / f"{p['id']}-tour-{t}.erreur.txt").exists():
@@ -715,8 +871,17 @@ def cmd_statut(conseil: Conseil, a) -> None:
             else:
                 etat = "à lancer"
             print(f"  {s.lettre(p['id'])} {p['id']:<12} {NOM_SIEGE[p['siege']]:<9} {etat}")
+    for q in questions_pour_fabien(s):
+        print(f"Question pour Fabien ({s.lettre(q['de'])}) : {q['question']}")
     for nom, info in s.meta.get("cartes", {}).items():
         print(f"{nom} : {info['cartographe'] or 'mécanique'} · {info['date']}")
+
+
+def cmd_rafraichir(conseil: Conseil, a) -> None:
+    conseil.participant(a.participant)
+    conseil.memoriser(a.participant, None)
+    conseil.journaliser(f"{a.participant} : corpus à renvoyer en entier à la prochaine séance")
+    print(f"{a.participant} recevra le corpus complet à la prochaine séance.")
 
 
 def cmd_dossier(conseil: Conseil, a) -> None:
@@ -743,8 +908,8 @@ def principal(argv: list[str] | None = None) -> None:
     x.add_argument("--slug", help="nom court de la séance")
     x.set_defaults(f=cmd_nouvelle)
 
-    x = sp.add_parser("tour", help="lancer un tour (1 = à l'aveugle, 2 = lecture croisée)")
-    x.add_argument("numero", type=int, choices=[1, 2])
+    x = sp.add_parser("tour", help="lancer un tour (1 = à l'aveugle, 2 = lecture croisée, 3-4 = questions et réponses)")
+    x.add_argument("numero", type=int, choices=[1, 2, 3, 4])
     x.add_argument("--seance")
     x.add_argument("--seulement", help="ids séparés par des virgules")
     x.set_defaults(f=cmd_tour)
@@ -766,6 +931,10 @@ def principal(argv: list[str] | None = None) -> None:
     x = sp.add_parser("statut", help="où en est la séance")
     x.add_argument("--seance")
     x.set_defaults(f=cmd_statut)
+
+    x = sp.add_parser("rafraichir", help="renvoyer le corpus complet à un participant en fil persistant")
+    x.add_argument("participant")
+    x.set_defaults(f=cmd_rafraichir)
 
     x = sp.add_parser("dossier", help="voir le dossier d'initiation d'un participant")
     x.add_argument("participant")
