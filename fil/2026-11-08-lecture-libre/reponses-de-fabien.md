@@ -38,7 +38,9 @@ Oui, mais plus une injustice est apparue aux yeux d'un nombre toujours plus gran
 
 ## Synthèse de D
 
-**Question de D (la révélation : expérience, décision ou don ?).** Ni don ni décision d'abord. La révélation est un mode parmi d'autres (subi, compris, révélé, sublimé) d'un rapport dont le fond est une expérience : la satisfaction d'une faculté évoluée qui saisit son objet, comme la main saisit la pomme. Cet objet est un récit qui fait sens, purement informationnel, collectif, social et environnemental. Le compas n'est plus le sentiment d'une dépendance, mais une prise.
+**Question de D (la révélation : expérience, décision ou don ?).** Ni don ni décision d'abord. La révélation est un mode parmi d'autres (subi, compris, révélé, sublimé) d'un rapport dont le fond est une expérience : la satisfaction d'une faculté évoluée qui saisit son objet, comme la main saisit la pomme. Cet objet est la matrice informationnelle collective, que l'on saisit à travers les récits qui font sens ; il est purement informationnel, collectif, social et environnemental. Le compas n'est plus le sentiment d'une dépendance, mais une prise.
+
+*Correction du 9 novembre au soir : la première version de cette synthèse disait « cet objet est un récit qui fait sens ». Fabien a relevé la réduction : la pomme n'est pas un récit isolé mais la matrice informationnelle collective (voir `../2026-11-09-reponses-de-fabien/reponses-de-fabien.md`).*
 
 **Question de A (un compas capable de détruire l'institution captatrice ?).** Les outils collectifs d'appréhension et de concordance sont eux-mêmes amenés à évoluer. Une institution dont le récit cesse de faire sens perd l'adhésion ; dans l'espace informationnel contemporain, la rupture est très rapide.
 
