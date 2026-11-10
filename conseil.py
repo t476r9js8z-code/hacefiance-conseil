@@ -424,7 +424,9 @@ def simuler(p: dict, tour, ctx: dict) -> str:
         questions.append({"cible": "Fabien", "question": "Le compas d'un collectif peut-il se tromper de tout ?"})
     decl = {
         "accepte": [{"cible": cible_a, "point": "l'idée que le canal précède la règle"}],
-        "rejette": [{"cible": cible_r, "point": "la confusion entre place et expérience", "raison": "elle suppose ce qu'elle veut montrer"}],
+        "rejette": [{"cible": cible_r, "point": "la confusion entre place et expérience", "raison": "elle suppose ce qu'elle veut montrer",
+                     "nature": rnd.choice(["fond", "mots"])}],
+        "apports": [{"type": "référence", "contenu": "Hirschman, Exit, Voice, and Loyalty (1970)", "source": ""}] if rnd.random() < 0.7 else [],
         "revision": {"change": change, "avant": "le compas est une règle" if change else "", "apres": "le compas est un couplage" if change else "", "argument_decisif": cible_a if change else ""},
         "faits": [{"cible": cible_r, "affirmation": "date citée de mémoire", "doute": "non vérifiée"}] if ctx.get("verificateur") else [],
         "questions": questions,
@@ -578,6 +580,12 @@ def masquer(texte: str) -> str:
     return texte
 
 
+def question_courte(s: Seance, maxi: int = 400) -> str:
+    """Premier paragraphe de la question, pour la carte et l'état du fil (la question complète reste dans 00-question.md)."""
+    q = s.question().split("\n\n")[0].strip()
+    return q if len(q) <= maxi else q[:maxi].rsplit(" ", 1)[0] + " …"
+
+
 def questions_pour_fabien(s: Seance) -> list[dict]:
     return [q for t in (2, 3) for q in questions_du_tour(s, t) if q["cible"] == "Fabien"]
 
@@ -622,7 +630,8 @@ def carte_mecanique(s: Seance) -> tuple[str, dict]:
          "*Assemblée à partir des déclarations des participants, sans interprétation.*", "",
          "| Participant | Accepte | Rejette | A changé de position | Déclaration |",
          "|---|---|---|---|---|"]
-    rejets, accords, revisions, faits, questions = [], [], [], [], []
+    rejets, accords, revisions, faits, questions, apports = [], [], [], [], [], []
+    n_mots = 0
     for m in membres:
         d = decl[m["id"]]
         if d is None:
@@ -638,7 +647,17 @@ def carte_mecanique(s: Seance) -> tuple[str, dict]:
         for a in acc:
             accords.append(f"- **{s.lettre(m['id'])}** retient de **{a.get('cible', '?')}** : {a.get('point', '')}")
         for r in rej:
-            rejets.append(f"- **{s.lettre(m['id'])}** rejette chez **{r.get('cible', '?')}** : {r.get('point', '')} — *{r.get('raison', 'sans raison donnée')}*")
+            mots = str(r.get("nature", "")).strip().lower() == "mots"
+            n_mots += mots
+            rejets.append(f"- **{s.lettre(m['id'])}** rejette chez **{r.get('cible', '?')}**{' (désaccord de mots)' if mots else ''} : "
+                          f"{r.get('point', '')} — *{r.get('raison', 'sans raison donnée')}*")
+        for ap in d.get("apports") or []:
+            if not isinstance(ap, dict):
+                ap = {"contenu": str(ap)}
+            if not str(ap.get("contenu", "")).strip():
+                continue
+            src = f" — source : {ap['source']}" if str(ap.get("source", "")).strip() else ""
+            apports.append(f"- **{s.lettre(m['id'])}** ({ap.get('type') or 'apport'}) : {ap['contenu']}{src}")
         if rev.get("change"):
             revisions.append(f"- **{s.lettre(m['id'])}** passe de « {rev.get('avant', '')} » à « {rev.get('apres', '')} » (argument décisif : {rev.get('argument_decisif', '?')})")
         for f in d.get("faits") or []:
@@ -658,6 +677,10 @@ def carte_mecanique(s: Seance) -> tuple[str, dict]:
         signaux.append("**Convergence suspecte** : tous les participants déclarent avoir changé de position.")
     if n_chg:
         signaux.append(f"**Tournant possible** : {n_chg} changement(s) de position déclaré(s).")
+    if lues and not apports:
+        signaux.append("**Aucun apport déclaré** : la séance a peut-être reformulé plus qu'elle n'a enrichi.")
+    if n_mots:
+        signaux.append(f"{n_mots} désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.")
     if len(lues) < len(membres):
         signaux.append(f"{len(membres) - len(lues)} déclaration(s) illisible(s) ou absente(s) : lire les réponses brutes.")
     qr = []
@@ -672,7 +695,7 @@ def carte_mecanique(s: Seance) -> tuple[str, dict]:
     fabien = s.dir / "reponses-de-fabien.md"
     if fabien.exists():
         qr.append(f"- Fabien a répondu : `reponses-de-fabien.md`")
-    for titre, lignes in (("Rejets", rejets), ("Acceptations", accords), ("Changements de position", revisions),
+    for titre, lignes in (("Apports", apports), ("Rejets", rejets), ("Acceptations", accords), ("Changements de position", revisions),
                           ("Faits signalés", faits), ("Questions et réponses", qr), ("Questions ouvertes", questions),
                           ("Signaux", [f"- {x}" for x in signaux])):
         l += ["", f"### {titre}", ""] + (lignes or ["- aucun"])
@@ -682,7 +705,7 @@ def carte_mecanique(s: Seance) -> tuple[str, dict]:
             texte = s.reponse(t, m["id"])
             if texte:
                 l.append(f"| tour-{t}/{m['id']}.md | `{empreinte(lire(s.reponse_fichier(t, m['id'])))[:16]}` |")
-    resume = {"rejets": n_rej, "changements": n_chg, "lues": len(lues), "membres": len(membres), "signaux": signaux,
+    resume = {"rejets": n_rej, "changements": n_chg, "apports": len(apports), "desaccords_de_mots": n_mots, "lues": len(lues), "membres": len(membres), "signaux": signaux,
               "questions": len(qr), "questions_fabien": [q["question"] for q in questions_pour_fabien(s)],
               "lettres": {k: v["id"] for k, v in par_lettre.items()}}
     return "\n".join(l) + "\n", resume
@@ -725,7 +748,7 @@ def faire_carte(conseil: Conseil, s: Seance, cartographe: str | None, nom_fichie
         except Exception as e:  # noqa: BLE001
             print(f"  ✗ cartographe : {e}")
             narration = f"## Carte du cartographe\n\n*Échec : {e}*\n"
-    entete = [f"# Carte des désaccords — séance {s.nom}", "", f"**Question** : {s.question()}", "",
+    entete = [f"# Carte des désaccords — séance {s.nom}", "", f"**Question** : {question_courte(s)}", "",
               "**Participants** : " + " · ".join(f"{s.lettre(m['id'])} = {m['nom']} ({NOM_SIEGE[m['siege']]})" for m in sorted(s.membres(), key=lambda m: s.lettre(m["id"]))), "",
               f"*Cartographe : {cid or 'aucun (carte mécanique seulement)'} · générée le {maintenant()}*", ""]
     texte = "\n".join(entete) + ("\n" + narration if narration else "") + "\n" + mecanique
@@ -761,9 +784,9 @@ def mettre_a_jour_etat(conseil: Conseil, s: Seance) -> None:
         resume = s.meta.get("cartes", {}).get("carte.md", {}).get("resume", {})
         ancien = conseil.etat() if conseil.etat_fichier.exists() else ""
         sections = [x for x in re.split(r"(?m)^(?=## Séance )", ancien) if x.startswith("## Séance ")]
-        bloc = (f"## Séance {s.nom}\n\n**Question** : {s.question()}\n\n"
+        bloc = (f"## Séance {s.nom}\n\n**Question** : {question_courte(s)}\n\n"
                 f"Déclarations lues : {resume.get('lues', '?')}/{resume.get('membres', '?')} · rejets : {resume.get('rejets', '?')} · "
-                f"changements de position : {resume.get('changements', '?')}.\n"
+                f"changements de position : {resume.get('changements', '?')} · apports : {resume.get('apports', '?')}.\n"
                 + "".join(f"\n- {re.sub(r'[*]', '', x)}" for x in resume.get("signaux", []))
                 + "".join(f"\n- Question pour Fabien : {q}" for q in resume.get("questions_fabien", []))
                 + f"\n\nCarte complète : `{s.nom}/carte.md`.\n")
