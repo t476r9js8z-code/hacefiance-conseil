@@ -1,0 +1,65 @@
+{
+  "numero": 3,
+  "creee": "2026-11-09T21:27:35-05:00",
+  "graine": 175799768,
+  "participants": [
+    "claude",
+    "gpt",
+    "gemini",
+    "grok"
+  ],
+  "lettres": {
+    "claude": "C",
+    "gpt": "B",
+    "gemini": "D",
+    "grok": "A"
+  },
+  "verificateur": "gpt",
+  "journalise": [
+    "1/claude",
+    "1/gpt",
+    "1/gemini",
+    "1/grok",
+    "2/claude",
+    "2/gpt",
+    "2/gemini",
+    "2/grok",
+    "3/claude",
+    "3/gpt",
+    "3/gemini",
+    "3/grok"
+  ],
+  "dossier_envoye": {
+    "1/gemini": "2111ad7707b4eaf7",
+    "1/grok": "2111ad7707b4eaf7"
+  },
+  "cartes": {
+    "carte.md": {
+      "cartographe": "",
+      "date": "2026-11-09T21:46:12-05:00",
+      "resume": {
+        "rejets": 7,
+        "changements": 2,
+        "apports": 10,
+        "desaccords_de_mots": 2,
+        "lues": 4,
+        "membres": 4,
+        "signaux": [
+          "**Tournant possible** : 2 changement(s) de position déclaré(s).",
+          "2 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune."
+        ],
+        "questions": 6,
+        "questions_fabien": [
+          "Si l'indignation est le vent et la justice la reconnaissance de l'injustice dans la matrice, quelle est la faculté humaine précise qui tient lieu de compas pour orienter ce vent ?"
+        ],
+        "lettres": {
+          "A": "grok",
+          "B": "gpt",
+          "C": "claude",
+          "D": "gemini"
+        }
+      }
+    }
+  },
+  "etat_fait": true
+}
