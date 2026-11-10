@@ -101,4 +101,4 @@
 | tour-2/gpt.md | `d9cc98bd60eeb1f2` |
 | tour-2/claude.md | `a1c00044172cfc5e` |
 | tour-2/grok.md | `1b4c45be7f46f07e` |
-| tour-3/grok.md | `3fd570aae5f0e0b1` |
+| tour-3/grok.md | `2dd7ca686464b93b` |

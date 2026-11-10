@@ -664,7 +664,9 @@ def carte_mecanique(s: Seance) -> tuple[str, dict]:
             if not isinstance(f, dict):
                 faits.append(f"- **{s.lettre(m['id'])}** signale : {f}")
                 continue
-            faits.append(f"- **{s.lettre(m['id'])}** met en doute chez **{f.get('cible', '?')}** : {f.get('affirmation', '')} — *{f.get('doute', '')}*")
+            quoi = f.get("affirmation") or f.get("point", "")
+            pourquoi = f.get("doute") or " · ".join(str(f[k]) for k in ("statut", "source") if f.get(k))
+            faits.append(f"- **{s.lettre(m['id'])}** met en doute chez **{f.get('cible', '?')}** : {quoi} — *{pourquoi}*")
         if d.get("question_ouverte"):
             questions.append(f"- **{s.lettre(m['id'])}** : {d['question_ouverte']}")
     lues = [d for d in decl.values() if d]
