@@ -4,7 +4,7 @@
 
 **Participants** : A = Gemini (initié) · B = GPT (initié) · C = Claude (proche) · D = Grok (initié)
 
-*Cartographe : aucun (carte mécanique seulement) · générée le 2026-11-09T18:58:24-05:00*
+*Cartographe : aucun (carte mécanique seulement) · générée le 2026-11-09T21:27:18-05:00*
 
 ## Carte mécanique
 
@@ -75,6 +75,7 @@
 - **C** → **Fabien** (tour 2) : L'indignation, ou l'écharde, est-elle pour toi la même faculté que la prise, éprouvée en négatif, ou une faculté distincte ?
 - **B** → **D** (tour 2) : Qu'est-ce qui impose physiquement que les variables qu'un système doit préserver comprennent les intérêts des personnes qu'il lèse, plutôt que seulement ceux qui conditionnent sa propre persistance ? — réponse : `tour-3/grok.md`
 - **A** → **D** (tour 2) : Si la cosmologie est le fondement, comment l'Hacéfiance justifie-t-elle que le temps d'un composant (la durée d'une vie humaine) ait une valeur intrinsèque justifiant qu'on raccourcisse le délai de reconnaissance, puisque la thermodynamique se fiche du temps subjectif ? — réponse : `tour-3/grok.md`
+- Fabien a répondu : `reponses-de-fabien.md`
 
 ### Questions ouvertes
 
@@ -100,4 +101,4 @@
 | tour-2/gpt.md | `d9cc98bd60eeb1f2` |
 | tour-2/claude.md | `a1c00044172cfc5e` |
 | tour-2/grok.md | `1b4c45be7f46f07e` |
-| tour-3/grok.md | `2dd7ca686464b93b` |
+| tour-3/grok.md | `3fd570aae5f0e0b1` |
