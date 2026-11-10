@@ -32,3 +32,22 @@
 - 2026-11-09T18:52:43-05:00 · séance 2026-11-09-reponses-de-fabien · état du fil mis à jour · sha256:fe7c1d0a64792f7c
 - 2026-11-09T18:52:59-05:00 · séance 2026-11-09-reponses-de-fabien · état du fil mis à jour · sha256:2999d1213cf08da6
 - 2026-11-09T18:58:24-05:00 · séance 2026-11-09-reponses-de-fabien · carte.md · cartographe mécanique · sha256:7a682cc64c712680
+- 2026-11-09T21:27:17-05:00 · gemini : corpus à renvoyer en entier à la prochaine séance
+- 2026-11-09T21:27:17-05:00 · grok : corpus à renvoyer en entier à la prochaine séance
+- 2026-11-09T21:27:18-05:00 · séance 2026-11-09-reponses-de-fabien · carte.md · cartographe mécanique · sha256:cf1e1ad832508564
+- 2026-11-09T21:27:35-05:00 · séance 2026-11-09-continuite ouverte · vérificateur gpt
+- 2026-11-09T21:46:12-05:00 · séance 2026-11-09-continuite · tour 1 · claude (C) · relais · tour-1/claude.md · sha256:1d5865f6eb5a4261
+- 2026-11-09T21:46:12-05:00 · séance 2026-11-09-continuite · tour 1 · gpt (B) · relais · tour-1/gpt.md · sha256:aa404b2ac20dc171
+- 2026-11-09T21:46:12-05:00 · séance 2026-11-09-continuite · tour 1 · gemini (D) · relais · tour-1/gemini.md · sha256:31e8db0286036499
+- 2026-11-09T21:46:12-05:00 · séance 2026-11-09-continuite · tour 1 · grok (A) · relais · tour-1/grok.md · sha256:f66d7a9d8ab34ee9
+- 2026-11-09T21:46:12-05:00 · séance 2026-11-09-continuite · tour 2 · claude (C) · relais · tour-2/claude.md · sha256:d6046e84bdebbb3a
+- 2026-11-09T21:46:12-05:00 · séance 2026-11-09-continuite · tour 2 · gpt (B) · relais · tour-2/gpt.md · sha256:49dc50f98e9bbf89
+- 2026-11-09T21:46:12-05:00 · séance 2026-11-09-continuite · tour 2 · gemini (D) · relais · tour-2/gemini.md · sha256:a956f8da8042a7e4
+- 2026-11-09T21:46:12-05:00 · séance 2026-11-09-continuite · tour 2 · grok (A) · relais · tour-2/grok.md · sha256:c79ba9f5cf82a3ee
+- 2026-11-09T21:46:12-05:00 · séance 2026-11-09-continuite · tour 3 · claude (C) · relais · tour-3/claude.md · sha256:7d6b0b3d2157c5c0
+- 2026-11-09T21:46:12-05:00 · séance 2026-11-09-continuite · tour 3 · gpt (B) · relais · tour-3/gpt.md · sha256:e00cd548728729ac
+- 2026-11-09T21:46:12-05:00 · séance 2026-11-09-continuite · tour 3 · gemini (D) · relais · tour-3/gemini.md · sha256:5a964cf1344865d5
+- 2026-11-09T21:46:12-05:00 · séance 2026-11-09-continuite · tour 3 · grok (A) · relais · tour-3/grok.md · sha256:3fd570aae5f0e0b1
+- 2026-11-09T21:46:12-05:00 · séance 2026-11-09-continuite · 1 question(s) pour Fabien
+- 2026-11-09T21:46:12-05:00 · séance 2026-11-09-continuite · carte.md · cartographe mécanique · sha256:fbcf0ecc9eec3244
+- 2026-11-09T21:46:12-05:00 · séance 2026-11-09-continuite · état du fil mis à jour · sha256:68d7b717111df26f

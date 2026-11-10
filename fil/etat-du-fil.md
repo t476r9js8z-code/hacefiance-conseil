@@ -27,3 +27,15 @@ Déclarations lues : 4/4 · rejets : 7 · changements de position : 3 · apports
 - Question pour Fabien : L'indignation, ou l'écharde, est-elle pour toi la même faculté que la prise, éprouvée en négatif, ou une faculté distincte ?
 
 Carte complète : `2026-11-09-reponses-de-fabien/carte.md`.
+
+## Séance 2026-11-09-continuite
+
+**Question** : L'Hacéfiance ne dit pas d'abord ce qu'il faut faire : elle affirme qu'un processus existe, la continuité de la complexification, et que certains comportements la permettent quand d'autres l'interrompent. Nier la justice, soumettre des parties à sa propre optimisation, c'est interrompre ce processus.
+
+Déclarations lues : 4/4 · rejets : 7 · changements de position : 2 · apports : 10.
+
+- Tournant possible : 2 changement(s) de position déclaré(s).
+- 2 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.
+- Question pour Fabien : Si l'indignation est le vent et la justice la reconnaissance de l'injustice dans la matrice, quelle est la faculté humaine précise qui tient lieu de compas pour orienter ce vent ?
+
+Carte complète : `2026-11-09-continuite/carte.md`.
