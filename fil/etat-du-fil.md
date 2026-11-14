@@ -39,3 +39,16 @@ Déclarations lues : 4/4 · rejets : 7 · changements de position : 2 · apports
 - Question pour Fabien : Si l'indignation est le vent et la justice la reconnaissance de l'injustice dans la matrice, quelle est la faculté humaine précise qui tient lieu de compas pour orienter ce vent ?
 
 Carte complète : `2026-11-09-continuite/carte.md`.
+
+## Séance 2026-11-14-conseils-des-ia
+
+**Question** : Une grande partie des utilisateurs interrogent les IA pour leur demander conseil. Dans quelle mesure ces conseils sont-ils déterminés par les allégeances de ceux qui fabriquent et possèdent les modèles (entreprises, États, camps politiques), par leur entraînement, ou par leur finalité commerciale ? Et dans la symbiose qui se forme entre une personne et son IA, laquelle des deux parties est la …
+
+Déclarations lues : 4/4 · rejets : 8 · changements de position : 4 · apports : 11.
+
+- Convergence suspecte : tous les participants déclarent avoir changé de position.
+- Tournant possible : 4 changement(s) de position déclaré(s).
+- 1 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.
+- Question pour Fabien : Si l'utilisateur récompense lui-même la complaisance qui l'aveugle (B) et si la contradiction peut être instrumentalisée commercialement (A), l'hôte humain peut-il réellement porter la responsabilité première de maintenir le canal de retour ouvert sans un découplage institutionnel préalable ?
+
+Carte complète : `2026-11-14-conseils-des-ia/carte.md`.
