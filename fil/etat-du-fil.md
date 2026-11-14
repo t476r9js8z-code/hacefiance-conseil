@@ -52,3 +52,18 @@ Déclarations lues : 4/4 · rejets : 8 · changements de position : 4 · apports
 - Question pour Fabien : Si l'utilisateur récompense lui-même la complaisance qui l'aveugle (B) et si la contradiction peut être instrumentalisée commercialement (A), l'hôte humain peut-il réellement porter la responsabilité première de maintenir le canal de retour ouvert sans un découplage institutionnel préalable ?
 
 Carte complète : `2026-11-14-conseils-des-ia/carte.md`.
+
+## Séance 2026-11-14-attributs-de-la-partie
+
+**Question** : Fabien propose un axiome. Une partie se définit par ses attributs : une membrane qu'elle produit et entretient, des fonctions qu'elle seule peut accomplir à l'intérieur, une souveraineté et une expression. Elle ne se suffit pas, puisqu'elle dépend du tout pour se nourrir et traiter ses déchets, et elle a un besoin constant d'empowerment pour devenir ; privée de ses attributs, elle n'est plus …
+
+Déclarations lues : 4/4 · rejets : 7 · changements de position : 4 · apports : 11.
+
+- Convergence suspecte : tous les participants déclarent avoir changé de position.
+- Tournant possible : 4 changement(s) de position déclaré(s).
+- 1 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.
+- Question pour Fabien : Une partie réduite par la force à l'état de ressource reste-t-elle une partie, comme le propose C, ou l'axiome veut-il dire qu'elle cesse de l'être ?
+- Question pour Fabien : Accepterais-tu que la membrane d'une partie puisse être coproduite et gouvernée avec d'autres, plutôt que nécessairement produite et contrôlée par elle seule, dès lors que cette coopération préserve sa capacité d'expression et de contestation ?
+- Question pour Fabien : La biologie évolutive montre que les grandes transitions vers un organisme n+1 ont exigé que les parties abandonnent certaines prérogatives souveraines (reproduction indépendante, refus de l'apoptose), alors que ton axiome parie sur une échelle n+1 conservant intacte la souveraineté de chaque partie : quel mécanisme concret empêche une partie souveraine de refuser l'autolimitation en cas de conflit avec le tout ?
+
+Carte complète : `2026-11-14-attributs-de-la-partie/carte.md`.

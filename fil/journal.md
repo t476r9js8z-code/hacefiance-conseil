@@ -69,3 +69,18 @@
 - 2026-11-14T08:36:06-05:00 · séance 2026-11-14-conseils-des-ia · 1 question(s) pour Fabien
 - 2026-11-14T08:36:06-05:00 · séance 2026-11-14-conseils-des-ia · carte.md · cartographe mécanique · sha256:ea5cee8332eb59b2
 - 2026-11-14T08:36:06-05:00 · séance 2026-11-14-conseils-des-ia · état du fil mis à jour · sha256:429073659ded6bde
+- 2026-11-14T13:44:36-05:00 · séance 2026-11-14-conseils-des-ia · carte.md · cartographe mécanique · sha256:6e7bb0789aa03e60
+- 2026-11-14T13:44:48-05:00 · séance 2026-11-14-attributs-de-la-partie ouverte · vérificateur claude
+- 2026-11-14T13:56:10-05:00 · séance 2026-11-14-attributs-de-la-partie · tour 1 · claude (B) · relais · tour-1/claude.md · sha256:7f8f2fa6bf0a3c3a
+- 2026-11-14T13:56:10-05:00 · séance 2026-11-14-attributs-de-la-partie · tour 1 · gpt (C) · relais · tour-1/gpt.md · sha256:3606e96de7f980a3
+- 2026-11-14T13:56:10-05:00 · séance 2026-11-14-attributs-de-la-partie · tour 1 · gemini (D) · relais · tour-1/gemini.md · sha256:83880d76cfc63930
+- 2026-11-14T13:56:10-05:00 · séance 2026-11-14-attributs-de-la-partie · tour 1 · grok (A) · relais · tour-1/grok.md · sha256:63716781feca94e7
+- 2026-11-14T14:03:41-05:00 · séance 2026-11-14-attributs-de-la-partie · tour 2 · claude (B) · relais · tour-2/claude.md · sha256:7f78b27148018973
+- 2026-11-14T14:03:41-05:00 · séance 2026-11-14-attributs-de-la-partie · tour 2 · gpt (C) · relais · tour-2/gpt.md · sha256:0966ce30ab7e9682
+- 2026-11-14T14:03:41-05:00 · séance 2026-11-14-attributs-de-la-partie · tour 2 · gemini (D) · relais · tour-2/gemini.md · sha256:cfcb2c4428bb6dfb
+- 2026-11-14T14:03:41-05:00 · séance 2026-11-14-attributs-de-la-partie · tour 2 · grok (A) · relais · tour-2/grok.md · sha256:b35babfdc281bb36
+- 2026-11-14T14:07:54-05:00 · séance 2026-11-14-attributs-de-la-partie · tour 3 · gpt (C) · relais · tour-3/gpt.md · sha256:d4eb79bdfe6ef901
+- 2026-11-14T14:07:54-05:00 · séance 2026-11-14-attributs-de-la-partie · tour 3 · gemini (D) · relais · tour-3/gemini.md · sha256:b0be6097ca39a6ee
+- 2026-11-14T14:07:54-05:00 · séance 2026-11-14-attributs-de-la-partie · 3 question(s) pour Fabien
+- 2026-11-14T14:07:54-05:00 · séance 2026-11-14-attributs-de-la-partie · carte.md · cartographe mécanique · sha256:f702e749e9b9eef7
+- 2026-11-14T14:07:54-05:00 · séance 2026-11-14-attributs-de-la-partie · état du fil mis à jour · sha256:e142c14cdd1b9a77
