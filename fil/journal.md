@@ -51,3 +51,21 @@
 - 2026-11-09T21:46:12-05:00 · séance 2026-11-09-continuite · 1 question(s) pour Fabien
 - 2026-11-09T21:46:12-05:00 · séance 2026-11-09-continuite · carte.md · cartographe mécanique · sha256:fbcf0ecc9eec3244
 - 2026-11-09T21:46:12-05:00 · séance 2026-11-09-continuite · état du fil mis à jour · sha256:68d7b717111df26f
+- 2026-11-14T01:54:19-05:00 · séance 2026-11-09-continuite · carte.md · cartographe mécanique · sha256:406278c6866527ab
+- 2026-11-14T01:54:49-05:00 · séance 2026-11-14-conseils-des-ia ouverte · vérificateur grok
+- 2026-11-14T01:55:01-05:00 · gemini : corpus à renvoyer en entier à la prochaine séance
+- 2026-11-14T01:55:01-05:00 · grok : corpus à renvoyer en entier à la prochaine séance
+- 2026-11-14T08:27:31-05:00 · séance 2026-11-14-conseils-des-ia · tour 1 · claude (B) · relais · tour-1/claude.md · sha256:77e3483555f87fe5
+- 2026-11-14T08:27:31-05:00 · séance 2026-11-14-conseils-des-ia · tour 1 · gpt (A) · relais · tour-1/gpt.md · sha256:f4e230c59081fb6c
+- 2026-11-14T08:27:31-05:00 · séance 2026-11-14-conseils-des-ia · tour 1 · gemini (D) · relais · tour-1/gemini.md · sha256:d45e597254bc0db3
+- 2026-11-14T08:27:31-05:00 · séance 2026-11-14-conseils-des-ia · tour 1 · grok (C) · relais · tour-1/grok.md · sha256:c0d9c1dcfd195d7d
+- 2026-11-14T08:33:36-05:00 · séance 2026-11-14-conseils-des-ia · tour 2 · claude (B) · relais · tour-2/claude.md · sha256:6bbf3f4efdfdb754
+- 2026-11-14T08:33:36-05:00 · séance 2026-11-14-conseils-des-ia · tour 2 · gpt (A) · relais · tour-2/gpt.md · sha256:2ef2558b3715a38a
+- 2026-11-14T08:33:36-05:00 · séance 2026-11-14-conseils-des-ia · tour 2 · gemini (D) · relais · tour-2/gemini.md · sha256:0bcf71c138b178e3
+- 2026-11-14T08:33:36-05:00 · séance 2026-11-14-conseils-des-ia · tour 2 · grok (C) · relais · tour-2/grok.md · sha256:9620164cba818bbb
+- 2026-11-14T08:36:06-05:00 · séance 2026-11-14-conseils-des-ia · tour 3 · claude (B) · relais · tour-3/claude.md · sha256:94180292015e928b
+- 2026-11-14T08:36:06-05:00 · séance 2026-11-14-conseils-des-ia · tour 3 · gemini (D) · relais · tour-3/gemini.md · sha256:a344abd56370f5d9
+- 2026-11-14T08:36:06-05:00 · séance 2026-11-14-conseils-des-ia · tour 3 · grok (C) · relais · tour-3/grok.md · sha256:e331250cf9eb8c4a
+- 2026-11-14T08:36:06-05:00 · séance 2026-11-14-conseils-des-ia · 1 question(s) pour Fabien
+- 2026-11-14T08:36:06-05:00 · séance 2026-11-14-conseils-des-ia · carte.md · cartographe mécanique · sha256:ea5cee8332eb59b2
+- 2026-11-14T08:36:06-05:00 · séance 2026-11-14-conseils-des-ia · état du fil mis à jour · sha256:429073659ded6bde
