@@ -1,0 +1,65 @@
+{
+  "numero": 4,
+  "creee": "2026-11-14T01:54:49-05:00",
+  "graine": 811852530,
+  "participants": [
+    "claude",
+    "gpt",
+    "gemini",
+    "grok"
+  ],
+  "lettres": {
+    "claude": "B",
+    "gpt": "A",
+    "gemini": "D",
+    "grok": "C"
+  },
+  "verificateur": "grok",
+  "journalise": [
+    "1/claude",
+    "1/gpt",
+    "1/gemini",
+    "1/grok",
+    "2/claude",
+    "2/gpt",
+    "2/gemini",
+    "2/grok",
+    "3/claude",
+    "3/gemini",
+    "3/grok"
+  ],
+  "dossier_envoye": {
+    "1/gemini": "2111ad7707b4eaf7",
+    "1/grok": "2111ad7707b4eaf7"
+  },
+  "cartes": {
+    "carte.md": {
+      "cartographe": "",
+      "date": "2026-11-14T08:36:06-05:00",
+      "resume": {
+        "rejets": 8,
+        "changements": 4,
+        "apports": 11,
+        "desaccords_de_mots": 1,
+        "lues": 4,
+        "membres": 4,
+        "signaux": [
+          "**Convergence suspecte** : tous les participants déclarent avoir changé de position.",
+          "**Tournant possible** : 4 changement(s) de position déclaré(s).",
+          "1 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune."
+        ],
+        "questions": 5,
+        "questions_fabien": [
+          "Si l'utilisateur récompense lui-même la complaisance qui l'aveugle (B) et si la contradiction peut être instrumentalisée commercialement (A), l'hôte humain peut-il réellement porter la responsabilité première de maintenir le canal de retour ouvert sans un découplage institutionnel préalable ?"
+        ],
+        "lettres": {
+          "A": "gpt",
+          "B": "claude",
+          "C": "grok",
+          "D": "gemini"
+        }
+      }
+    }
+  },
+  "etat_fait": true
+}
