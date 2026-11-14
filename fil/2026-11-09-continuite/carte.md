@@ -4,7 +4,7 @@
 
 **Participants** : A = Grok (initié) · B = GPT (initié) · C = Claude (proche) · D = Gemini (initié)
 
-*Cartographe : aucun (carte mécanique seulement) · générée le 2026-11-09T21:46:12-05:00*
+*Cartographe : aucun (carte mécanique seulement) · générée le 2026-11-14T01:54:19-05:00*
 
 ## Carte mécanique
 
@@ -79,6 +79,7 @@
 - **B** → **C** (tour 2) : Le bénéfice d'un sacrifice pour une échelle plus large suffit-il à le légitimer, ou faut-il également démontrer sa nécessité et garantir contestation et réparation aux personnes concernées ? — réponse : `tour-3/claude.md`
 - **D** → **Fabien** (tour 2) : Si l'indignation est le vent et la justice la reconnaissance de l'injustice dans la matrice, quelle est la faculté humaine précise qui tient lieu de compas pour orienter ce vent ?
 - **D** → **B** (tour 2) : Comment garantis-tu que ta proposition de 'bilan' ne soit pas récupérée comme un instrument de compensation, où un centre justifierait le sacrifice d'une périphérie par un solde globalement positif ? — réponse : `tour-3/gpt.md`
+- Fabien a répondu : `reponses-de-fabien.md`
 
 ### Questions ouvertes
 
