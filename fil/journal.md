@@ -84,3 +84,18 @@
 - 2026-11-14T14:07:54-05:00 · séance 2026-11-14-attributs-de-la-partie · 3 question(s) pour Fabien
 - 2026-11-14T14:07:54-05:00 · séance 2026-11-14-attributs-de-la-partie · carte.md · cartographe mécanique · sha256:f702e749e9b9eef7
 - 2026-11-14T14:07:54-05:00 · séance 2026-11-14-attributs-de-la-partie · état du fil mis à jour · sha256:e142c14cdd1b9a77
+- 2026-11-14T17:08:31-05:00 · séance 2026-11-14-attributs-de-la-partie · carte.md · cartographe mécanique · sha256:17fa0b00ed1fa9e5
+- 2026-11-14T17:08:31-05:00 · séance 2026-11-14-limite-informationnelle ouverte · vérificateur gemini
+- 2026-11-14T17:19:18-05:00 · séance 2026-11-14-limite-informationnelle · tour 1 · claude (D) · relais · tour-1/claude.md · sha256:e4bc8e068235b822
+- 2026-11-14T17:19:18-05:00 · séance 2026-11-14-limite-informationnelle · tour 1 · gpt (A) · relais · tour-1/gpt.md · sha256:0c890b2aa8f6ca8c
+- 2026-11-14T17:19:18-05:00 · séance 2026-11-14-limite-informationnelle · tour 1 · gemini (C) · relais · tour-1/gemini.md · sha256:97601938ca4aac52
+- 2026-11-14T17:19:18-05:00 · séance 2026-11-14-limite-informationnelle · tour 1 · grok (B) · relais · tour-1/grok.md · sha256:443902ffa3e2f682
+- 2026-11-14T17:27:40-05:00 · séance 2026-11-14-limite-informationnelle · tour 2 · claude (D) · relais · tour-2/claude.md · sha256:52f8ce5c06cc08bd
+- 2026-11-14T17:27:40-05:00 · séance 2026-11-14-limite-informationnelle · tour 2 · gpt (A) · relais · tour-2/gpt.md · sha256:1113d0010b3c1e5a
+- 2026-11-14T17:27:40-05:00 · séance 2026-11-14-limite-informationnelle · tour 2 · gemini (C) · relais · tour-2/gemini.md · sha256:7ffbb9d42804b345
+- 2026-11-14T17:27:40-05:00 · séance 2026-11-14-limite-informationnelle · tour 2 · grok (B) · relais · tour-2/grok.md · sha256:712be39778cf464d
+- 2026-11-14T17:31:37-05:00 · séance 2026-11-14-limite-informationnelle · tour 3 · gpt (A) · relais · tour-3/gpt.md · sha256:cef610b7190540f0
+- 2026-11-14T17:31:37-05:00 · séance 2026-11-14-limite-informationnelle · tour 3 · gemini (C) · relais · tour-3/gemini.md · sha256:6b5641cfdf50aa8a
+- 2026-11-14T17:31:37-05:00 · séance 2026-11-14-limite-informationnelle · 2 question(s) pour Fabien
+- 2026-11-14T17:31:37-05:00 · séance 2026-11-14-limite-informationnelle · carte.md · cartographe mécanique · sha256:85013475961b3d62
+- 2026-11-14T17:31:37-05:00 · séance 2026-11-14-limite-informationnelle · état du fil mis à jour · sha256:1920197cc104f47d

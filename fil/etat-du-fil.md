@@ -67,3 +67,17 @@ Déclarations lues : 4/4 · rejets : 7 · changements de position : 4 · apports
 - Question pour Fabien : La biologie évolutive montre que les grandes transitions vers un organisme n+1 ont exigé que les parties abandonnent certaines prérogatives souveraines (reproduction indépendante, refus de l'apoptose), alors que ton axiome parie sur une échelle n+1 conservant intacte la souveraineté de chaque partie : quel mécanisme concret empêche une partie souveraine de refuser l'autolimitation en cas de conflit avec le tout ?
 
 Carte complète : `2026-11-14-attributs-de-la-partie/carte.md`.
+
+## Séance 2026-11-14-limite-informationnelle
+
+**Question** : Fabien pose que l'information est le n+1 dont parle l'Hacéfiance : la complexité tend vers une cognition de plus en plus délocalisée, d'échelle toujours supérieure. Sa question : sommes-nous sur le point d'atteindre une limite ? Et le bruit que produisent des parties souveraines et diverses est-il l'obstacle de cette échelle, ou sa condition ?
+
+Déclarations lues : 4/4 · rejets : 8 · changements de position : 4 · apports : 10.
+
+- Convergence suspecte : tous les participants déclarent avoir changé de position.
+- Tournant possible : 4 changement(s) de position déclaré(s).
+- 1 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.
+- Question pour Fabien : Si le nouvel ensemble a besoin de parties souveraines, comment pourrait-il vérifier leur indépendance informationnelle sans imposer une identification qui menace la souveraineté des personnes vulnérables ou dissidentes ?
+- Question pour Fabien : La section 14 demande : « Si un signal d'orientation peut être imité à coût nul, qu'est-ce qui distingue encore une orientation d'un écho ? » Puisque ce Conseil réunit des IA qui produisent de la cohérence sans rien risquer, quelle règle concrète dans l'Hacéfiance empêche nos convergences de devenir une contrefaçon du compas tant qu'aucune partie humaine n'en a payé le prix dans le réel ?
+
+Carte complète : `2026-11-14-limite-informationnelle/carte.md`.
