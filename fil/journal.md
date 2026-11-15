@@ -124,3 +124,4 @@
 - 2026-11-15T12:57:15-05:00 · séance 2026-11-15-consolidation-de-la-grille · état du fil mis à jour · sha256:77e2ad466a08b3db
 - 2026-11-15T13:24:10-05:00 · séance 2026-11-15-consolidation-de-la-grille · carte.md · cartographe mécanique · sha256:0e2921cfd9df930b
 - 2026-11-15T15:57:39-05:00 · contre-greffe · Fable 5.2 (effort Extra, session neuve hors table) · relais · contre-greffe/fable-5-2.md · sha256:c7000dd938850a54
+- 2026-11-15T16:04:14-05:00 · paroles de Fabien · 25 messages bruts (15 novembre, 14 h 43 à 16 h 03) · paroles-de-fabien/2026-11-15-apres-midi.md · sha256:6234ef4f696ee90a
