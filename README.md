@@ -75,6 +75,8 @@ fil/
   etat-du-fil.md
   grille-de-lecture.md (principes établis par le fil, tenue par le greffe)
   etablissement.md     (tri des fondements candidats et état de maturité)
+  paroles-de-fabien/   (messages bruts de l'auteur, avec empreinte au journal)
+  contre-greffe/       (consigne et audits d'une session hors table)
   journal.md
   memoire.json
   2026-11-09-appartenances-croisees/

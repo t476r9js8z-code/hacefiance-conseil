@@ -125,3 +125,7 @@
 - 2026-11-15T13:24:10-05:00 · séance 2026-11-15-consolidation-de-la-grille · carte.md · cartographe mécanique · sha256:0e2921cfd9df930b
 - 2026-11-15T15:57:39-05:00 · contre-greffe · Fable 5.2 (effort Extra, session neuve hors table) · relais · contre-greffe/fable-5-2.md · sha256:c7000dd938850a54
 - 2026-11-15T16:04:14-05:00 · paroles de Fabien · 25 messages bruts (15 novembre, 14 h 43 à 16 h 03) · paroles-de-fabien/2026-11-15-apres-midi.md · sha256:6234ef4f696ee90a
+- 2026-11-15T16:23:31-05:00 · paroles de Fabien · 34 messages bruts du 2026-11-08 (API claude.ai, conversation dde82dd0) · paroles-de-fabien/2026-11-08.md · sha256:f5d240e1a06ead91
+- 2026-11-15T16:23:31-05:00 · paroles de Fabien · 28 messages bruts du 2026-11-09 (API claude.ai, conversation dde82dd0) · paroles-de-fabien/2026-11-09.md · sha256:5182f107d7ae31d7
+- 2026-11-15T16:23:31-05:00 · paroles de Fabien · 12 messages bruts du 2026-11-14 (API claude.ai, conversation dde82dd0) · paroles-de-fabien/2026-11-14.md · sha256:76e3a92e1e280e33
+- 2026-11-15T16:23:31-05:00 · paroles de Fabien · 57 messages bruts du 2026-11-15 (API claude.ai, conversation dde82dd0) · paroles-de-fabien/2026-11-15.md · sha256:2013cb44821801a5
