@@ -73,6 +73,7 @@ python conseil.py --simulation seance                                 # essai à
 ```
 fil/
   etat-du-fil.md
+  grille-de-lecture.md (principes établis par le fil, tenue par le greffe)
   journal.md
   memoire.json
   2026-11-09-appartenances-croisees/
@@ -84,6 +85,7 @@ fil/
     tour-3/<id>.md     (réponses aux questions, s'il y en a)
     tour-4/<id>.md     (réponses aux relances)
     questions-pour-fabien.md
+    reponses-de-fabien.md (s'il a répondu)
     carte.md
     carte-contre.md    (facultatif)
 ```
