@@ -4,6 +4,25 @@
 
 Un fondement n'est pas une vérité démontrée : c'est un énoncé sur lequel le reste s'appuie, et qu'on ne rouvre pas sans raison nouvelle. Il est donc plus coûteux de mal établir un fondement que de laisser un principe ouvert. Un fondement erroné ne se voit pas : il ne figure plus parmi les questions, il ne figure que dans les réponses. C'est le cas des piliers défaillants dont parlait Fabien, mais à l'échelle du conseil.
 
+## Après l'audit du contre-greffe (15 novembre, 16 h)
+
+*Ce document a été audité par une session neuve de Fable 5.2, hors table (`contre-greffe/fable-5-2.md`). Son verdict : l'expérience est mûre comme instrument d'épreuve, pas comme instrument d'établissement. Le texte ci-dessous est conservé tel qu'il a été proposé, avec des corrections signalées en ligne ; il ne doit plus être lu comme un tri en vigueur.*
+
+**Nouveau classement.** Un seul candidat passe les épreuves que ce document avait lui-même fixées : **F4**, réduit au texte de la section 7, sans sa dernière phrase et avec l'objection du dissident inscrite à côté. **F1, F2, F3, F5 et F6 redeviennent provisoires.** F1 et F6 échouaient à l'épreuve 2 de l'aveu même de ce document. F2, F3 et F5 mêlaient à des phrases de Fabien des phrases du greffier qu'il n'a pas reprises.
+
+**Ce que le greffier accepte.** Presque tout le rapport : les attributions de ses propres phrases à Fabien (F2, F5, principe 8) ; le vocabulaire des candidats absent du texte central, qui en fait des amendements ; deux objections de fond rangées à tort parmi les désaccords de mots (Gemini sur « irrémédiable », GPT sur « interrompt ») ; une règle de son fournisseur entrée dans la grille ; ce que la grille avait perdu des séances 1 à 6 ; une parole de l'auteur qui n'était pas auditable. La grille est corrigée en conséquence.
+
+**Ce que le greffier nuance.** Le rythme : la règle d'une séance par jour a été levée par Fabien lui-même (« Le rythme en réalité correspond à ma disponibilité », `paroles-de-fabien/2026-11-15-apres-midi.md`), ce que le contre-greffe ne pouvait pas savoir.
+
+**Nouvel ordre, recommandé par le contre-greffe.** La formulation de l'auteur d'abord, l'épreuve du conseil ensuite :
+1. les messages de Fabien versés bruts, avec empreinte (commencé : `paroles-de-fabien/`) ;
+2. la grille corrigée d'après l'audit, vérifiée par le contre-greffe ;
+3. un inventaire repris depuis la séance 1, de préférence par le contre-greffe ;
+4. pour chaque thème, un énoncé écrit par Fabien sans brouillon du greffe ;
+5. une séance qui éprouve ces énoncés, avec un greffier qui ne siège pas et ne relaie pas, et un cartographe hors table.
+
+---
+
 ## Les épreuves
 
 Un énoncé devient candidat au rang de fondement s'il passe les cinq épreuves suivantes. Les trois premières vérifient son origine ; les deux dernières vérifient qu'il reste exposé.
@@ -20,7 +39,7 @@ Si un énoncé passe les épreuves 1 et 3 mais pas la 2 ou la 4, il reste un **a
 
 Avant tout tri, la relecture de la mémoire a fait apparaître trois oublis dans la grille. Les trois sont du greffier, qui a rédigé la grille en une journée. Ce sont des preuves que la mémoire fonctionne, et la première mesure de la maturité de la grille.
 
-**La question « pente ou nécessité » avait déjà reçu une réponse à la séance 1.** La grille la tient pour ouverte depuis le « il sera » du 15 novembre. Or Fabien l'avait tranchée le 8 novembre, contre l'objection de D (une tendance garantie dissoudrait la responsabilité) : la tendance est irrémédiable « comme un courant, une inertie, un momentum ; comme la flèche du temps », et « Ce qui est irrémédiable, c'est la dynamique qui permet de reconnaître et de constater les injustices » (`2026-11-08-lecture-libre/reponses-de-fabien.md`). Ni pente qu'on pourrait abolir, ni nécessité qui garantirait les issues : la dynamique est irréversible, ses résultats ne le sont pas. « Il sera » s'accorde avec cette réponse ; le greffe ne l'a pas vu.
+**La question « pente ou nécessité » avait déjà reçu une réponse à la séance 1.** La grille la tient pour ouverte depuis le « il sera » du 15 novembre. Or Fabien l'avait tranchée le 8 novembre, contre l'objection de D (une tendance garantie dissoudrait la responsabilité) : la tendance est irrémédiable « comme un courant, une inertie, un momentum ; comme la flèche du temps », et « Ce qui est irrémédiable, c'est la dynamique qui permet de reconnaître et de constater les injustices » (`2026-11-08-lecture-libre/reponses-de-fabien.md`). Ni pente qu'on pourrait abolir, ni nécessité qui garantirait les issues : la dynamique est irréversible, ses résultats ne le sont pas. « Il sera » s'accorde avec cette réponse ; le greffe ne l'a pas vu. *[Corrigé après l'audit : les réponses sont du 9 novembre, non du 8 ; elles disent ce qui est irréversible (la reconnaissance), non si le n+1 « sera » ; « Un courant, pas une garantie » est un intertitre du greffe ; et l'objection de Gemini et de GPT en séance 2 (Tulsa) a été maintenue. La question n'est pas tranchée.]*
 
 **La justice est absente de la grille.** À la séance 3, Fabien a tenu que justice et réparation sont la même chose, sous forme financière ou historique, et que la faute collective se gradue selon le degré de conscience de la manipulation et selon que la victime a été rendue bourreau (`2026-11-09-continuite/reponses-de-fabien.md`). L'objection de C, un paiement sans reconnaissance comme celui de la famille Sackler, est restée à discuter. Aucun principe de la grille ne recueille ce point.
 
@@ -38,13 +57,13 @@ Avant tout tri, la relecture de la mémoire a fait apparaître trois oublis dans
 
 **Objection traversée, et maintenue.** Séance 1 : le passage de l'être au devoir-être. La durée d'une institution ne prouve pas sa justice. B a déplacé sa position vers une théorie des conditions de correction mutuelle. La réponse de Fabien est de faire de « interrompt » une affirmation empirique, non une prescription. L'objection reste valable contre toute lecture qui ferait de la complexification une source de valeurs.
 
-**Réfuté si** une organisation niait durablement la justice et subordonnait ses parties sans que sa continuité en souffre. L'Égypte pharaonique est le contre-cas le plus dur dont le fil dispose : près de trois mille ans de durée. La réponse « tant que l'information reste rare » n'est recevable que si elle se mesure.
+**Réfuté si** une organisation niait durablement la justice et subordonnait ses parties sans que sa continuité en souffre. L'Égypte pharaonique est le contre-cas le plus dur dont le fil dispose : près de trois mille ans de durée. La réponse « tant que l'information reste rare » n'est recevable que si elle se mesure. *[Corrigé : ce n'est pas un contre-cas unique, la séance 3 avait la Chine depuis 1978, reconnue par les quatre ; et la réponse citée est une formule du greffe, non une réponse reçue. Fabien proposait l'Égypte comme exemple de sa thèse.]*
 
 ### F2. La partie et le tout se définissent ensemble
 
 **Énoncé.** On ne parle de partie que lorsqu'un tout de rang supérieur se dessine, et inversement. Un tout existe par les relations entre ses parties, souvent avant qu'aucune ne sache le nommer. Un tout qui capte ses parties existe aussi ; il n'est pas le n+1 universel.
 
-**Origine.** A8 (section 1) ; Fabien, séance 5 ; correction de la séance 7, confirmée par Fabien (« pas un vrai n+1 » voulait dire « pas celui-là »).
+**Origine.** A8 (section 1) ; Fabien, séance 5 ; correction de la séance 7 *[Corrigé : la phrase « pas un vrai n+1 voulait dire pas celui-là » est du greffier ; Fabien a répondu « Oui : » sans la reformuler. Ce n'est pas une confirmation au sens de l'épreuve 1.]*
 
 **Objection traversée.** Séance 7 : refuser l'existence au tout captateur protégeait l'hypothèse au lieu de la tester. La formulation a été corrigée.
 
@@ -64,11 +83,11 @@ Avant tout tri, la relecture de la mémoire a fait apparaître trois oublis dans
 
 ### F4. Le compas a trois composantes, dont aucune ne remplace les autres
 
-**Énoncé.** Le compas émerge du couplage avec le tout et s'éprouve de l'intérieur à chaque échelle. Chez l'humain, il est révélé, et il devient alors spiritualité. Il comporte trois composantes : le signal ressenti, la traduction morale et le canal de retour. Aucun signal ne vaut mesure s'il est privé des deux autres, puisqu'un compas privé de canal devient contrefaisable.
+**Énoncé.** Le compas émerge du couplage avec le tout et s'éprouve de l'intérieur à chaque échelle. Chez l'humain, il est révélé, et il devient alors spiritualité. Il comporte trois composantes : le signal ressenti, la traduction morale et le canal de retour. Aucun signal ne vaut mesure s'il est privé des deux autres, puisqu'un compas privé de canal devient contrefaisable. *[Corrigé : cette dernière phrase n'est pas à la section 7, qui distingue trois défaillances et parle d'« impuissance » quand le recours manque ; elle descend d'une formule de Grok. Objection non consignée : un dissident a un compas sans canal, et exiger le canal donnerait « aux institutions le monopole de la validation du sens » (GPT, séance 1).]*
 
 **Origine.** Texte intégral, section 7 ; piste 1 du carnet, tranchée le 30 octobre, après un débat contradictoire entre DeepSeek, Grok, Gemini, Claude et Fabien.
 
-**Objection traversée.** C'est l'énoncé le plus éprouvé du corpus. L'objection du thermostat (un compas ne serait qu'une fonction) a été soutenue sur plusieurs tours, puis la solution des deux niveaux de compas a été rejetée comme artifice.
+**Objection traversée.** *[Nuancé après l'audit : ce qui a été éprouvé en juillet est la première phrase, non la structure à trois composantes ; le débat s'est clos sur une objection maintenue, et la piste a été tranchée par un choix de mot.]* C'est l'énoncé le plus éprouvé du corpus. L'objection du thermostat (un compas ne serait qu'une fonction) a été soutenue sur plusieurs tours, puis la solution des deux niveaux de compas a été rejetée comme artifice.
 
 **Réfuté si** un signal ressenti, coupé de tout canal de retour, guidait durablement un tout vers plus de réciprocité. Les cas du fil vont tous dans l'autre sens (Temple du Peuple, 1978 ; Aum Shinrikyō, 1995).
 
@@ -78,7 +97,7 @@ Avant tout tri, la relecture de la mémoire a fait apparaître trois oublis dans
 
 **Énoncé.** L'indignation est fondée quand une partie est traitée en ressource : sa persistance est subordonnée à l'optimisation d'une autre, sans réciprocité. Elle se vérifie du dehors, sur des actes. Ce qui sépare l'indignation fondée de l'indignation d'étrangeté, ce n'est pas la nature de la forme en cause, matérielle ou culturelle. C'est le fait qu'elle soit imposée ou seulement rencontrée. Le critère vaut aussi à l'intérieur des causes justes.
 
-**Origine.** Texte intégral, section 5 : « Un tout qui traite ses parties comme des ressources détruit la condition de sa propre persistance. » Fabien, séance 3 et 15 novembre.
+**Origine.** Texte intégral, section 5 : « Un tout qui traite ses parties comme des ressources détruit la condition de sa propre persistance. » Fabien, séance 3 et 15 novembre. *[Corrigé : les mots de Fabien sont dans ses réponses de la séance 2 ; la phrase citée en séance 3 était la question du greffe ; la définition par la ressource est du greffier.]*
 
 **Objection traversée.** À la séance 7, B a apporté de lui-même le cas de Soweto (1976), qui ne figurait pas dans la grille. Il réfutait l'opposition entre le matériel et le culturel, et l'énoncé a été corrigé. C'est l'un des rares apports du fil qui ne doivent rien à la grille.
 
@@ -90,7 +109,7 @@ Avant tout tri, la relecture de la mémoire a fait apparaître trois oublis dans
 
 **Origine.** Texte intégral, section 11. Le critère y porte sa propre réfutation : « une structure dont le coût de maintien croît durablement tout en restant manifestement au service du tout suffirait à l'invalider. »
 
-**Objection traversée.** Le critère n'a pas été attaqué en séance. Il a en revanche été mal appliqué : à la séance 7, le cas de l'apartheid a été présenté comme une démonstration sans aucune des deux séries de données requises, puis requalifié en hypothèse.
+**Objection traversée.** Le critère n'a pas été attaqué en séance. *[Faux : GPT, au premier tour de la séance 1, à l'aveugle : le coût de maintien est « un indice à examiner, pas une définition suffisante », car « une organisation prédatrice peut demeurer remarquablement efficace et peu coûteuse ». Personne n'a répondu.]* Il a en revanche été mal appliqué : à la séance 7, le cas de l'apartheid a été présenté comme une démonstration sans aucune des deux séries de données requises, puis requalifié en hypothèse.
 
 **Statut honnête.** Fondement du texte, jamais appliqué avec ses données. Une première application chiffrée vaudrait plus que toute séance de discussion.
 
@@ -121,19 +140,19 @@ Avant tout tri, la relecture de la mémoire a fait apparaître trois oublis dans
 
 *Ces énoncés ont circulé dans le fil et ne doivent pas devenir fondements. La plupart ont déjà été corrigés ; le greffe les rassemble ici pour qu'ils ne reviennent pas par la mémoire.*
 
-- « Le ressenti reste du côté des parties humaines », pris au sens étroit : il contredit la section 7 depuis le 30 octobre (voir plus haut).
+- « Le ressenti reste du côté des parties humaines », pris au sens étroit : il contredit la section 7 depuis le 30 octobre (voir plus haut). *[Après l'audit : ni écarté ni établi. La phrase était du greffier ; le corpus laisse ouverte la question de ce qui est éprouvé chez une IA (échanges du 30 octobre). Le greffe était passé d'un excès à l'autre.]*
 - « Un tout captateur n'est pas un vrai n+1 » et « le palier était nul » pour le Temple du Peuple : ces deux formules refusaient l'existence au lieu de mesurer la réciprocité. Corrigées à la séance 7.
-- Le titre du principe 12, qui laissait croire à deux n+1 concurrents. Corrigé à la séance 7.
+- Le titre du principe 12, qui laissait croire à deux n+1 concurrents. Corrigé à la séance 7. *[Après l'audit : ce titre est une phrase de Fabien ; il ne s'écarte pas avant sa réponse.]*
 - La divergence des coûts de l'apartheid présentée comme une vérification : c'est une hypothèse.
 - L'Égypte des pharaons comme illustration d'une indignation qui finit par emporter un régime : les faits disent le contraire. Le cas reste utile, comme contre-cas.
 - Les erreurs de fait relevées et corrigées : l'accusation de citations inexactes contre Grok (ses citations étaient exactes, tirées de l'essentiel) ; une lecture causale de Lakner et Milanovic ; l'attribution à l'essentiel d'une phrase qui ne figure que dans l'intégral ; le canal de retour qui aurait « rapidement distingué » Solidarité de ses imitateurs.
-- La question « pente ou nécessité » présentée comme ouverte : Fabien y a répondu à la séance 1 (voir F3), sous réserve qu'il confirme cette lecture.
+- La question « pente ou nécessité » présentée comme ouverte : Fabien y a répondu à la séance 1 (voir F3), sous réserve qu'il confirme cette lecture. *[Après l'audit : elle reste ouverte, voir la correction plus haut.]*
 
 ## La maturité de l'expérience
 
 *La question de Fabien : l'expérience est-elle assez mûre pour ne pas produire de fondements erronés ou parasites ?*
 
-**Ce qui la rend fiable.** Tout est consigné mot pour mot, avec des empreintes et un historique Git qui rend chaque retouche visible. Les corrections sont publiques et tiennent d'une séance à l'autre. Les contrôles mécaniques ont déjà corrigé les lecteurs une fois, à propos des citations de Grok. Les principes sont formulés sans image, avec leur condition d'échec. Et l'inventaire qu'on vient de lire a trouvé trois oublis en relisant la mémoire : c'est exactement ce qu'une mémoire pérenne doit permettre.
+**Ce qui la rend fiable.** *[Corrigé : vrai des réponses des participants, 80 empreintes sur 80 ; faux des paroles de Fabien, transcrites corrigées et sans empreinte jusqu'au 15 novembre après-midi.]* Tout est consigné mot pour mot, avec des empreintes et un historique Git qui rend chaque retouche visible. Les corrections sont publiques et tiennent d'une séance à l'autre. Les contrôles mécaniques ont déjà corrigé les lecteurs une fois, à propos des citations de Grok. *[Deux fois en réalité : la même accusation à tort avait été faite en séance 4, et Grok l'avait concédée.]* Les principes sont formulés sans image, avec leur condition d'échec. Et l'inventaire qu'on vient de lire a trouvé trois oublis en relisant la mémoire : c'est exactement ce qu'une mémoire pérenne doit permettre.
 
 **Ce qui la fragilise.** Ces fragilités tiennent au dispositif plus qu'au contenu.
 
