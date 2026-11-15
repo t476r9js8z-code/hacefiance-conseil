@@ -107,3 +107,9 @@
 - 2026-11-15T12:10:33-05:00 · séance 2026-11-14-conseils-des-ia · état du fil mis à jour · sha256:6d1178729f26fe93
 - 2026-11-15T12:10:33-05:00 · séance 2026-11-14-attributs-de-la-partie · état du fil mis à jour · sha256:bcefe25deeb8a6d7
 - 2026-11-15T12:10:33-05:00 · séance 2026-11-14-limite-informationnelle · état du fil mis à jour · sha256:f5057989d4a27b21
+- 2026-11-15T12:37:27-05:00 · gemini : corpus à renvoyer en entier à la prochaine séance
+- 2026-11-15T12:37:27-05:00 · séance 2026-11-15-consolidation-de-la-grille ouverte · vérificateur gpt
+- 2026-11-15T12:45:32-05:00 · séance 2026-11-15-consolidation-de-la-grille · tour 1 · claude (A) · relais · tour-1/claude.md · sha256:d4eb797797dbab30
+- 2026-11-15T12:45:32-05:00 · séance 2026-11-15-consolidation-de-la-grille · tour 1 · gpt (D) · relais · tour-1/gpt.md · sha256:efc84d3745e4a24d
+- 2026-11-15T12:45:32-05:00 · séance 2026-11-15-consolidation-de-la-grille · tour 1 · gemini (B) · relais · tour-1/gemini.md · sha256:e94f987c11a0f2fe
+- 2026-11-15T12:45:32-05:00 · séance 2026-11-15-consolidation-de-la-grille · tour 1 · grok (C) · relais · tour-1/grok.md · sha256:adde30a4b7f78574

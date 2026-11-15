@@ -711,6 +711,7 @@ def controles(s: Seance) -> tuple[list[str], list[str]]:
     # reprises sans guillemets
     reprises = []
     b_echange = bardeaux(echange) if echange else set()
+    b_grille = bardeaux(s.c.grille()) if s.c.grille_fichier.exists() else set()
     for m in membres:
         for t in (1, 2):
             texte = s.reponse(t, m["id"])
@@ -722,6 +723,8 @@ def controles(s: Seance) -> tuple[list[str], list[str]]:
             sources = []
             if t == 1 and b_echange:
                 sources.append(("l'échange du greffier", b_echange))
+            if b_grille:
+                sources.append(("la grille de lecture", b_grille))
             if t == 2:
                 for o in membres:
                     if o["id"] != m["id"] and s.reponse(1, o["id"]):
@@ -730,12 +733,12 @@ def controles(s: Seance) -> tuple[list[str], list[str]]:
             for nom_src, bs in sources:
                 part = len(b & bs) / len(b)
                 if part >= seuil:
-                    propres = t == 1 and m["siege"] == "proche"
+                    propres = m["siege"] == "proche" and (t == 1 or nom_src == "la grille de lecture")
                     note = " (siège proche : ce sont en partie ses propres mots de greffier)" if propres else ""
                     reprises.append((part, f"- **{s.lettre(m['id'])}** (tour {t}) reprend sans guillemets {part:.1%} de ses suites de six mots à {nom_src}{note}"))
     lignes += ["", "*Reprises sans guillemets : part des suites de six mots d'une réponse qu'on retrouve telles quelles dans l'échange du greffier "
-               "(tour 1, seuil 1,5 %) ou dans la réponse d'un autre participant (tour 2, seuil 2 %). Sur les séances 4 à 6, les réponses "
-               "ordinaires restent sous 1,5 %.*", ""]
+               "ou la grille de lecture (seuil 1,5 % au tour 1, 2 % au tour 2), ou dans la réponse d'un autre participant (tour 2, seuil 2 %). "
+               "Sur les séances 4 à 6, les réponses ordinaires restent sous 1,5 %.*", ""]
     lignes += [r[1] for r in sorted(reprises, reverse=True)] or ["- aucune"]
     for lettre in sorted({r[1].split("**")[1] for r in reprises if "siège proche" not in r[1]}):
         signaux.append(f"**Écho possible** : {lettre} reprend sans guillemets une part notable d'un autre texte (voir Contrôles mécaniques).")
