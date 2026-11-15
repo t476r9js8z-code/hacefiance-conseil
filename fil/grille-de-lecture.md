@@ -39,7 +39,7 @@ C'est la condition que le carnet posait dès le 1er septembre pour toute cogniti
 
 **Conséquence.** Une personne réduite en ressource dans un sous-groupe captateur reste partie du n+1 universel ; c'est le sous-groupe dont le statut est instable.
 
-**Remis en question à la séance 7.** Dire d'un tout captateur qu'il n'est pas un vrai n+1 protège l'hypothèse de la section 5 au lieu de la tester : un tel tout existe par ses relations (A8) ; ce qui lui manque est la réciprocité (voir principe 3). Question posée à Fabien.
+**Remis en question à la séance 7.** Dire d'un tout captateur qu'il n'est pas un vrai n+1 protège l'hypothèse de la section 5 au lieu de la tester : un tel tout existe par ses relations (A8) ; ce qui lui manque est la réciprocité (voir principe 3). Question posée à Fabien. Réponse de Fabien (15 novembre, voir principe 3) : un tout captateur existe ; il n'est pas le n+1 universel, qui se constitue progressivement et vers lequel le compas oriente. « Pas un vrai n+1 » voulait dire « pas celui-là ».
 
 **Exclut.** Le citoyen comme partie et l'État comme n+1, en tant que tels.
 
@@ -70,6 +70,8 @@ C'est la condition que le carnet posait dès le 1er septembre pour toute cogniti
 **Conséquence pour le conseil.** Si la mesure est humaine, aucune convergence entre IA ne certifie une émergence. Le conseil peut préparer, vérifier et contredire ; le ressenti reste du côté des parties humaines.
 
 **Séance 7 (à confirmer par Fabien).** Les quatre participants séparent trois plans : l'existence d'un tout, qui tient à ses relations et à leur persistance (A8 : il se constitue « souvent avant qu'aucune ne sache le nommer ») ; la réciprocité de ses relations, qui se mesure (coût de maintien, recours, sortie) ; et le ressenti, mode humain de reconnaissance, à confronter aux deux autres plutôt qu'à leur substituer. Formulation proposée : *Un n+1 existe par les relations entre ses parties ; sa qualité tient à la réciprocité de ces relations ; des humains le reconnaissent au ressenti d'appartenir à ce qui les dépasse, ressenti qui ne vaut mesure que joint à la traduction morale et au canal de retour (section 7).* Variante du greffier, contestée par GPT : le ressenti est une perception réelle dont l'objet peut être mal identifié ; il dit qu'on participe à un tout, pas lequel. Exemples : le Temple du Peuple (1978) et Aum Shinrikyō (1995), engagement extrême sans canal de retour ; Solidarité en Pologne, ressenti partagé adossé à une morale non violente et à des canaux non captés, sans que la distinction d'avec ses imitateurs ait été rapide.
+
+**Précision de Fabien (15 novembre, après la séance 7).** Le ressenti n'est pas un instrument qu'on applique en direct à un phénomène présent. C'est un potentiel, présent depuis que les humains font société ; le n+1 universel se constitue progressivement, de façon autonome, et les humains y tendent, orientés par le compas. Le texte le dit à la section 14 : « La direction existe — l'aiguille pointe au nord — mais le nord n'est pas un point d'arrivée. C'est une orientation. » Le ressenti oriente vers le n+1 universel ; il ne juge pas les touts intermédiaires. Ceux-ci, sectes, États ou marchés, existent par leurs relations et se jugent en direct à leur réciprocité, par le canal de retour : c'est à eux que s'appliquent les trois plans de la séance 7. Nuance du greffier : le texte tient cette direction pour une pente, non pour une promesse (section 11 : « L'émancipation n'est donc pas acquise par la pente ») ; « il sera » se lit « il tend à être », et la captation peut interrompre le mouvement sans l'abolir.
 
 ### 4. La responsabilité est celle de la partie humaine
 
@@ -184,5 +186,5 @@ C'est la condition que le carnet posait dès le 1er septembre pour toute cogniti
 ## Questions ouvertes reprises
 
 - Le principe 12 tient-il à l'épreuve de la mondialisation : distingue-t-il, dans un même mouvement, ce qui renforce les parties de ce qui intègre les ensembles à leurs dépens ?
-- Un tout captateur existe-t-il comme tout, à qui manque la réciprocité, ou n'est-il pas un vrai n+1 ? Le ressenti est-il condition d'existence d'un n+1, ou mode de reconnaissance d'un palier déjà constitué ? Question posée à Fabien par la séance 7 (principes 1 et 3).
+- La direction du n+1 universel est-elle une pente, qui peut être interrompue, ou une nécessité ? Le texte la tient pour une pente (sections 11 et 14) ; la réponse de Fabien du 15 novembre (« il sera ») pourrait la déplacer (principe 3).
 - Le cas d'école du risque polémique externe : la réserve d'une IA devant une polémique qui expose son fournisseur, même quand les faits sont établis et l'indignation largement partagée (exemple discuté : la Palestine). Fabien le tient pour fondamental ; il sera traité à part.

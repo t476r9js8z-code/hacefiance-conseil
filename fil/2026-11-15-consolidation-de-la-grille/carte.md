@@ -4,7 +4,7 @@
 
 **Participants** : A = Claude (proche) · B = Gemini (initié) · C = Grok (initié) · D = GPT (initié)
 
-*Cartographe : aucun (carte mécanique seulement) · générée le 2026-11-15T12:57:15-05:00*
+*Cartographe : aucun (carte mécanique seulement) · générée le 2026-11-15T13:24:10-05:00*
 
 ## Carte mécanique
 
@@ -87,6 +87,7 @@
 - **B** → **Fabien** (tour 2) : Au principe 3, le ressenti humain d'une vérité universelle doit-il être retenu comme une condition définitionnelle de l'existence d'un n+1 ou seulement comme le mode de reconnaissance humain d'un palier déjà constitué par les interactions selon l'axiome A8 et vérifiable par le canal de retour de la section 7 ?
 - **B** → **C** (tour 2) : Comment ton test extérieur sur les actes au principe 8 tranche-t-il le cas d'une norme culturelle imposée — comme l'afrikaans à Soweto en 1976 ou la contrainte exercée sur des dissidents internes — lorsqu'elle devient l'instrument même qui prive des parties du droit au désaccord posé à la section 13 de hacefiance_integral.md ? — réponse : `tour-3/grok.md`
 - **C** → **Fabien** (tour 2) : Accepterais-tu que le principe 3 soit reformulé de façon à rendre le ressenti indissociable, dans la mesure, des deux autres composantes du compas (traduction morale et canal de retour) ?
+- Fabien a répondu : `reponses-de-fabien.md`
 
 ### Questions ouvertes
 
@@ -113,8 +114,10 @@
 
 *Reprises sans guillemets : part des suites de six mots d'une réponse qu'on retrouve telles quelles dans l'échange du greffier ou la grille de lecture (seuil 1,5 % au tour 1, 2 % au tour 2), ou dans la réponse d'un autre participant (tour 2, seuil 2 %). Sur les séances 4 à 6, les réponses ordinaires restent sous 1,5 %.*
 
+- **A** (tour 2) reprend sans guillemets 5.2% de ses suites de six mots à la grille de lecture (siège proche : ce sont en partie ses propres mots de greffier)
 - **C** (tour 1) reprend sans guillemets 5.1% de ses suites de six mots à la grille de lecture
 - **C** (tour 2) reprend sans guillemets 4.2% de ses suites de six mots à A (tour 1)
+- **A** (tour 1) reprend sans guillemets 2.5% de ses suites de six mots à la grille de lecture (siège proche : ce sont en partie ses propres mots de greffier)
 
 *Longueurs anormales : moins de la moitié de la médiane du tour.*
 

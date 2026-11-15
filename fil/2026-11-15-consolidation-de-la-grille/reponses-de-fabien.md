@@ -1,0 +1,17 @@
+# Réponses de Fabien — séance 2026-11-15-consolidation-de-la-grille
+
+*Échange avec Claude, le greffier, le 15 novembre 2026, après la lecture de la séance. Le texte de Fabien est légèrement corrigé pour l'orthographe et les mots de liaison ; la réponse du greffier est reproduite en italique.*
+
+## Le ressenti n'est pas une mesure en direct
+
+Il y a peut-être confusion sur ce ressenti. En l'occurrence, il est présent depuis que les humains font société. C'est un potentiel : on peut difficilement l'analyser dans un phénomène en direct. Et il sera, au sens autonome, constitué progressivement. Les humains y tendent, et le compas les y oriente. Non ?
+
+*Réponse de Claude. En effet, et la confusion vient de la grille, donc du greffier. Fabien avait dit que ce qui mesure l'émergence est humain, le ressenti ; la grille en a fait « la mesure de l'émergence », et le conseil l'a pris au mot. Il a essayé de l'appliquer comme un instrument à des touts présents, le Temple du Peuple, l'apartheid. Or ce que Fabien décrit n'est pas un instrument de mesure, c'est une orientation. La section 14 le dit : « La direction existe — l'aiguille pointe au nord — mais le nord n'est pas un point d'arrivée. C'est une orientation. » Et la section 7 situe ce signal depuis toujours : la distinction du temporel et du spirituel est « présente dans chaque culture, à chaque époque ».*
+
+*Cela remet de l'ordre dans la séance 7 plutôt que de l'annuler, parce que deux objets s'y confondaient sous le même mot. D'un côté, les touts intermédiaires qui existent maintenant, sectes, États, marchés : pour eux, la distinction des participants tient, ils existent par leurs relations, et on les juge en direct à leur réciprocité, par le canal de retour. De l'autre, le n+1 universel, qui se constitue progressivement et qu'aucun phénomène présent ne montre en entier : c'est vers lui que le ressenti oriente. Les deux formules qui semblaient s'opposer se réconcilient alors. Un tout captateur existe bien, mais il n'est pas le n+1 vers lequel le compas oriente. « Pas un vrai n+1 » voulait dire « pas celui-là », pas qu'il n'existe pas.*
+
+*J'ajouterais une nuance sur « il sera ». Le texte garde cette direction comme une pente, pas comme une promesse. La section 11 dit que « L'émancipation n'est donc pas acquise par la pente ». La dernière question de la section 14 laisse ouvert si la direction tient à la structure de l'univers ou à ce que nous projetons sur lui. Je lirais donc « il sera » comme « il tend à être » : les humains y tendent, le compas les y oriente, et la captation peut interrompre le mouvement sans l'abolir. Si Fabien voulait dire davantage, une nécessité, ce serait un déplacement du texte, et il vaudrait la peine de le dire comme tel.*
+
+## Note du greffe
+
+Les trois questions adressées à Fabien pendant la séance reçoivent ici une réponse commune. À la question de A, un tout captateur existe par ses relations, mais il n'est pas le n+1 universel. À la question de B, le ressenti n'est pas une condition définitionnelle de l'existence d'un n+1 : c'est un potentiel humain qui oriente vers un n+1 en constitution. À la question de C, le ressenti ne sert pas de mesure en direct ; il reste une composante du compas, à côté de la traduction morale et du canal de retour, et ce sont ces deux dernières qui jugent les touts présents. La grille est mise à jour en conséquence (principes 1 et 3).
