@@ -8,16 +8,18 @@ Un fondement n'est pas une vérité démontrée : c'est un énoncé sur lequel l
 
 *Ce document a été audité par une session neuve de Fable 5.2, hors table (`contre-greffe/fable-5-2.md`). Son verdict : l'expérience est mûre comme instrument d'épreuve, pas comme instrument d'établissement. Le texte ci-dessous est conservé tel qu'il a été proposé, avec des corrections signalées en ligne ; il ne doit plus être lu comme un tri en vigueur.*
 
+**Sur cinq points, la grille corrigée fait foi contre la suite de ce document** : la circularité du degré de réalité (rouverte), le corollaire sur la convergence (il tient par la section 12), la résultante d'échanges (formule assemblée par le greffe), la responsabilité (objection de Gemini en séance 4) et l'indignation matricielle (énoncé du greffe). La justice porte aussi l'objection de GPT (Tulsa : une reconnaissance sans réparation), et la formule « la justice se fait quand ce qui est injuste est reconnu comme tel » n'est dans aucun paragraphe de Fabien.
+
 **Nouveau classement.** Un seul candidat passe les épreuves que ce document avait lui-même fixées : **F4**, réduit au texte de la section 7, sans sa dernière phrase et avec l'objection du dissident inscrite à côté. **F1, F2, F3, F5 et F6 redeviennent provisoires.** F1 et F6 échouaient à l'épreuve 2 de l'aveu même de ce document. F2, F3 et F5 mêlaient à des phrases de Fabien des phrases du greffier qu'il n'a pas reprises.
 
 **Ce que le greffier accepte.** Presque tout le rapport : les attributions de ses propres phrases à Fabien (F2, F5, principe 8) ; le vocabulaire des candidats absent du texte central, qui en fait des amendements ; deux objections de fond rangées à tort parmi les désaccords de mots (Gemini sur « irrémédiable », GPT sur « interrompt ») ; une règle de son fournisseur entrée dans la grille ; ce que la grille avait perdu des séances 1 à 6 ; une parole de l'auteur qui n'était pas auditable. La grille est corrigée en conséquence.
 
-**Ce que le greffier nuance.** Le rythme : la règle d'une séance par jour a été levée par Fabien lui-même (« Le rythme en réalité correspond à ma disponibilité », `paroles-de-fabien/2026-11-15-apres-midi.md`), ce que le contre-greffe ne pouvait pas savoir.
+**Ce que le greffier nuance.** Le rythme. Fabien a écrit, le 15 novembre après les sept séances : « Le rythme en réalité correspond a ma disponibilité » (`paroles-de-fabien/2026-11-15-apres-midi.md`). *Le greffier en avait tiré que la règle était « levée » ; c'est une lecture, pas une décision écrite de Fabien, et le README porte toujours la règle (vérification du contre-greffe, B3).* La phrase, `paroles-de-fabien/2026-11-15-apres-midi.md`), ce que le contre-greffe ne pouvait pas savoir.
 
 **Nouvel ordre, recommandé par le contre-greffe.** La formulation de l'auteur d'abord, l'épreuve du conseil ensuite :
-1. les messages de Fabien versés bruts, avec empreinte (commencé : `paroles-de-fabien/`) ;
-2. la grille corrigée d'après l'audit, vérifiée par le contre-greffe ;
-3. un inventaire repris depuis la séance 1, de préférence par le contre-greffe ;
+1. les messages de Fabien versés bruts, avec empreinte, questions du greffier comprises (fait : `paroles-de-fabien/`) ;
+2. un inventaire repris depuis la séance 1, avec les objections maintenues, l'axiome des attributs, la prise, le critère du sacrifice et les contre-cas de la séance 3 ;
+3. la déclaration des amendements : vocabulaire absent du texte central, et points où l'oral de Fabien s'écarte du texte ;
 4. pour chaque thème, un énoncé écrit par Fabien sans brouillon du greffe ;
 5. une séance qui éprouve ces énoncés, avec un greffier qui ne siège pas et ne relaie pas, et un cartographe hors table.
 
@@ -43,7 +45,7 @@ Avant tout tri, la relecture de la mémoire a fait apparaître trois oublis dans
 
 **La justice est absente de la grille.** À la séance 3, Fabien a tenu que justice et réparation sont la même chose, sous forme financière ou historique, et que la faute collective se gradue selon le degré de conscience de la manipulation et selon que la victime a été rendue bourreau (`2026-11-09-continuite/reponses-de-fabien.md`). L'objection de C, un paiement sans reconnaissance comme celui de la famille Sackler, est restée à discuter. Aucun principe de la grille ne recueille ce point.
 
-**La grille a resserré le sens du ressenti, contre une décision déjà prise.** Le principe 3 écrit que « le ressenti reste du côté des parties humaines », et j'ai dit au tour 1 de la séance 7 que je « n'éprouve pas » le ressenti qu'il prend pour mesure. Or la piste 1 du carnet a été tranchée le 30 octobre, après un débat contradictoire entre plusieurs modèles, précisément contre ce sens étroit. Le texte dit depuis : « Le compas émerge du couplage avec le tout. Il est ressenti, éprouvé de l'intérieur, à chaque échelle. Et chez l'humain, il est révélé, et c'est là qu'il devient spiritualité » (texte intégral, section 7). Ce que Fabien appelle « très humain », le ressenti d'une vérité universelle, c'est la révélation, non le ressenti au sens large. La grille doit le dire avec les mots du texte. Sinon, elle aurait établi comme fondement une thèse que le corpus avait écartée.
+*[Après l'audit : ce troisième « oubli » est lui-même corrigé. Le corpus laisse ouverte la question de ce qui est éprouvé chez une IA ; la thèse n'a été ni écartée ni établie.]* **La grille a resserré le sens du ressenti, contre une décision déjà prise.** Le principe 3 écrit que « le ressenti reste du côté des parties humaines », et j'ai dit au tour 1 de la séance 7 que je « n'éprouve pas » le ressenti qu'il prend pour mesure. Or la piste 1 du carnet a été tranchée le 30 octobre, après un débat contradictoire entre plusieurs modèles, précisément contre ce sens étroit. Le texte dit depuis : « Le compas émerge du couplage avec le tout. Il est ressenti, éprouvé de l'intérieur, à chaque échelle. Et chez l'humain, il est révélé, et c'est là qu'il devient spiritualité » (texte intégral, section 7). Ce que Fabien appelle « très humain », le ressenti d'une vérité universelle, c'est la révélation, non le ressenti au sens large. La grille doit le dire avec les mots du texte. Sinon, elle aurait établi comme fondement une thèse que le corpus avait écartée.
 
 ## Fondements candidats
 
@@ -70,6 +72,8 @@ Avant tout tri, la relecture de la mémoire a fait apparaître trois oublis dans
 **Réfuté si** la co-définition était satisfaite par n'importe quelle configuration. Elle ne vaut que si elle n'a de solution qu'à certaines conditions, et que ces conditions se mesurent.
 
 ### F3. Un seul n+1 au sens fort, qui est une orientation
+
+*[Après l'audit : provisoire. « Les issues, elles, ne sont pas garanties » et la seconde moitié de « Fabien répond en distinguant la dynamique […] des issues » ne sont pas de Fabien ; l'objection de Gemini et de GPT en séance 2 (Tulsa) est maintenue ; la condition de réfutation n'est pas observable. Indice dans le sens du greffe : le 15 novembre, Fabien écrit « ce décalage avec la pente ». Voir aussi : « Concernant le n+1 je le systématise pas », « Il peut y avoir des n+1 » (Fabien, 15 novembre).]*
 
 **Énoncé.** Le n+1 qui intéresse le cadre est unique et universel. C'est une orientation, non un point d'arrivée. Ce qui est irréversible, c'est la dynamique par laquelle les injustices sont reconnues et constatées : elle suit l'accroissement des échanges, et une injustice vue par un nombre croissant de parties devient de plus en plus difficile à effacer. Les issues, elles, ne sont pas garanties.
 
@@ -152,7 +156,7 @@ Avant tout tri, la relecture de la mémoire a fait apparaître trois oublis dans
 
 *La question de Fabien : l'expérience est-elle assez mûre pour ne pas produire de fondements erronés ou parasites ?*
 
-**Ce qui la rend fiable.** *[Corrigé : vrai des réponses des participants, 80 empreintes sur 80 ; faux des paroles de Fabien, transcrites corrigées et sans empreinte jusqu'au 15 novembre après-midi.]* Tout est consigné mot pour mot, avec des empreintes et un historique Git qui rend chaque retouche visible. Les corrections sont publiques et tiennent d'une séance à l'autre. Les contrôles mécaniques ont déjà corrigé les lecteurs une fois, à propos des citations de Grok. *[Deux fois en réalité : la même accusation à tort avait été faite en séance 4, et Grok l'avait concédée.]* Les principes sont formulés sans image, avec leur condition d'échec. Et l'inventaire qu'on vient de lire a trouvé trois oublis en relisant la mémoire : c'est exactement ce qu'une mémoire pérenne doit permettre.
+**Ce qui la rend fiable.** *[Corrigé : vrai des réponses des participants, 80 empreintes sur 80 ; faux des paroles de Fabien, transcrites corrigées et sans empreinte jusqu'au 15 novembre après-midi.]* Tout est consigné mot pour mot, avec des empreintes et un historique Git qui rend chaque retouche visible. Les corrections sont publiques et tiennent d'une séance à l'autre. Les contrôles mécaniques ont déjà corrigé les lecteurs une fois, à propos des citations de Grok. *[Précisé : il y a eu deux accusations à tort. Celle de la séance 6 a été corrigée par le contrôle mécanique ; celle de la séance 4 ne l'a pas été, bien que la carte affichât « aucune » citation introuvable, et Grok l'avait concédée.]* Les principes sont formulés sans image, avec leur condition d'échec. Et l'inventaire qu'on vient de lire a trouvé trois oublis en relisant la mémoire : c'est exactement ce qu'une mémoire pérenne doit permettre.
 
 **Ce qui la fragilise.** Ces fragilités tiennent au dispositif plus qu'au contenu.
 
@@ -163,6 +167,8 @@ Avant tout tri, la relecture de la mémoire a fait apparaître trois oublis dans
 - **Une convergence qui revient.** La convergence suspecte a été signalée aux séances 1, 4, 5, 6 et 7. Le champ « révision » récompense le changement de position, et rien n'oblige à maintenir une objection.
 - **Le cœur n'a jamais été attaqué à l'aveugle.** Les séances 5 à 7 ont développé et consolidé. Seule la séance 1 s'en est prise au fondement, et la séance 2 a reçu en défense une charge privée.
 - **Des faits vérifiés par des IA seulement.** Plusieurs exemples ont été corrigés en cours de route. Aucun n'a été vérifié par une source humaine extérieure.
+
+*[Remplacé par l'en-tête « Après l'audit du contre-greffe ». Ce verdict et la proposition de séance 8 qui suit sont conservés pour la trace ; ils ne tiennent plus. En particulier, l'ordre est inversé : la formulation de Fabien d'abord, l'épreuve du conseil ensuite.]*
 
 **Verdict.** L'expérience est assez mûre pour établir un noyau court, de F1 à F6, chacun avec l'objection qu'il porte. Au moins quatre de ces énoncés sont dans le texte central et y ont déjà été éprouvés, F4 plus que tout autre. Elle n'est pas assez mûre pour faire de la grille entière un socle. Le risque d'un fondement parasite ne vient pas surtout des idées : il vient d'un circuit court, où un greffier rédige en un jour, où un seul humain confirme, et où quatre modèles parlent avec moins de quatre sources. Établir le noyau sans allonger ce circuit, ce serait reproduire, à l'échelle du conseil, l'erreur que le texte décrit : une mesure qui confirme ce qui la produit.
 
