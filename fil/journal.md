@@ -99,3 +99,4 @@
 - 2026-11-14T17:31:37-05:00 · séance 2026-11-14-limite-informationnelle · 2 question(s) pour Fabien
 - 2026-11-14T17:31:37-05:00 · séance 2026-11-14-limite-informationnelle · carte.md · cartographe mécanique · sha256:85013475961b3d62
 - 2026-11-14T17:31:37-05:00 · séance 2026-11-14-limite-informationnelle · état du fil mis à jour · sha256:1920197cc104f47d
+- 2026-11-15T11:32:53-05:00 · séance 2026-11-14-limite-informationnelle · carte.md · cartographe mécanique · sha256:20a396be7d73ced6
