@@ -26,6 +26,8 @@ C'est la condition que le carnet posait dès le 1er septembre pour toute cogniti
 
 **M4 — Le texte n'est pas gravé.** On l'amende quand c'est réellement requis, pas parce qu'une séance a produit une formule. *Fil, 15 novembre.*
 
+**M5 — Une continuité qui structure.** Le fil règle les incompréhensions et nourrit le cœur par des exemples et des débats ; il n'ouvre pas de débat orphelin ni circulaire. Une question se rattache à un principe de la grille ou à une section du texte, et dit ce qu'elle y changerait si on y répondait. Un exemple sert à éprouver un principe, pas à ouvrir un sujet. *Fil, 15 novembre.*
+
 ## Principes
 
 ### 1. La partie et le tout se définissent ensemble
@@ -174,6 +176,6 @@ C'est la condition que le carnet posait dès le 1er septembre pour toute cogniti
 
 ## Questions ouvertes reprises
 
-- La mondialisation a-t-elle produit un n+1 des parties, un n+1 des ensembles, ou les deux, et à quels signes les distingue-t-on ? (principe 12)
+- Le principe 12 tient-il à l'épreuve de la mondialisation : distingue-t-il, dans un même mouvement, ce qui renforce les parties de ce qui intègre les ensembles à leurs dépens ?
 - Le ressenti qui mesure l'émergence peut être contrefait : comment le canal de retour le distingue-t-il de la cohérence d'une secte ? (principe 3)
 - Le cas d'école du risque polémique externe : la réserve d'une IA devant une polémique qui expose son fournisseur, même quand les faits sont établis et l'indignation largement partagée (exemple discuté : la Palestine). Fabien le tient pour fondamental ; il sera traité à part.
