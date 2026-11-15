@@ -143,6 +143,12 @@ C'est la condition que le carnet posait dès le 1er septembre pour toute cogniti
 
 **Limite connue.** Le contrôle autoritaire ne supprime pas l'indignation : il l'empêche de se coaliser et la rend invisible jusqu'à la bascule (King, Pan et Roberts, 2013 ; Kuran, 1991). C'est l'ablation des récepteurs (section 9) à l'échelle d'un État.
 
+**Précision de Fabien (15 novembre).** Plus les parties sont informées, plus elles s'indignent de l'écart entre ce qui est et la pente ; la captation d'énergies au profit d'intérêts minoritaires produit l'indignation. La spiritualité est le concept qui personnifie cette pente. Appui : Tocqueville (1856), pour qui le moment le plus dangereux pour un mauvais gouvernement est celui où il commence à se réformer.
+
+**Cas proposés.** La Réforme : les indulgences prélevaient sur les fidèles dans le vocabulaire du salut, et les villes dotées tôt d'une imprimerie ont nettement plus souvent adopté la Réforme (Rubin, 2014). L'Égypte des pharaons : Maât, ordre du cosmos, justice et vérité, était tenue par le roi, sans recours extérieur ; les artisans de Deir el-Médineh, parmi les plus lettrés du pays, ont fait sous Ramsès III la première grève documentée. Mais le régime a duré près de trois mille ans, et sa fin est venue de conquêtes puis de la christianisation, non d'une indignation intérieure : une captation qui tient le compas et l'écriture dure tant que l'information reste rare.
+
+**Réserve.** La section 11 : la même circulation « nourrit aussi ceux qui captent les canaux par lesquels l'information passe ». L'information arme l'indignation et la captation à la fois.
+
 ### 10. La limite informationnelle est une limite d'organisation
 
 **Énoncé.** La limite proche n'est pas physique. La vérification croît moins vite que la production. Un tout informationnel s'appauvrit quand ses productions remplacent ses sources, non quand il les réutilise. La variation des parties est bornée des deux côtés : trop peu, et le tout ne s'adapte plus ; trop, et il se dissout. Beaucoup de voix ne font pas beaucoup de sources.
