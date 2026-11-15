@@ -27,6 +27,7 @@ sources = [
 #   dossier_dans_sources  : le corpus est déjà dans les sources d'un projet (ChatGPT) ; on ne le renvoie pas
 #   fil_persistant        : une seule discussion dédiée, qui garde sa mémoire ; le corpus n'est renvoyé
 #                           que s'il a changé ou après « rafraichir »
+#   question_seule        : la question sans l'échange préparatoire (après la ligne « --- ») entre Fabien et le greffier
 #   Pour "commande" : {sortie} est remplacé par un fichier où l'outil écrit sa réponse,
 #                     {systeme} par le chemin du fichier de consignes système.
 # ---------------------------------------------------------------------------
@@ -61,9 +62,13 @@ id = "grok"
 nom = "Grok"
 siege = "initie"
 adaptateur = "manuel"
-relais = "Chrome : grok.com (compte Byron Wat), discussion dédiée au conseil ; joindre le dossier"
+relais = "Chrome : grok.com (compte Byron Wat), discussion neuve à chaque séance ; joindre le dossier"
 joindre_dossier = true
-fil_persistant = true
+# Essai à partir de la séance 7 : Grok reprend sans guillemets l'échange du greffier (séances 4 à 6).
+# Il reçoit une discussion neuve avec le corpus entier, et la question sans cet échange.
+# Si l'écho disparaît, il tenait au contexte ; s'il persiste, au modèle.
+fil_persistant = false
+question_seule = true
 
 # En attente : DeepSeek (Chrome bloque son site ; l'API coûte quelques cents par séance).
 # [[participant]]

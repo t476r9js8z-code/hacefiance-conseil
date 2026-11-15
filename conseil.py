@@ -124,6 +124,7 @@ class Conseil:
         self.etat_fichier = self.fil / "etat-du-fil.md"
         self.journal_fichier = self.fil / "journal.md"
         self.memoire_fichier = self.fil / "memoire.json"
+        self.grille_fichier = self.fil / "grille-de-lecture.md"
 
     # -- mémoire des fils persistants : version du corpus déjà reçue par chacun
     def memoire(self) -> dict:
@@ -159,6 +160,17 @@ class Conseil:
             if t:
                 return t
         return "Le fil commence : il n'y a pas encore d'état. Cette séance est la première."
+
+    # -- grille de lecture : principes établis par le fil, tenue par le greffe
+    def grille(self) -> str:
+        if self.grille_fichier.exists():
+            lignes = lire(self.grille_fichier).strip().split("\n")
+            if lignes and lignes[0].startswith("# "):
+                lignes = lignes[1:]
+            t = "\n".join(lignes).strip()
+            if t:
+                return t
+        return "(Le fil n'a pas encore de grille de lecture.)"
 
     # -- journal (en ajout seulement)
     def journaliser(self, ligne: str) -> None:
@@ -220,6 +232,16 @@ class Seance:
 
     def question(self) -> str:
         return lire(self.dir / "00-question.md").split("\n", 2)[-1].strip()
+
+    def question_pour(self, p: dict) -> str:
+        """La question telle que la reçoit un participant. Avec « question_seule », sans l'échange
+        reproduit après la première ligne « --- » (réponses du greffier, textes de Fabien)."""
+        q = self.question()
+        if p.get("question_seule") and "\n---\n" in q:
+            q = q.split("\n---\n", 1)[0].rstrip()
+            q += ("\n\n(Pour cette séance, tu reçois la question sans l'échange préparatoire entre Fabien "
+                  "et le greffier.)")
+        return q
 
     def lettre(self, pid: str) -> str:
         return self.meta["lettres"][pid]
@@ -524,8 +546,9 @@ def preparer(conseil: Conseil, s: Seance, tour: int, p: dict) -> tuple[str, str,
     ctx = {"seance": s.nom, "lettre": s.lettre(p["id"]), "note_dossier": note}
     if tour == 1:
         etat = conseil.etat() if p["siege"] != "etranger" else "(Tu ne reçois pas l'état du fil.)"
+        grille = conseil.grille() if p["siege"] != "etranger" else "(Tu ne reçois pas la grille de lecture.)"
         consigne = conseil.consigne("tour1").format(
-            seance=s.nom, siege=siege, etat=etat, question=s.question(),
+            seance=s.nom, siege=siege, etat=etat, grille=grille, question=s.question_pour(p),
             longueur=conseil.longueur, dossier="{dossier}",
         )
         return consigne, dossier, ctx
@@ -541,8 +564,9 @@ def preparer(conseil: Conseil, s: Seance, tour: int, p: dict) -> tuple[str, str,
                 "douteuses, signale-les avec la raison du doute, et reporte-les dans le champ « faits » du bloc final.\n"
             )
             ctx["verificateur"] = True
+        grille = conseil.grille() if p["siege"] != "etranger" else "(Tu ne reçois pas la grille de lecture.)"
         consigne = conseil.consigne("tour2").format(
-            seance=s.nom, siege=siege, lettre=s.lettre(p["id"]), question=s.question(),
+            seance=s.nom, siege=siege, lettre=s.lettre(p["id"]), question=s.question_pour(p), grille=grille,
             propre=s.reponse(1, p["id"]).strip(), autres=blocs, longueur=conseil.longueur, verification=verif,
         )
         consigne += "\n{dossier}"
@@ -559,7 +583,7 @@ def preparer(conseil: Conseil, s: Seance, tour: int, p: dict) -> tuple[str, str,
                "« questions » ; elle recevra une réponse au tour suivant." if tour == 3 else
                "C'est le dernier tour de questions de cette séance : n'en pose pas de nouvelle.")
     consigne = conseil.consigne("reponses").format(
-        seance=s.nom, siege=siege, lettre=s.lettre(p["id"]), question=s.question(),
+        seance=s.nom, siege=siege, lettre=s.lettre(p["id"]), question=s.question_pour(p),
         questions="\n\n".join(blocs), relance=relance, rang="premier tour" if tour == 3 else "relances",
     )
     consigne += "\n{dossier}"
@@ -620,6 +644,129 @@ def extraire_declaration(texte: str) -> dict | None:
     return None
 
 
+def normaliser(texte: str) -> str:
+    """Forme comparable d'un texte : apostrophes et guillemets unifiés, crochets d'édition retirés,
+    casse et espaces neutralisées."""
+    t = unicodedata.normalize("NFC", texte)
+    for a, b in (("\u2019", "'"), ("\u2018", "'"), ("\u02bc", "'"), ("\u201c", '"'), ("\u201d", '"'),
+                 ("\u00a0", " "), ("\u202f", " "), ("\u2011", "-"), ("*", ""), ("[", ""), ("]", "")):
+        t = t.replace(a, b)
+    return re.sub(r"\s+", " ", t).strip().lower()
+
+
+def mots(texte: str) -> list[str]:
+    return re.findall(r"[\w'’-]+", normaliser(texte))
+
+
+def citations(texte: str) -> list[str]:
+    """Passages cités entre guillemets français, assez longs pour être vérifiés."""
+    return [c for c in re.findall(r"«\s*(.+?)\s*»", texte, flags=re.S) if len(mots(c)) >= 6]
+
+
+def citation_trouvee(cit: str, reference: str) -> bool:
+    """Vrai si chaque fragment de la citation (coupée aux points de suspension) figure dans la référence."""
+    fragments = [f.strip(" .,;:!?") for f in re.split(r"\.\.\.|…", normaliser(cit))]
+    fragments = [f for f in fragments if len(f.split()) >= 4]
+    return all(f in reference for f in fragments) if fragments else True
+
+
+def sans_notes(texte: str) -> str:
+    """Retire les notes du greffe, qui ne sont pas du participant."""
+    return re.sub(r"\*\[Note du greffe.*?\]\*", " ", texte or "", flags=re.S)
+
+
+def bardeaux(texte: str, n: int = 6) -> set[tuple[str, ...]]:
+    m = mots(re.sub(r"«.+?»", " ", sans_notes(texte), flags=re.S))  # les citations déclarées ne comptent pas comme reprise
+    return {tuple(m[i:i + n]) for i in range(len(m) - n + 1)}
+
+
+def controles(s: Seance) -> tuple[list[str], list[str]]:
+    """Contrôles mécaniques sur les réponses versées : citations introuvables, reprises sans guillemets,
+    longueurs anormales, accusés de réception. Ils signalent des symptômes, sans en attribuer la cause."""
+    membres = sorted(s.membres(), key=lambda m: s.lettre(m["id"]))
+    initie = next((p for p in s.c.table() if p["siege"] in ("initie", "proche")), None)
+    corpus = normaliser(s.c.dossier(initie)[0]) if initie else ""
+    q = s.question()
+    echange = q.split("\n---\n", 1)[1] if "\n---\n" in q else ""
+    reference = corpus + " " + normaliser(q)
+    lignes, signaux = [], []
+    # citations
+    douteuses = []
+    for t in (1, 2, 3, 4):
+        for m in membres:
+            texte = sans_notes(s.reponse(t, m["id"]) or "")
+            if not texte.strip():
+                continue
+            # on peut citer ce que les autres ont écrit aux tours précédents, pas ce qu'ils citeront ensuite
+            autres = " ".join(normaliser(s.reponse(tt, o["id"]) or "") for tt in range(1, t) for o in membres if o["id"] != m["id"])
+            for c in citations(texte):
+                if not citation_trouvee(c, reference) and not citation_trouvee(c, autres):
+                    extrait = c if len(c) <= 160 else c[:157].rsplit(" ", 1)[0] + " …"
+                    douteuses.append(f"- **{s.lettre(m['id'])}** (tour {t}) : « {extrait} »")
+    lignes += ["*Citations introuvables dans le corpus, la question et les autres réponses. "
+               "Une citation d'un ouvrage extérieur y figure aussi : c'est au lecteur de trier.*", ""]
+    lignes += douteuses or ["- aucune"]
+    if douteuses:
+        signaux.append(f"**Citations à vérifier** : {len(douteuses)} passage(s) entre guillemets introuvable(s) (voir Contrôles mécaniques).")
+    # reprises sans guillemets
+    reprises = []
+    b_echange = bardeaux(echange) if echange else set()
+    for m in membres:
+        for t in (1, 2):
+            texte = s.reponse(t, m["id"])
+            if not texte:
+                continue
+            b = bardeaux(texte)
+            if not b:
+                continue
+            sources = []
+            if t == 1 and b_echange:
+                sources.append(("l'échange du greffier", b_echange))
+            if t == 2:
+                for o in membres:
+                    if o["id"] != m["id"] and s.reponse(1, o["id"]):
+                        sources.append((f"{s.lettre(o['id'])} (tour 1)", bardeaux(s.reponse(1, o["id"]))))
+            seuil = 0.015 if t == 1 else 0.02
+            for nom_src, bs in sources:
+                part = len(b & bs) / len(b)
+                if part >= seuil:
+                    propres = t == 1 and m["siege"] == "proche"
+                    note = " (siège proche : ce sont en partie ses propres mots de greffier)" if propres else ""
+                    reprises.append((part, f"- **{s.lettre(m['id'])}** (tour {t}) reprend sans guillemets {part:.1%} de ses suites de six mots à {nom_src}{note}"))
+    lignes += ["", "*Reprises sans guillemets : part des suites de six mots d'une réponse qu'on retrouve telles quelles dans l'échange du greffier "
+               "(tour 1, seuil 1,5 %) ou dans la réponse d'un autre participant (tour 2, seuil 2 %). Sur les séances 4 à 6, les réponses "
+               "ordinaires restent sous 1,5 %.*", ""]
+    lignes += [r[1] for r in sorted(reprises, reverse=True)] or ["- aucune"]
+    for lettre in sorted({r[1].split("**")[1] for r in reprises if "siège proche" not in r[1]}):
+        signaux.append(f"**Écho possible** : {lettre} reprend sans guillemets une part notable d'un autre texte (voir Contrôles mécaniques).")
+    # longueurs
+    longues = []
+    for t in (1, 2):
+        n = {m["id"]: len(mots(sans_notes(s.reponse(t, m["id"])))) for m in membres if s.reponse(t, m["id"])}
+        if len(n) >= 3:
+            med = sorted(n.values())[len(n) // 2]
+            for pid, k in n.items():
+                if k < 0.5 * med:
+                    longues.append(f"- **{s.lettre(pid)}** (tour {t}) : {k} mots, pour une médiane de {med}")
+    lignes += ["", "*Longueurs anormales : moins de la moitié de la médiane du tour.*", ""] + (longues or ["- aucune"])
+    # accusés de réception (tour 1)
+    recus = []
+    for m in membres:
+        d = extraire_declaration(s.reponse(1, m["id"]) or "")
+        r = d.get("recu") if isinstance(d, dict) else None
+        if not isinstance(r, dict):
+            recus.append(f"- **{s.lettre(m['id'])}** : pas d'accusé de réception")
+            continue
+        manque = [str(x) for x in r.get("manquent") or []]
+        etat = str(r.get("texte_central", "?"))
+        recus.append(f"- **{s.lettre(m['id'])}** : texte central {etat}" + (f", manquent : {', '.join(manque)}" if manque else "")
+                     + ("" if r.get("grille", True) else ", grille absente"))
+        if etat != "complet" or manque:
+            signaux.append(f"**Réception partielle** : {s.lettre(m['id'])} déclare un texte central incomplet ; renvoyer le corpus.")
+    lignes += ["", "*Accusés de réception du premier tour.*", ""] + recus
+    return lignes, signaux
+
+
 def carte_mecanique(s: Seance) -> tuple[str, dict]:
     membres = s.membres()
     membres = sorted(membres, key=lambda m: s.lettre(m["id"]))
@@ -630,8 +777,9 @@ def carte_mecanique(s: Seance) -> tuple[str, dict]:
          "*Assemblée à partir des déclarations des participants, sans interprétation.*", "",
          "| Participant | Accepte | Rejette | A changé de position | Déclaration |",
          "|---|---|---|---|---|"]
-    rejets, accords, revisions, faits, questions, apports = [], [], [], [], [], []
+    rejets, accords, revisions, faits, questions, apports, oublis = [], [], [], [], [], [], []
     n_mots = 0
+    oublis_par_cible: dict[str, int] = {}
     for m in membres:
         d = decl[m["id"]]
         if d is None:
@@ -667,6 +815,15 @@ def carte_mecanique(s: Seance) -> tuple[str, dict]:
             quoi = f.get("affirmation") or f.get("point", "")
             pourquoi = f.get("doute") or " · ".join(str(f[k]) for k in ("statut", "source") if f.get(k))
             faits.append(f"- **{s.lettre(m['id'])}** met en doute chez **{f.get('cible', '?')}** : {quoi} — *{pourquoi}*")
+        for o in d.get("oublis") or []:
+            if not isinstance(o, dict):
+                o = {"point": str(o)}
+            if not str(o.get("point", "")).strip():
+                continue
+            cible = str(o.get("cible", "?"))
+            oublis_par_cible[cible] = oublis_par_cible.get(cible, 0) + 1
+            ref = f" — *référence : {o['reference']}*" if str(o.get("reference", "")).strip() else ""
+            oublis.append(f"- **{s.lettre(m['id'])}** relève chez **{cible}** : {o['point']}{ref}")
         if d.get("question_ouverte"):
             questions.append(f"- **{s.lettre(m['id'])}** : {d['question_ouverte']}")
     lues = [d for d in decl.values() if d]
@@ -685,6 +842,11 @@ def carte_mecanique(s: Seance) -> tuple[str, dict]:
         signaux.append(f"{n_mots} désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.")
     if len(lues) < len(membres):
         signaux.append(f"{len(membres) - len(lues)} déclaration(s) illisible(s) ou absente(s) : lire les réponses brutes.")
+    for cible, n in sorted(oublis_par_cible.items()):
+        if n >= 2:
+            signaux.append(f"**Mémoire à rafraîchir** : {n} oublis relevés chez {cible} ; lui renvoyer le corpus et la grille (`rafraichir`).")
+    lignes_ctrl, signaux_ctrl = controles(s)
+    signaux += signaux_ctrl
     qr = []
     for t in (2, 3):
         for q in questions_du_tour(s, t):
@@ -698,16 +860,17 @@ def carte_mecanique(s: Seance) -> tuple[str, dict]:
     if fabien.exists():
         qr.append(f"- Fabien a répondu : `reponses-de-fabien.md`")
     for titre, lignes in (("Apports", apports), ("Rejets", rejets), ("Acceptations", accords), ("Changements de position", revisions),
-                          ("Faits signalés", faits), ("Questions et réponses", qr), ("Questions ouvertes", questions),
+                          ("Faits signalés", faits), ("Oublis relevés", oublis), ("Questions et réponses", qr), ("Questions ouvertes", questions),
                           ("Signaux", [f"- {x}" for x in signaux])):
         l += ["", f"### {titre}", ""] + (lignes or ["- aucun"])
+    l += ["", "### Contrôles mécaniques", ""] + lignes_ctrl
     l += ["", "### Intégrité", "", "| Fichier | SHA-256 |", "|---|---|"]
     for t in (1, 2, 3, 4):
         for m in membres:
             texte = s.reponse(t, m["id"])
             if texte:
                 l.append(f"| tour-{t}/{m['id']}.md | `{empreinte(lire(s.reponse_fichier(t, m['id'])))[:16]}` |")
-    resume = {"rejets": n_rej, "changements": n_chg, "apports": len(apports), "desaccords_de_mots": n_mots, "lues": len(lues), "membres": len(membres), "signaux": signaux,
+    resume = {"rejets": n_rej, "changements": n_chg, "apports": len(apports), "desaccords_de_mots": n_mots, "oublis": len(oublis), "lues": len(lues), "membres": len(membres), "signaux": signaux,
               "questions": len(qr), "questions_fabien": [q["question"] for q in questions_pour_fabien(s)],
               "lettres": {k: v["id"] for k, v in par_lettre.items()}}
     return "\n".join(l) + "\n", resume
@@ -792,7 +955,12 @@ def mettre_a_jour_etat(conseil: Conseil, s: Seance) -> None:
                 + "".join(f"\n- {re.sub(r'[*]', '', x)}" for x in resume.get("signaux", []))
                 + "".join(f"\n- Question pour Fabien : {q}" for q in resume.get("questions_fabien", []))
                 + f"\n\nCarte complète : `{s.nom}/carte.md`.\n")
-        sections = (sections + [bloc])[-6:]
+        titre = f"## Séance {s.nom}\n"
+        if any(x.startswith(titre) for x in sections):
+            # carte régénérée : on remplace le bloc de la séance à sa place, sans le dupliquer
+            sections = [bloc if x.startswith(titre) else x for x in sections]
+        else:
+            sections = (sections + [bloc])[-6:]
         nouveau = ("# État du fil\n\n*État mécanique : les six dernières séances. Un cartographe hors table "
                    "peut le remplacer par un état rédigé.*\n\n" + "\n".join(x.strip() + "\n" for x in sections))
     ecrire(conseil.etat_fichier, nouveau.strip() + "\n")
