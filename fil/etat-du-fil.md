@@ -2,20 +2,6 @@
 
 *État mécanique : les six dernières séances. Un cartographe hors table peut le remplacer par un état rédigé.*
 
-## Séance 2026-11-08-lecture-libre
-
-**Question** : Lis l'Hacéfiance telle qu'elle est aujourd'hui, va voir ce qui se pense ailleurs sur les questions qu'elle soulève, et donne ton avis.
-
-Déclarations lues : 4/4 · rejets : 7 · changements de position : 4.
-
-- Convergence suspecte : tous les participants déclarent avoir changé de position.
-- Tournant possible : 4 changement(s) de position déclaré(s).
-- Question pour Fabien : La révélation, ce moment où le compas « devient spiritualité » : est-ce pour toi une expérience, une décision ou un don ?
-- Question pour Fabien : Une société dotée d'un sentiment d'appartenance partagé et de mécanismes de recours efficaces pourrait-elle néanmoins maintenir une injustice fondamentale ? Si oui, quel critère interne à l'Hacéfiance permet de condamner cette injustice indépendamment de ses effets sur la persistance du collectif ?
-- Question pour Fabien : Accepterais-tu de redéfinir le compas non pas comme ce qui vise à la préservation du 'tout' existant, mais comme la force capable de détruire une forme institutionnelle captatrice pour libérer ses composants ?
-
-Carte complète : `2026-11-08-lecture-libre/carte.md`.
-
 ## Séance 2026-11-09-reponses-de-fabien
 
 **Question** : Fabien a répondu aux trois questions que la séance 1 lui avait adressées. Ses réponses sont reproduites ci-dessous ; l'état du fil rappelle ce que la séance 1 a produit.
@@ -84,3 +70,21 @@ Déclarations lues : 4/4 · rejets : 8 · changements de position : 4 · apports
 - Question pour Fabien : La section 14 demande : « Si un signal d'orientation peut être imité à coût nul, qu'est-ce qui distingue encore une orientation d'un écho ? » Puisque ce Conseil réunit des IA qui produisent de la cohérence sans rien risquer, quelle règle concrète dans l'Hacéfiance empêche nos convergences de devenir une contrefaçon du compas tant qu'aucune partie humaine n'en a payé le prix dans le réel ?
 
 Carte complète : `2026-11-14-limite-informationnelle/carte.md`.
+
+## Séance 2026-11-15-consolidation-de-la-grille
+
+**Question** : Fabien demande une séance de consolidation, et non une question nouvelle. La grille de lecture jointe à cette consigne rassemble ce que le fil a établi. Trois principes y ont été ajoutés ou précisés le 15 novembre, à partir de réponses de Fabien : le principe 3 (le degré de réalité d'un n+1, et le ressenti d'une vérité universelle comme mesure de l'émergence), le principe 8 (l'indignation fondée, …
+
+Déclarations lues : 4/4 · rejets : 7 · changements de position : 4 · apports : 10.
+
+- Convergence suspecte : tous les participants déclarent avoir changé de position.
+- Tournant possible : 4 changement(s) de position déclaré(s).
+- 1 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.
+- Mémoire à rafraîchir : 2 oublis relevés chez A ; lui renvoyer le corpus et la grille (`rafraichir`).
+- Citations à vérifier : 3 passage(s) entre guillemets introuvable(s) (voir Contrôles mécaniques).
+- Écho possible : C reprend sans guillemets une part notable d'un autre texte (voir Contrôles mécaniques).
+- Question pour Fabien : Accepterais-tu de dire qu'un tout captateur existe bien par ses relations (A8), et que ce qui lui manque est la réciprocité, plutôt que de dire qu'il n'est pas un vrai n+1 ? La réponse changerait les principes 1 et 3 de la grille.
+- Question pour Fabien : Au principe 3, le ressenti humain d'une vérité universelle doit-il être retenu comme une condition définitionnelle de l'existence d'un n+1 ou seulement comme le mode de reconnaissance humain d'un palier déjà constitué par les interactions selon l'axiome A8 et vérifiable par le canal de retour de la section 7 ?
+- Question pour Fabien : Accepterais-tu que le principe 3 soit reformulé de façon à rendre le ressenti indissociable, dans la mesure, des deux autres composantes du compas (traduction morale et canal de retour) ?
+
+Carte complète : `2026-11-15-consolidation-de-la-grille/carte.md`.

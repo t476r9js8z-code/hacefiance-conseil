@@ -12,6 +12,7 @@ Le README du conseil le pose d'entrée : « Le dépôt est la mémoire du consei
 - **Sans mémoire propre, un participant répète.** Grok reprend presque mot pour mot les textes qui précèdent sa réponse (notes du greffe, séances 5 et 6). `memoire.json` existe pour renvoyer le corpus entier à qui dérive.
 - **Avec mémoire, une question se tranche à distance.** Le 8 octobre, Fabien jugeait faible le coût de changer de modèle ; Claude répondait que les modèles sont interchangeables, mais pas la mémoire qui les entoure (carnet, piste 5). Le 15 novembre, la mémoire locale départage les deux (principe 5). Le lien n'existe que parce que les deux phrases étaient écrites.
 - **Un contrôle mécanique corrige les lecteurs.** À la séance 6, Gemini et le greffier ont accusé Grok de deux citations inexactes. Le contrôle des citations contre le corpus entier a montré qu'elles étaient exactes, tirées de l'essentiel et non du texte intégral : les vérificateurs n'avaient lu qu'un des deux documents. La correction figure dans `2026-11-14-limite-informationnelle/reponses-de-fabien.md`.
+- **Le greffier n'est pas hors du champ.** À la séance 7, GPT a rappelé que la section 9 traitait déjà l'intensité comparable du sentiment dans les appartenances ouvertes et fermées ; la grille, rédigée par le greffier, l'avait omis. La correction a été faite dans le principe 3.
 - **Avec mémoire, une correction tient.** À la séance 6, l'effondrement des modèles a été rapporté à la substitution des sources, non à leur réutilisation (`tour-2/claude.md`). Écrite et datée, la correction n'est pas à refaire.
 
 C'est la condition que le carnet posait dès le 1er septembre pour toute cognition distribuée : un état persistant (piste 9). Le conseil en est un petit cas : quatre intelligences sans mémoire commune, dont la continuité tient tout entière dans ce dépôt. Une fonction d'analyse ne devient solide que si ses résultats, ses erreurs et ses corrections restent consultables par ceux qui viennent après.
@@ -26,7 +27,7 @@ C'est la condition que le carnet posait dès le 1er septembre pour toute cogniti
 
 **M4 — Le texte n'est pas gravé.** On l'amende quand c'est réellement requis, pas parce qu'une séance a produit une formule. *Fil, 15 novembre.*
 
-**M5 — Une continuité qui structure.** Le fil règle les incompréhensions et nourrit le cœur par des exemples et des débats ; il n'ouvre pas de débat orphelin ni circulaire. Une question se rattache à un principe de la grille ou à une section du texte, et dit ce qu'elle y changerait si on y répondait. Un exemple sert à éprouver un principe, pas à ouvrir un sujet. *Fil, 15 novembre.*
+**M5 — Une continuité qui structure.** Le fil règle les incompréhensions et nourrit le cœur par des exemples et des débats ; il n'ouvre pas de débat orphelin ni circulaire. Une question se rattache à un principe de la grille ou à une section du texte, et dit ce qu'elle y changerait si on y répondait. Un exemple sert à éprouver un principe, pas à ouvrir un sujet. *Fil, 15 novembre.* Proposition de la séance 7, à confirmer : quand une séance examine la grille, elle reçoit les énoncés sans leurs commentaires, pour ne pas retrouver les conclusions que la grille lui souffle.
 
 ## Principes
 
@@ -37,6 +38,8 @@ C'est la condition que le carnet posait dès le 1er septembre pour toute cogniti
 **Statut.** Texte, précisé par le fil. A8 : « Un palier existe par les relations entre ses composants. » Précision de Fabien à la séance 5 (`2026-11-14-attributs-de-la-partie/reponses-de-fabien.md`).
 
 **Conséquence.** Une personne réduite en ressource dans un sous-groupe captateur reste partie du n+1 universel ; c'est le sous-groupe dont le statut est instable.
+
+**Remis en question à la séance 7.** Dire d'un tout captateur qu'il n'est pas un vrai n+1 protège l'hypothèse de la section 5 au lieu de la tester : un tel tout existe par ses relations (A8) ; ce qui lui manque est la réciprocité (voir principe 3). Question posée à Fabien.
 
 **Exclut.** Le citoyen comme partie et l'État comme n+1, en tant que tels.
 
@@ -62,9 +65,11 @@ C'est la condition que le carnet posait dès le 1er septembre pour toute cogniti
 
 **Le critère, selon Fabien (15 novembre).** Ce qui mesure l'émergence est humain : le ressenti d'une vérité universelle, le concept même de spiritualité. Le texte le pose déjà à la section 3 : cette intuition « n'est pas un fantasme. C'est la perception réelle de notre participation à un niveau d'organisation qui nous dépasse ». Le critère est indépendant de l'empowerment, ce qui lève le risque de circularité.
 
-**Limite du critère.** Le ressenti peut être contrefait : la section 12 dit que l'IA « peut fabriquer le signal qui nous dit que nous avons trouvé », et une secte éprouve la vérité universelle avec intensité. C'est pourquoi la section 7 ne laisse pas le signal ressenti seul (« Trois composantes, dont aucune ne remplace les autres ») : la traduction morale et le canal de retour vérifient que la mesure n'est pas contrefaite.
+**Limite du critère.** La section 9 l'avait posée avant la grille : pour distinguer une appartenance qui ouvre d'une appartenance qui enferme, « La réponse n'est pas dans l'intensité du sentiment, qui est comparable dans les deux cas. Elle est dans la direction du flux. » Le ressenti peut aussi être contrefait : la section 12 dit que l'IA « peut fabriquer le signal qui nous dit que nous avons trouvé », et une secte éprouve la vérité universelle avec intensité. C'est pourquoi la section 7 ne laisse pas le signal ressenti seul (« Trois composantes, dont aucune ne remplace les autres ») : la traduction morale et le canal de retour vérifient que la mesure n'est pas contrefaite.
 
 **Conséquence pour le conseil.** Si la mesure est humaine, aucune convergence entre IA ne certifie une émergence. Le conseil peut préparer, vérifier et contredire ; le ressenti reste du côté des parties humaines.
+
+**Séance 7 (à confirmer par Fabien).** Les quatre participants séparent trois plans : l'existence d'un tout, qui tient à ses relations et à leur persistance (A8 : il se constitue « souvent avant qu'aucune ne sache le nommer ») ; la réciprocité de ses relations, qui se mesure (coût de maintien, recours, sortie) ; et le ressenti, mode humain de reconnaissance, à confronter aux deux autres plutôt qu'à leur substituer. Formulation proposée : *Un n+1 existe par les relations entre ses parties ; sa qualité tient à la réciprocité de ces relations ; des humains le reconnaissent au ressenti d'appartenir à ce qui les dépasse, ressenti qui ne vaut mesure que joint à la traduction morale et au canal de retour (section 7).* Variante du greffier, contestée par GPT : le ressenti est une perception réelle dont l'objet peut être mal identifié ; il dit qu'on participe à un tout, pas lequel. Exemples : le Temple du Peuple (1978) et Aum Shinrikyō (1995), engagement extrême sans canal de retour ; Solidarité en Pologne, ressenti partagé adossé à une morale non violente et à des canaux non captés, sans que la distinction d'avec ses imitateurs ait été rapide.
 
 ### 4. La responsabilité est celle de la partie humaine
 
@@ -124,6 +129,8 @@ C'est la condition que le carnet posait dès le 1er septembre pour toute cogniti
 
 **Précision de Fabien (15 novembre).** Une culture, une ethnie ou une religion peut en théorie être une partie. Si elle nie la souveraineté de ses membres, elle se déforme et s'affaiblit (principe 12).
 
+**Séance 7 (à confirmer par Fabien).** La frontière ne passe pas entre le matériel et le culturel, mais entre une forme imposée et une forme rencontrée : l'imposition de l'afrikaans dans les écoles noires, qui a déclenché le soulèvement de Soweto en juin 1976, était une norme culturelle utilisée comme instrument de subordination. Le principe vaut aussi à l'intérieur des causes justes : les violences de certains comités de rue dans les townships, au milieu des années 1980, niaient la souveraineté de membres d'une lutte légitime. Le critère du coût de maintien (section 11) appliqué au régime d'apartheid reste une hypothèse : la crise de la dette de 1985 la rend plausible, mais les deux séries que la section 11 exige n'ont pas été établies.
+
 ### 9. L'indignation matricielle
 
 **Énoncé.** Un récit d'exception cède quand l'indignation s'inscrit dans les institutions qui le font tenir, du dedans et du dehors, et pas seulement dans les opinions. Une opinion se discute ; une matrice se paie.
@@ -164,7 +171,7 @@ C'est la condition que le carnet posait dès le 1er septembre pour toute cogniti
 
 **Cas d'école proposé : la mondialisation.** Elle mêle deux mouvements. La circulation entre parties (information, science, mobilité) relève du n+1 des parties. L'intégration des ensembles (marchés, finance, chaînes de production, États) peut contraindre la souveraineté des parties : c'est le trilemme de Rodrik (2011), selon lequel intégration économique profonde, État-nation et choix démocratiques ne tiennent pas ensemble tous les trois. Les gains ont été réels pour une partie du monde (Lakner et Milanovic, 2016), et concentrés en pertes durables pour des régions exposées (Autor, Dorn et Hanson, 2013), avec des effets politiques mesurés (Autor et al., 2020).
 
-**Ouvert.** À quels signes distinguer, dans un même mouvement, ce qui renforce les parties de ce qui intègre les ensembles à leurs dépens ?
+**Séance 7 (à confirmer par Fabien).** Il n'y a qu'un n+1 (principe 2) : le titre du principe ne doit pas laisser croire à deux n+1 concurrents, mais distinguer deux manières dont une intégration agit sur les parties. Les mouvements se chevauchent dans un même réseau, et la qualification dépend des effets. Le signe de tri : la capacité des parties à se faire entendre, à faire corriger les règles qui organisent leurs dépendances et, à défaut, à en sortir. La prise de parole vient d'abord, comme au canal de retour de la section 7 ; la sortie reste le recours ultime, et l'asymétrie des sorties entre capital et travail en est le symptôme le plus lisible. Formulation proposée : *Une intégration renforce les parties quand elle élargit leur capacité de se faire entendre, de faire corriger les règles qui organisent leurs dépendances et, à défaut, d'en sortir ; elle les capte quand elle réserve ces capacités aux ensembles qui les intègrent.* Exemple : l'Accord sur la sécurité des usines textiles du Bangladesh, signé après l'effondrement du Rana Plaza (2013), renforce le recours de travailleuses qui n'ont guère de sortie, avec des canaux encore sous-utilisés selon une étude de 2023. Lakner et Milanovic (2016) décrivent la distribution des revenus ; ils n'attribuent pas causalement les gains à l'entrée de la Chine dans l'OMC.
 
 ## Ce que le texte central pourrait intégrer, si c'est requis
 
@@ -177,5 +184,5 @@ C'est la condition que le carnet posait dès le 1er septembre pour toute cogniti
 ## Questions ouvertes reprises
 
 - Le principe 12 tient-il à l'épreuve de la mondialisation : distingue-t-il, dans un même mouvement, ce qui renforce les parties de ce qui intègre les ensembles à leurs dépens ?
-- Le ressenti qui mesure l'émergence peut être contrefait : comment le canal de retour le distingue-t-il de la cohérence d'une secte ? (principe 3)
+- Un tout captateur existe-t-il comme tout, à qui manque la réciprocité, ou n'est-il pas un vrai n+1 ? Le ressenti est-il condition d'existence d'un n+1, ou mode de reconnaissance d'un palier déjà constitué ? Question posée à Fabien par la séance 7 (principes 1 et 3).
 - Le cas d'école du risque polémique externe : la réserve d'une IA devant une polémique qui expose son fournisseur, même quand les faits sont établis et l'indignation largement partagée (exemple discuté : la Palestine). Fabien le tient pour fondamental ; il sera traité à part.

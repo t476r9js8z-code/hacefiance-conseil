@@ -19,9 +19,51 @@
     "1/claude",
     "1/gpt",
     "1/gemini",
-    "1/grok"
+    "1/grok",
+    "2/claude",
+    "2/gpt",
+    "2/gemini",
+    "2/grok",
+    "3/claude",
+    "3/grok"
   ],
   "dossier_envoye": {
     "1/gemini": "2111ad7707b4eaf7"
-  }
+  },
+  "cartes": {
+    "carte.md": {
+      "cartographe": "",
+      "date": "2026-11-15T12:57:15-05:00",
+      "resume": {
+        "rejets": 7,
+        "changements": 4,
+        "apports": 10,
+        "desaccords_de_mots": 1,
+        "oublis": 3,
+        "lues": 4,
+        "membres": 4,
+        "signaux": [
+          "**Convergence suspecte** : tous les participants déclarent avoir changé de position.",
+          "**Tournant possible** : 4 changement(s) de position déclaré(s).",
+          "1 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.",
+          "**Mémoire à rafraîchir** : 2 oublis relevés chez A ; lui renvoyer le corpus et la grille (`rafraichir`).",
+          "**Citations à vérifier** : 3 passage(s) entre guillemets introuvable(s) (voir Contrôles mécaniques).",
+          "**Écho possible** : C reprend sans guillemets une part notable d'un autre texte (voir Contrôles mécaniques)."
+        ],
+        "questions": 6,
+        "questions_fabien": [
+          "Accepterais-tu de dire qu'un tout captateur existe bien par ses relations (A8), et que ce qui lui manque est la réciprocité, plutôt que de dire qu'il n'est pas un vrai n+1 ? La réponse changerait les principes 1 et 3 de la grille.",
+          "Au principe 3, le ressenti humain d'une vérité universelle doit-il être retenu comme une condition définitionnelle de l'existence d'un n+1 ou seulement comme le mode de reconnaissance humain d'un palier déjà constitué par les interactions selon l'axiome A8 et vérifiable par le canal de retour de la section 7 ?",
+          "Accepterais-tu que le principe 3 soit reformulé de façon à rendre le ressenti indissociable, dans la mesure, des deux autres composantes du compas (traduction morale et canal de retour) ?"
+        ],
+        "lettres": {
+          "A": "claude",
+          "B": "gemini",
+          "C": "grok",
+          "D": "gpt"
+        }
+      }
+    }
+  },
+  "etat_fait": true
 }
