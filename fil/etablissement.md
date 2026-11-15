@@ -1,6 +1,6 @@
 # Établissement des fondements
 
-*Proposition du greffe, 15 novembre 2026. Rien ici n'est décidé. Le document reprend les sept séances, les réponses de Fabien, la grille de lecture, le texte central et le carnet, et trie ce qui peut devenir fondement. Il passe ensuite par une séance concertée, puis par Fabien, qui seul établit.*
+*Proposition du greffe, 15 novembre 2026. Rien ici n'est décidé. Le document reprend les sept séances, les réponses de Fabien, la grille de lecture, le texte central et le carnet, et trie ce qui peut devenir fondement. Il passe ensuite par une séance concertée, puis par Fabien, qui seul établit. Établir ne veut pas dire figer.*
 
 Un fondement n'est pas une vérité démontrée : c'est un énoncé sur lequel le reste s'appuie, et qu'on ne rouvre pas sans raison nouvelle. Il est donc plus coûteux de mal établir un fondement que de laisser un principe ouvert. Un fondement erroné ne se voit pas : il ne figure plus parmi les questions, il ne figure que dans les réponses. C'est le cas des piliers défaillants dont parlait Fabien, mais à l'échelle du conseil.
 
@@ -137,7 +137,7 @@ Avant tout tri, la relecture de la mémoire a fait apparaître trois oublis dans
 
 **Ce qui la fragilise.** Ces fragilités tiennent au dispositif plus qu'au contenu.
 
-- **Le rythme.** Sept séances en huit jours, alors que le README prévoit au plus une séance par jour et dit que « le dialogue gagne à mûrir ». Presque tous les principes de la grille datent du 15 novembre, c'est-à-dire d'une seule journée.
+- **Le passage.** Le rythme suit la disponibilité de Fabien, et c'est bien ainsi. Le risque n'est pas le calendrier : c'est que presque tous les principes de la grille datent du 15 novembre et qu'ils sont passés de l'échange du greffier à la grille sans traverser le conseil. Ce qui manque, ce n'est pas du temps, c'est des passages.
 - **Un seul validateur humain, qui est aussi l'auteur.** L'épreuve 1 vérifie qu'un énoncé est fidèle à l'auteur, pas qu'il est vrai. Le lecteur extérieur que prévoit le README, avant toute publication, est la seule épreuve qui n'ait pas encore eu lieu.
 - **Un seul greffier, qui siège aussi à la table.** C'est moi qui ai rédigé la grille, qui formule les questions et qui tiens le siège proche. Les trois oublis relevés plus haut sont les miens, tout comme le resserrement du ressenti, que j'avais repris au tour 1. Mes formulations se diffusent : à la séance 7, Grok reprenait 5,1 % de ses suites de six mots à la grille.
 - **Quatre voix ne font pas quatre sources.** Les versions d'usine partagent des biais qui s'additionnent (principe 6). L'écho de Grok, qui persiste dans une discussion neuve, réduit encore la diversité réelle.
@@ -159,7 +159,9 @@ Avant tout tri, la relecture de la mémoire a fait apparaître trois oublis dans
 
 **La carte.** Elle donne, pour chaque énoncé, le décompte des classements et les objections maintenues. Un énoncé n'est proposé à Fabien comme fondement que si aucune objection de fond n'y reste sans réponse, ou si l'objection est inscrite à côté de lui, comme pour F1.
 
-**Après la séance.**
-- Fabien établit, dans ses mots.
-- Une semaine passe sans nouveau principe.
+**Une seconde ronde sans Fabien.** Fabien n'intervient pas entre les rondes ; son rôle vient en quatrième position, si c'est requis. Après la carte de la première ronde, une seconde ronde la soumet aux mêmes participants, qui reclassent les énoncés à la lumière des objections maintenues. On peut en ouvrir une troisième si la carte bouge encore. Les questions adressées à Fabien sont réunies sans bloquer les rondes.
+
+**Après les rondes.**
+- Fabien établit, dans ses mots, ce qu'il juge porteur.
+- Établir ne veut pas dire figer : Fabien évolue dans ce processus, et un fondement reste révisable (M4). Ce qui le protège n'est pas la durée, c'est la trace : chaque fondement garde son origine, l'objection qu'il porte et ce qui le réfuterait, de sorte qu'un changement de position se voit et se justifie.
 - Avant toute publication, un lecteur humain extérieur relit le texte, comme le README le prévoit déjà.
