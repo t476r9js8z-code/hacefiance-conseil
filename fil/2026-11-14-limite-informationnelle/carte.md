@@ -4,7 +4,7 @@
 
 **Participants** : A = GPT (initié) · B = Grok (initié) · C = Gemini (initié) · D = Claude (proche)
 
-*Cartographe : aucun (carte mécanique seulement) · générée le 2026-11-15T11:32:53-05:00*
+*Cartographe : aucun (carte mécanique seulement) · générée le 2026-11-15T12:10:19-05:00*
 
 ## Carte mécanique
 
@@ -80,6 +80,10 @@
 - **D** met en doute chez **B** : « L'IA n'amplifie donc pas seulement ce qu'on y met » — *le texte central ne contient pas « donc »*
 - **D** met en doute chez **C** : le théorème CAP d'Eric Brewer prouve — *Brewer l'a formulé comme conjecture (2000) ; la preuve est de Gilbert et Lynch (2002)*
 
+### Oublis relevés
+
+- aucun
+
 ### Questions et réponses
 
 - **D** → **A** (tour 2) : Si la science organisée est le prototype d'un n+1 informationnel sans volonté unique, que lui manque-t-il aujourd'hui pour intégrer l'IA sans que la production dépasse durablement la vérification ? — réponse : `tour-3/gpt.md`
@@ -101,6 +105,30 @@
 - **Convergence suspecte** : tous les participants déclarent avoir changé de position.
 - **Tournant possible** : 4 changement(s) de position déclaré(s).
 - 1 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.
+- **Écho possible** : B reprend sans guillemets une part notable d'un autre texte (voir Contrôles mécaniques).
+
+### Contrôles mécaniques
+
+*Citations introuvables dans le corpus, la question et les autres réponses. Une citation d'un ouvrage extérieur y figure aussi : c'est au lecteur de trier.*
+
+- aucune
+
+*Reprises sans guillemets : part des suites de six mots d'une réponse qu'on retrouve telles quelles dans l'échange du greffier (tour 1, seuil 1,5 %) ou dans la réponse d'un autre participant (tour 2, seuil 2 %). Sur les séances 4 à 6, les réponses ordinaires restent sous 1,5 %.*
+
+- **B** (tour 1) reprend sans guillemets 5.4% de ses suites de six mots à l'échange du greffier
+- **B** (tour 2) reprend sans guillemets 3.4% de ses suites de six mots à A (tour 1)
+- **B** (tour 2) reprend sans guillemets 2.6% de ses suites de six mots à C (tour 1)
+
+*Longueurs anormales : moins de la moitié de la médiane du tour.*
+
+- **B** (tour 2) : 787 mots, pour une médiane de 1704
+
+*Accusés de réception du premier tour.*
+
+- **A** : pas d'accusé de réception
+- **B** : pas d'accusé de réception
+- **C** : pas d'accusé de réception
+- **D** : pas d'accusé de réception
 
 ### Intégrité
 

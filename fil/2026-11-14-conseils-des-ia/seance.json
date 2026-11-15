@@ -35,18 +35,20 @@
   "cartes": {
     "carte.md": {
       "cartographe": "",
-      "date": "2026-11-14T13:44:36-05:00",
+      "date": "2026-11-15T12:10:19-05:00",
       "resume": {
         "rejets": 8,
         "changements": 4,
         "apports": 11,
         "desaccords_de_mots": 1,
+        "oublis": 0,
         "lues": 4,
         "membres": 4,
         "signaux": [
           "**Convergence suspecte** : tous les participants déclarent avoir changé de position.",
           "**Tournant possible** : 4 changement(s) de position déclaré(s).",
-          "1 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune."
+          "1 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.",
+          "**Écho possible** : C reprend sans guillemets une part notable d'un autre texte (voir Contrôles mécaniques)."
         ],
         "questions": 6,
         "questions_fabien": [

@@ -100,3 +100,10 @@
 - 2026-11-14T17:31:37-05:00 · séance 2026-11-14-limite-informationnelle · carte.md · cartographe mécanique · sha256:85013475961b3d62
 - 2026-11-14T17:31:37-05:00 · séance 2026-11-14-limite-informationnelle · état du fil mis à jour · sha256:1920197cc104f47d
 - 2026-11-15T11:32:53-05:00 · séance 2026-11-14-limite-informationnelle · carte.md · cartographe mécanique · sha256:20a396be7d73ced6
+- 2026-11-15T12:10:19-05:00 · séance 2026-11-14-conseils-des-ia · carte.md · cartographe mécanique · sha256:64d7e9de49427962
+- 2026-11-15T12:10:19-05:00 · séance 2026-11-14-attributs-de-la-partie · carte.md · cartographe mécanique · sha256:1d502c7a086b67c3
+- 2026-11-15T12:10:19-05:00 · séance 2026-11-14-limite-informationnelle · carte.md · cartographe mécanique · sha256:822998ed19a43a2d
+- 2026-11-15T12:10:19-05:00 · séance 2026-11-14-limite-informationnelle · état du fil mis à jour · sha256:c7cc99a8eb7a74b1
+- 2026-11-15T12:10:33-05:00 · séance 2026-11-14-conseils-des-ia · état du fil mis à jour · sha256:6d1178729f26fe93
+- 2026-11-15T12:10:33-05:00 · séance 2026-11-14-attributs-de-la-partie · état du fil mis à jour · sha256:bcefe25deeb8a6d7
+- 2026-11-15T12:10:33-05:00 · séance 2026-11-14-limite-informationnelle · état du fil mis à jour · sha256:f5057989d4a27b21

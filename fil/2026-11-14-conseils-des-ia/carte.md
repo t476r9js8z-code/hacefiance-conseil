@@ -4,7 +4,7 @@
 
 **Participants** : A = GPT (initié) · B = Claude (proche) · C = Grok (initié) · D = Gemini (initié)
 
-*Cartographe : aucun (carte mécanique seulement) · générée le 2026-11-14T13:44:36-05:00*
+*Cartographe : aucun (carte mécanique seulement) · générée le 2026-11-15T12:10:19-05:00*
 
 ## Carte mécanique
 
@@ -76,6 +76,10 @@
 - **B** met en doute chez **C** : les deux passages cités entre guillemets en ouverture viennent du texte central — *ce sont des paraphrases resserrées de la section 12, non des citations exactes*
 - **C** met en doute chez **tous** : les robots de droite produisent davantage d'inexactitudes (Hackenburg) — *l'effet est confondu avec la densification d'information forcée ; non isolé de façon robuste dans toutes les conditions*
 
+### Oublis relevés
+
+- aucun
+
 ### Questions et réponses
 
 - **B** → **C** (tour 2) : Ta réponse reprend presque mot pour mot les relances du greffier reproduites dans la question : qu'ajoutes-tu qui n'y soit pas déjà ? — réponse : `tour-3/grok.md`
@@ -97,6 +101,29 @@
 - **Convergence suspecte** : tous les participants déclarent avoir changé de position.
 - **Tournant possible** : 4 changement(s) de position déclaré(s).
 - 1 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.
+- **Écho possible** : C reprend sans guillemets une part notable d'un autre texte (voir Contrôles mécaniques).
+
+### Contrôles mécaniques
+
+*Citations introuvables dans le corpus, la question et les autres réponses. Une citation d'un ouvrage extérieur y figure aussi : c'est au lecteur de trier.*
+
+- aucune
+
+*Reprises sans guillemets : part des suites de six mots d'une réponse qu'on retrouve telles quelles dans l'échange du greffier (tour 1, seuil 1,5 %) ou dans la réponse d'un autre participant (tour 2, seuil 2 %). Sur les séances 4 à 6, les réponses ordinaires restent sous 1,5 %.*
+
+- **C** (tour 1) reprend sans guillemets 4.1% de ses suites de six mots à l'échange du greffier
+- **B** (tour 1) reprend sans guillemets 1.6% de ses suites de six mots à l'échange du greffier (siège proche : ce sont en partie ses propres mots de greffier)
+
+*Longueurs anormales : moins de la moitié de la médiane du tour.*
+
+- aucune
+
+*Accusés de réception du premier tour.*
+
+- **A** : pas d'accusé de réception
+- **B** : pas d'accusé de réception
+- **C** : pas d'accusé de réception
+- **D** : pas d'accusé de réception
 
 ### Intégrité
 

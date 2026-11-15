@@ -4,7 +4,7 @@
 
 **Participants** : A = Grok (initié) · B = Claude (proche) · C = GPT (initié) · D = Gemini (initié)
 
-*Cartographe : aucun (carte mécanique seulement) · générée le 2026-11-14T17:08:31-05:00*
+*Cartographe : aucun (carte mécanique seulement) · générée le 2026-11-15T12:10:19-05:00*
 
 ## Carte mécanique
 
@@ -81,6 +81,10 @@
 - **C** met en doute chez **B** : Le théorème classique de Condorcet repose notamment sur des hypothèses d'indépendance et de compétence individuelle ; il ne démontre pas directement que la souveraineté politique est une condition mathématique nécessaire de la bonne décision collective. — *precision · Stanford Encyclopedia of Philosophy, Jury Theorems.*
 - **C** met en doute chez **D** : Le théorème d'Arrow établit l'incompatibilité d'un ensemble précis de conditions d'agrégation, non l'impossibilité de toute décision collective cohérente. — *precision · Stanford Encyclopedia of Philosophy, Arrow's Theorem.*
 
+### Oublis relevés
+
+- aucun
+
 ### Questions et réponses
 
 - **B** → **D** (tour 2) : Dans un tout humain, quelle institution jouerait le rôle de l'apoptose sans devenir un sacrifice imposé par le tout, et qui la déclencherait ? — réponse : `tour-3/gemini.md`
@@ -102,6 +106,30 @@
 - **Convergence suspecte** : tous les participants déclarent avoir changé de position.
 - **Tournant possible** : 4 changement(s) de position déclaré(s).
 - 1 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.
+- **Écho possible** : A reprend sans guillemets une part notable d'un autre texte (voir Contrôles mécaniques).
+
+### Contrôles mécaniques
+
+*Citations introuvables dans le corpus, la question et les autres réponses. Une citation d'un ouvrage extérieur y figure aussi : c'est au lecteur de trier.*
+
+- aucune
+
+*Reprises sans guillemets : part des suites de six mots d'une réponse qu'on retrouve telles quelles dans l'échange du greffier (tour 1, seuil 1,5 %) ou dans la réponse d'un autre participant (tour 2, seuil 2 %). Sur les séances 4 à 6, les réponses ordinaires restent sous 1,5 %.*
+
+- **A** (tour 2) reprend sans guillemets 9.9% de ses suites de six mots à B (tour 1)
+- **A** (tour 2) reprend sans guillemets 7.6% de ses suites de six mots à C (tour 1)
+- **A** (tour 1) reprend sans guillemets 1.6% de ses suites de six mots à l'échange du greffier
+
+*Longueurs anormales : moins de la moitié de la médiane du tour.*
+
+- aucune
+
+*Accusés de réception du premier tour.*
+
+- **A** : pas d'accusé de réception
+- **B** : pas d'accusé de réception
+- **C** : pas d'accusé de réception
+- **D** : pas d'accusé de réception
 
 ### Intégrité
 
