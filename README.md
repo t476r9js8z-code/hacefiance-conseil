@@ -74,6 +74,7 @@ python conseil.py --simulation seance                                 # essai à
 fil/
   etat-du-fil.md
   grille-de-lecture.md (principes établis par le fil, tenue par le greffe)
+  etablissement.md     (tri des fondements candidats et état de maturité)
   journal.md
   memoire.json
   2026-11-09-appartenances-croisees/
