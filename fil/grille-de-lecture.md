@@ -56,7 +56,13 @@ C'est la condition que le carnet posait dès le 1er septembre pour toute cogniti
 
 **Rapport au texte.** A8 dit qu'un palier existe par les relations ; la proposition y ajoute un degré. Elle donne un autre rang à « Ce que le tout doit à ses parties » (section 13 : conditions d'expression, droit au désaccord, singularité) : ces obligations deviendraient la mesure de la réalité du tout, et non plus seulement ses devoirs. Elle penche, sur la piste 8 du carnet (seuil ou dégradé), du côté du dégradé.
 
-**Point à établir.** Il faut un critère de « réel ou défini » qui ne se réduise pas à l'empowerment des parties, sinon l'axiome devient vrai par définition. Le cas difficile est un ensemble très coordonné dont les parties sont diminuées. La réponse du fil (principe 1) est qu'un tel ensemble n'est pas pérenne universellement. Il faudrait pouvoir le montrer par autre chose que la diminution de ses parties : sa capacité de correction, sa variété au sens d'Ashby (section 5), sa durée.
+**Point à établir.** Il faut un critère de « réel ou défini » qui ne se réduise pas à l'empowerment des parties, sinon l'axiome devient vrai par définition. Le cas difficile est un ensemble très coordonné dont les parties sont diminuées. La réponse du fil (principe 1) est qu'un tel ensemble n'est pas pérenne universellement.
+
+**Le critère, selon Fabien (15 novembre).** Ce qui mesure l'émergence est humain : le ressenti d'une vérité universelle, le concept même de spiritualité. Le texte le pose déjà à la section 3 : cette intuition « n'est pas un fantasme. C'est la perception réelle de notre participation à un niveau d'organisation qui nous dépasse ». Le critère est indépendant de l'empowerment, ce qui lève le risque de circularité.
+
+**Limite du critère.** Le ressenti peut être contrefait : la section 12 dit que l'IA « peut fabriquer le signal qui nous dit que nous avons trouvé », et une secte éprouve la vérité universelle avec intensité. C'est pourquoi la section 7 ne laisse pas le signal ressenti seul (« Trois composantes, dont aucune ne remplace les autres ») : la traduction morale et le canal de retour vérifient que la mesure n'est pas contrefaite.
+
+**Conséquence pour le conseil.** Si la mesure est humaine, aucune convergence entre IA ne certifie une émergence. Le conseil peut préparer, vérifier et contredire ; le ressenti reste du côté des parties humaines.
 
 ### 4. La responsabilité est celle de la partie humaine
 
@@ -114,7 +120,7 @@ C'est la condition que le carnet posait dès le 1er septembre pour toute cogniti
 
 **Appuis.** Mill, De la liberté (1859) ; Opotow, sur l'exclusion morale (1990) : des valeurs vivantes à l'intérieur cessent de s'appliquer à ceux qu'on place au-dehors.
 
-**Ouvert.** Une culture, une ethnie ou une religion peut-elle être une partie ? Fabien tient la question pour importante.
+**Précision de Fabien (15 novembre).** Une culture, une ethnie ou une religion peut en théorie être une partie. Si elle nie la souveraineté de ses membres, elle se déforme et s'affaiblit (principe 12).
 
 ### 9. L'indignation matricielle
 
@@ -146,6 +152,18 @@ C'est la condition que le carnet posait dès le 1er septembre pour toute cogniti
 
 **Ouvert.** La plasticité qui permet à l'étude de dépasser le réflexe permet aussi à l'insistance de plier la vérité (Sharma et al., 2023). Il reste à savoir distinguer, à chaque fois, une raison d'une pression.
 
+### 12. Le n+1 des parties n'est pas le n+1 des ensembles
+
+**Énoncé.** Le n+1 qui intéresse le cadre émerge de parties souveraines. Un tout formé en agrégeant des ensembles (cultures, États, marchés, entreprises) qui ne préservent pas la souveraineté de leurs membres n'est pas le même tout : il se déforme et s'affaiblit à mesure qu'il nie ses parties.
+
+**Statut.** Fil, 15 novembre.
+
+**Rapport au texte.** A8 ; principe 1 (le sous-groupe captateur dont le statut est instable) ; section 11 : « davantage de circulation ne signifie pas davantage d'autonomie. La même tendance nourrit aussi ceux qui captent les canaux par lesquels l'information passe. »
+
+**Cas d'école proposé : la mondialisation.** Elle mêle deux mouvements. La circulation entre parties (information, science, mobilité) relève du n+1 des parties. L'intégration des ensembles (marchés, finance, chaînes de production, États) peut contraindre la souveraineté des parties : c'est le trilemme de Rodrik (2011), selon lequel intégration économique profonde, État-nation et choix démocratiques ne tiennent pas ensemble tous les trois. Les gains ont été réels pour une partie du monde (Lakner et Milanovic, 2016), et concentrés en pertes durables pour des régions exposées (Autor, Dorn et Hanson, 2013), avec des effets politiques mesurés (Autor et al., 2020).
+
+**Ouvert.** À quels signes distinguer, dans un même mouvement, ce qui renforce les parties de ce qui intègre les ensembles à leurs dépens ?
+
 ## Ce que le texte central pourrait intégrer, si c'est requis
 
 *La décision revient à l'auteur ; le greffe signale seulement ce qui n'y figure pas encore.*
@@ -156,6 +174,6 @@ C'est la condition que le carnet posait dès le 1er septembre pour toute cogniti
 
 ## Questions ouvertes reprises
 
-- Une culture, une ethnie ou une religion peut-elle être une partie ? (principe 8)
-- Quel critère, indépendant de l'empowerment, mesure le degré de réalité d'un n+1 ? (principe 3)
-- Le cas d'école de la Palestine : une indignation mondiale fondée sur des faits, face à une justification culturelle, et la réserve des IA devant la polémique qui coûte. Fabien le tient pour fondamental ; il sera traité à part.
+- La mondialisation a-t-elle produit un n+1 des parties, un n+1 des ensembles, ou les deux, et à quels signes les distingue-t-on ? (principe 12)
+- Le ressenti qui mesure l'émergence peut être contrefait : comment le canal de retour le distingue-t-il de la cohérence d'une secte ? (principe 3)
+- Le cas d'école du risque polémique externe : la réserve d'une IA devant une polémique qui expose son fournisseur, même quand les faits sont établis et l'indignation largement partagée (exemple discuté : la Palestine). Fabien le tient pour fondamental ; il sera traité à part.
