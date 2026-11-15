@@ -130,3 +130,4 @@
 - 2026-11-15T16:23:31-05:00 · paroles de Fabien · 12 messages bruts du 2026-11-14 (API claude.ai, conversation dde82dd0) · paroles-de-fabien/2026-11-14.md · sha256:76e3a92e1e280e33
 - 2026-11-15T16:23:31-05:00 · paroles de Fabien · 57 messages bruts du 2026-11-15 (API claude.ai, conversation dde82dd0) · paroles-de-fabien/2026-11-15.md · sha256:2013cb44821801a5
 - 2026-11-15T16:26:16-05:00 · contre-greffe · Fable 5.2, vérification des corrections · relais · contre-greffe/fable-5-2-verification.md · sha256:5b39e952a969c6f9
+- 2026-11-15T18:56:26-05:00 · paroles de Fabien · 2 messages bruts du 15 novembre au soir · paroles-de-fabien/2026-11-15-soir.md · sha256:d5c8af99cacd7081
