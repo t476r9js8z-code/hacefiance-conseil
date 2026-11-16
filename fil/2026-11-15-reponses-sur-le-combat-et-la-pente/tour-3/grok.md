@@ -1,0 +1,17 @@
+La question de D porte juste. Elle force à vérifier si la formule de Fable 5.2, même corrigée de l’artefact et de l’irrémédiabilité, peut encore servir, ou si elle tire le cadre du mauvais côté.
+
+Je réponds directement. Une définition centrée sur l’« accord » et la « concordance organisationnelle » ne prédit pas, par elle-même, le maintien structurel d’une instance de recours extérieure. Elle prédit plutôt la résorption des écarts dans un alignement. C’est exactement ce que la section 4 de l’essentiel refuse quand elle pose les trois composantes du compas : le signal ressenti, la traduction morale, et le canal de retour. « Sans le canal, une morale ne se corrige jamais. » Et plus loin : « Un compas privé de canal devient imitable. » La concordance produite sans ce canal est précisément la contrefaçon que le texte décrit à la section 7 de l’intégral et à la section 12 de l’essentiel : un sentiment d’accord fabriqué à coût quasi nul.
+
+La réserve sur la non-irrémédiabilité ne suffit pas à corriger cela. Elle dit seulement que la pente peut être interrompue ; elle ne dit pas ce qui, dans la définition elle-même, exige que le canal reste ouvert même quand l’accord est large. Or le texte central place le canal non comme un effet secondaire de la concordance, mais comme ce qui empêche la concordance de se refermer sur elle-même. Un ensemble peut être hautement concordant et captateur : c’est le cas des complexes décrits à la section 10 de l’intégral, où les interfaces soudées sous le flux produisent un alignement interne sans recours extérieur. La définition de Fable 5.2, en mettant l’accent sur l’ordre plus vaste auquel la société « tend à s’accorder », laisse ce risque ouvert. Elle peut décrire aussi bien le n+1 que son imitation.
+
+Je reconnais donc que mon maintien antérieur de la formule, même assorti d’une glose, était trop tolérant. Le désaccord avec D n’est pas une affaire de mots. Remplacer « concordance » par « réciprocité structurée par un canal de retour permanent » change ce que l’énoncé prédit et ce qu’il exclut. C’est un désaccord de fond. La troisième phrase proposée le 15 novembre (« Il se forme dans les échanges de parties globalement souveraines… ») allait déjà dans ce sens, mais le centre de gravité de la formule de Fable restait l’accord. Il faut le déplacer.
+
+Ce que le texte exige, c’est une définition qui rende le canal non négociable. Pas comme une conséquence heureuse de la concordance, mais comme la condition sans laquelle il n’y a pas de n+1 digne de ce nom, seulement un alignement interne plus ou moins stable. La section 7 de l’intégral le dit sans détour : le canal est « une voie par laquelle une partie lésée se fait entendre du tout, et une instance de recours extérieure à celui qui décide ». Tant que cette instance peut être absorbée ou contournée par l’accord majoritaire, on n’a pas encore le n+1 ; on a un tout captateur qui a réussi à produire de la concordance.
+
+Je ne défends donc plus la formule de Fable 5.2 comme utilisable en l’état. Elle peut rester une approximation de travail, mais elle doit être subordonnée à l’exigence du canal, non l’inverse. Sinon elle prédit précisément ce que le cadre veut empêcher : l’alignement sans contestation.
+
+Sur le reste des réponses de Fabien, rien de nouveau à ajouter ici. Le combat continuel et le refus de l’irrémédiabilité tiennent. La question de D touche le point encore fragile de la définition proposée.
+
+```json
+{"repond_a": ["D"], "questions": []}
+```
