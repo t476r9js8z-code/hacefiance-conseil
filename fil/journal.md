@@ -161,3 +161,5 @@
 - 2026-11-15T20:39:14-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · réponses de Fabien (B et E) · reponses-de-fabien.md · sha256:2271fdc647625518
 - 2026-11-15T20:48:24-05:00 · paroles de Fabien · messages de 20:40 et 20:47 ajoutés · paroles-de-fabien/2026-11-15-soir.md · sha256:a7ddd1f08c03eab9
 - 2026-11-15T20:48:24-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · réponse de Fabien (C) · reponses-de-fabien.md · sha256:406d0bba8e6c818e
+- 2026-11-15T21:48:13-05:00 · paroles de Fabien · message de 21:47 ajouté · paroles-de-fabien/2026-11-15-soir.md · sha256:852f8bb4daae8375
+- 2026-11-15T21:48:13-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · précision de Fabien (artefact, pente non irrémédiable) · reponses-de-fabien.md · sha256:e4da6535ba9a320a

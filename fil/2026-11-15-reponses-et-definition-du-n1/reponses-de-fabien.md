@@ -11,3 +11,7 @@
 > Je crois que c' est un artefact.
 
 *Note du greffe : la réponse suit le rappel du contexte de 13 h 23 (voir `paroles-de-fabien/2026-11-15-soir.md`, 20 h 40 et 20 h 47).*
+
+## Précision sur l'artefact et sur la pente — 15 novembre, 21 h 47
+
+> Il vient de moi je tape parfois mes idéea s enchaînent un bout de phrase se remplace maladroitement. Et il.reste un artefact. Le n'+1 n' est pas a priori irrémédiable. Mais on peut croire qu' il acompagne l' humanité depuis longtemps probablement influençant sa génétique.
