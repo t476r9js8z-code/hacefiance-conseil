@@ -15,3 +15,7 @@
 ## Précision sur l'artefact et sur la pente — 15 novembre, 21 h 47
 
 > Il vient de moi je tape parfois mes idéea s enchaînent un bout de phrase se remplace maladroitement. Et il.reste un artefact. Le n'+1 n' est pas a priori irrémédiable. Mais on peut croire qu' il acompagne l' humanité depuis longtemps probablement influençant sa génétique.
+
+## Sur l'influence génétique — 15 novembre, 21 h 54
+
+> Probablement que les groupes qui croyaient en un intérêt supérieur à en sont mieux sorti que les autres. Supérieur peut être simplement le collectif la famille la communauté. Mais cela reste externe et contraste de l' intérêt personnel de la anomie du nihilisme.
