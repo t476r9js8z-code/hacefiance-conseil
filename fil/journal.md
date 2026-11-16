@@ -157,3 +157,5 @@
 - 2026-11-15T20:06:06-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · carte.md · cartographe mécanique · sha256:a021b8ebf4573ada
 - 2026-11-15T20:06:06-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · état du fil mis à jour · sha256:9c8432fc4e217ba2
 - 2026-11-15T20:06:58-05:00 · paroles de Fabien · message du soir ajouté (texte relevé mot pour mot dans la session ; heure exacte non conservée) · paroles-de-fabien/2026-11-15-soir.md · sha256:eb48216dd2dbd1d8
+- 2026-11-15T20:39:14-05:00 · paroles de Fabien · messages de 20:35 et 20:38 ajoutés · paroles-de-fabien/2026-11-15-soir.md · sha256:571af0febbafacf0
+- 2026-11-15T20:39:14-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · réponses de Fabien (B et E) · reponses-de-fabien.md · sha256:2271fdc647625518
