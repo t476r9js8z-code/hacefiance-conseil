@@ -33,6 +33,8 @@ C'est la condition que le carnet posait dès le 1er septembre pour toute cogniti
 
 **M5 — Une continuité qui structure.** Le fil règle les incompréhensions et nourrit le cœur par des exemples et des débats ; il n'ouvre pas de débat orphelin ni circulaire. Une question se rattache à un principe de la grille ou à une section du texte, et dit ce qu'elle y changerait si on y répondait. Un exemple sert à éprouver un principe, pas à ouvrir un sujet. *Fil, 15 novembre.* Proposition de la séance 7, à confirmer : quand une séance examine la grille, elle reçoit les énoncés sans leurs commentaires, pour ne pas retrouver les conclusions que la grille lui souffle.
 
+**M6 — Les mots tendent, ils ne définissent pas un à un (proposé par Fabien, 15 novembre au soir).** Les mots accumulés dans le dialogue pour désigner une même idée convergent vers elle, même s'ils paraissent se contredire pris un à un ; on évite ainsi les guerres de mots. *Garde-fou proposé par le greffe :* un écart de mots est une guerre de mots quand le remplacer ne change ni ce que l'énoncé prédit ni ce qu'il exclut ; s'il change l'un ou l'autre, c'est un désaccord de principe, à traiter comme tel.
+
 ## Principes
 
 ### 1. La partie et le tout se définissent ensemble
@@ -54,6 +56,8 @@ C'est la condition que le carnet posait dès le 1er septembre pour toute cogniti
 **Énoncé.** Le n+1 qui intéresse le cadre est unique et universel : le mouvement thermodynamique de complexification, à son palier ultime pour les humains. D'autres touts existent. Une action collective n'en est pas un : c'est une coalition, qui se forme contre un objet et se défait avec lui. Un consensus non plus : c'est un état des opinions. Un n+1 persiste en renouvelant ses composants.
 
 **Statut.** Fil, 15 novembre ; Fabien reste ouvert sur l'action collective et le consensus.
+
+**Proposition du 15 novembre au soir (statut : proposé).** Synthèse rédigée par la session Fable 5.2 au cours d'un échange direct avec Fabien, que Fabien a transmise au greffe (`paroles-de-fabien/2026-11-15-soir.md`, 19 h 12) : *« Le n+1 est l'ordre plus vaste auquel la société humaine tend à s'accorder, par la même pente qui a mené de la matière à la vie. C'est la vérité que les mythes approchent sous le nom des dieux, et que l'Hacéfiance nomme concordance organisationnelle. »* Fabien note lui-même que Fable « a compris ou a décidé de concorder ». La formule vient d'un modèle de la même famille que le greffier ; elle n'a pas encore été éprouvée par le conseil. Elle remplacera l'énoncé ci-dessus si Fabien la retient et si la séance d'épreuve ne la défait pas.
 
 **Exclut.** Lire une mobilisation ou un accord comme une émergence (voir M3).
 
