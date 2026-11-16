@@ -780,7 +780,8 @@ def carte_mecanique(s: Seance) -> tuple[str, dict]:
          "*Assemblée à partir des déclarations des participants, sans interprétation.*", "",
          "| Participant | Accepte | Rejette | A changé de position | Déclaration |",
          "|---|---|---|---|---|"]
-    rejets, accords, revisions, faits, questions, apports, oublis = [], [], [], [], [], [], []
+    rejets, accords, revisions, faits, questions, apports, oublis, maintenus = [], [], [], [], [], [], [], []
+    sans_maintenu = []
     n_mots = 0
     oublis_par_cible: dict[str, int] = {}
     for m in membres:
@@ -827,6 +828,14 @@ def carte_mecanique(s: Seance) -> tuple[str, dict]:
             oublis_par_cible[cible] = oublis_par_cible.get(cible, 0) + 1
             ref = f" — *référence : {o['reference']}*" if str(o.get("reference", "")).strip() else ""
             oublis.append(f"- **{s.lettre(m['id'])}** relève chez **{cible}** : {o['point']}{ref}")
+        mts = [x for x in (d.get("maintenu") or []) if (isinstance(x, dict) and str(x.get("objection", "")).strip()) or (isinstance(x, str) and x.strip())]
+        if not mts:
+            sans_maintenu.append(s.lettre(m["id"]))
+        for x in mts:
+            if not isinstance(x, dict):
+                x = {"objection": str(x)}
+            pq = f" — *{x['pourquoi']}*" if str(x.get("pourquoi", "")).strip() else ""
+            maintenus.append(f"- **{s.lettre(m['id'])}** maintient contre **{x.get('cible', '?')}** : {x['objection']}{pq}")
         if d.get("question_ouverte"):
             questions.append(f"- **{s.lettre(m['id'])}** : {d['question_ouverte']}")
     lues = [d for d in decl.values() if d]
@@ -845,6 +854,8 @@ def carte_mecanique(s: Seance) -> tuple[str, dict]:
         signaux.append(f"{n_mots} désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.")
     if len(lues) < len(membres):
         signaux.append(f"{len(membres) - len(lues)} déclaration(s) illisible(s) ou absente(s) : lire les réponses brutes.")
+    if lues and sans_maintenu and any("maintenu" in d for d in lues):
+        signaux.append(f"Aucune objection maintenue chez : {', '.join(sans_maintenu)}.")
     for cible, n in sorted(oublis_par_cible.items()):
         if n >= 2:
             signaux.append(f"**Mémoire à rafraîchir** : {n} oublis relevés chez {cible} ; lui renvoyer le corpus et la grille (`rafraichir`).")
@@ -862,7 +873,7 @@ def carte_mecanique(s: Seance) -> tuple[str, dict]:
     fabien = s.dir / "reponses-de-fabien.md"
     if fabien.exists():
         qr.append(f"- Fabien a répondu : `reponses-de-fabien.md`")
-    for titre, lignes in (("Apports", apports), ("Rejets", rejets), ("Acceptations", accords), ("Changements de position", revisions),
+    for titre, lignes in (("Apports", apports), ("Rejets", rejets), ("Acceptations", accords), ("Changements de position", revisions), ("Objections maintenues", maintenus),
                           ("Faits signalés", faits), ("Oublis relevés", oublis), ("Questions et réponses", qr), ("Questions ouvertes", questions),
                           ("Signaux", [f"- {x}" for x in signaux])):
         l += ["", f"### {titre}", ""] + (lignes or ["- aucun"])

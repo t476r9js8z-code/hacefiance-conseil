@@ -70,6 +70,17 @@ joindre_dossier = true
 fil_persistant = false
 question_seule = true
 
+[[participant]]
+id = "fable"
+nom = "Fable"
+siege = "initie"
+adaptateur = "manuel"
+relais = "Chrome : claude.ai, Fable 5.2, discussion neuve à chaque séance ; joindre le dossier"
+joindre_dossier = true
+fil_persistant = false
+# Depuis la séance 8. Même famille de modèles que le greffier (Claude) : surveiller l'écho entre les deux.
+# Fable a audité le greffe (contre-greffe/) et rédigé une proposition de définition du n+1 ; il en est informé par le dossier.
+
 # En attente : DeepSeek (Chrome bloque son site ; l'API coûte quelques cents par séance).
 # [[participant]]
 # id = "deepseek"
