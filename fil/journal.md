@@ -139,3 +139,10 @@
 - 2026-11-15T19:35:03-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · tour 1 · gemini (B) · relais · tour-1/gemini.md · sha256:bfb491935bd77e56
 - 2026-11-15T19:35:03-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · tour 1 · grok (E) · relais · tour-1/grok.md · sha256:f5642c6b48803b19
 - 2026-11-15T19:35:03-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · tour 1 · fable (C) · relais · tour-1/fable.md · sha256:2a37c2d13e301587
+- 2026-11-15T19:37:42-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · tour 1 · gemini (B) · redépôt : artefacts d'interface retirés · tour-1/gemini.md · sha256:c5cffaa2426f03e9
+- 2026-11-15T19:48:05-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · tour 2 · claude (D) · relais · tour-2/claude.md · sha256:a716bbeb1deba84c
+- 2026-11-15T19:48:05-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · tour 2 · gpt (A) · relais · tour-2/gpt.md · sha256:d5646bb04d6e799d
+- 2026-11-15T19:48:05-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · tour 2 · gemini (B) · relais · tour-2/gemini.md · sha256:b13555ac2cc5273f
+- 2026-11-15T19:48:05-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · tour 2 · grok (E) · relais · tour-2/grok.md · sha256:ff8c584d6f22e9ee
+- 2026-11-15T19:48:05-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · tour 2 · fable (C) · relais · tour-2/fable.md · sha256:56c61f43fdaad42b
+- 2026-11-15T19:48:27-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · tour 2 · gemini (B) · note du greffe ajoutée (puces d'interface retirées avant dépôt ; texte relayé sha256:b13555ac2cc5273f) · tour-2/gemini.md · sha256:b882dfcedcded1c6
