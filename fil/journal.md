@@ -171,3 +171,4 @@
 - 2026-11-15T22:07:07-05:00 · séance 2026-11-15-reponses-sur-le-combat-et-la-pente · tour 1 · gpt (A) · relais · tour-1/gpt.md · sha256:f18acb1f3d2cee9c
 - 2026-11-15T22:07:07-05:00 · séance 2026-11-15-reponses-sur-le-combat-et-la-pente · tour 1 · gemini (D) · relais · tour-1/gemini.md · sha256:349bed52cb52330c
 - 2026-11-15T22:07:07-05:00 · séance 2026-11-15-reponses-sur-le-combat-et-la-pente · tour 1 · grok (C) · relais · tour-1/grok.md · sha256:0ae50c4edbdf32c8
+- 2026-11-15T22:12:19-05:00 · séance 2026-11-15-reponses-sur-le-combat-et-la-pente · tour 1 · fable (B) · relais · tour-1/fable.md · sha256:85d839121b17e43d
