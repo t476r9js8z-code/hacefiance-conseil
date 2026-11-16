@@ -1,0 +1,24 @@
+{
+  "numero": 9,
+  "creee": "2026-11-15T21:57:00-05:00",
+  "graine": 34515351,
+  "participants": [
+    "claude",
+    "gpt",
+    "gemini",
+    "grok",
+    "fable"
+  ],
+  "lettres": {
+    "claude": "E",
+    "gpt": "A",
+    "gemini": "D",
+    "grok": "C",
+    "fable": "B"
+  },
+  "verificateur": "gpt",
+  "journalise": [],
+  "dossier_envoye": {
+    "1/gemini": "2111ad7707b4eaf7"
+  }
+}
