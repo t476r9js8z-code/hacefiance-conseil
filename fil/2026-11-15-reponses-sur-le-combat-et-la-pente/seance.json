@@ -17,7 +17,12 @@
     "fable": "B"
   },
   "verificateur": "gpt",
-  "journalise": [],
+  "journalise": [
+    "1/claude",
+    "1/gpt",
+    "1/gemini",
+    "1/grok"
+  ],
   "dossier_envoye": {
     "1/gemini": "2111ad7707b4eaf7"
   }
