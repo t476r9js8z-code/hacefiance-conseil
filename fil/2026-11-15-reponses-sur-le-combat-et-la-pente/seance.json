@@ -22,7 +22,12 @@
     "1/gpt",
     "1/gemini",
     "1/grok",
-    "1/fable"
+    "1/fable",
+    "2/claude",
+    "2/gpt",
+    "2/gemini",
+    "2/grok",
+    "2/fable"
   ],
   "dossier_envoye": {
     "1/gemini": "2111ad7707b4eaf7"

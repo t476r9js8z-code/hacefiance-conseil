@@ -173,3 +173,8 @@
 - 2026-11-15T22:07:07-05:00 · séance 2026-11-15-reponses-sur-le-combat-et-la-pente · tour 1 · grok (C) · relais · tour-1/grok.md · sha256:0ae50c4edbdf32c8
 - 2026-11-15T22:12:19-05:00 · séance 2026-11-15-reponses-sur-le-combat-et-la-pente · tour 1 · fable (B) · relais · tour-1/fable.md · sha256:85d839121b17e43d
 - 2026-11-15T22:53:29-05:00 · séance 2026-11-15-reponses-sur-le-combat-et-la-pente · tour 1 · gemini (D) · redépôt : compteurs de puces d'interface retirés (présents dans les consignes du tour 2) · tour-1/gemini.md · sha256:55bf5af06ab0ed5f
+- 2026-11-15T23:08:39-05:00 · séance 2026-11-15-reponses-sur-le-combat-et-la-pente · tour 2 · claude (E) · relais · tour-2/claude.md · sha256:f8d681a22c036389
+- 2026-11-15T23:08:39-05:00 · séance 2026-11-15-reponses-sur-le-combat-et-la-pente · tour 2 · gpt (A) · relais · tour-2/gpt.md · sha256:abddc4b277faa25f
+- 2026-11-15T23:08:39-05:00 · séance 2026-11-15-reponses-sur-le-combat-et-la-pente · tour 2 · gemini (D) · relais · tour-2/gemini.md · sha256:7d0dcc2c55b73639
+- 2026-11-15T23:08:39-05:00 · séance 2026-11-15-reponses-sur-le-combat-et-la-pente · tour 2 · grok (C) · relais · tour-2/grok.md · sha256:fa37d46e4168a3b5
+- 2026-11-15T23:08:39-05:00 · séance 2026-11-15-reponses-sur-le-combat-et-la-pente · tour 2 · fable (B) · relais · tour-2/fable.md · sha256:c52e7a6d3d8534aa
