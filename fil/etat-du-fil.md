@@ -2,18 +2,6 @@
 
 *État mécanique : les six dernières séances. Un cartographe hors table peut le remplacer par un état rédigé.*
 
-## Séance 2026-11-09-reponses-de-fabien
-
-**Question** : Fabien a répondu aux trois questions que la séance 1 lui avait adressées. Ses réponses sont reproduites ci-dessous ; l'état du fil rappelle ce que la séance 1 a produit.
-
-Déclarations lues : 4/4 · rejets : 7 · changements de position : 3 · apports : 10.
-
-- Tournant possible : 3 changement(s) de position déclaré(s).
-- 1 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.
-- Question pour Fabien : L'indignation, ou l'écharde, est-elle pour toi la même faculté que la prise, éprouvée en négatif, ou une faculté distincte ?
-
-Carte complète : `2026-11-09-reponses-de-fabien/carte.md`.
-
 ## Séance 2026-11-09-continuite
 
 **Question** : L'Hacéfiance ne dit pas d'abord ce qu'il faut faire : elle affirme qu'un processus existe, la continuité de la complexification, et que certains comportements la permettent quand d'autres l'interrompent. Nier la justice, soumettre des parties à sa propre optimisation, c'est interrompre ce processus.
@@ -88,3 +76,22 @@ Déclarations lues : 4/4 · rejets : 7 · changements de position : 4 · apports
 - Question pour Fabien : Accepterais-tu que le principe 3 soit reformulé de façon à rendre le ressenti indissociable, dans la mesure, des deux autres composantes du compas (traduction morale et canal de retour) ?
 
 Carte complète : `2026-11-15-consolidation-de-la-grille/carte.md`.
+
+## Séance 2026-11-15-reponses-et-definition-du-n1
+
+**Question** : À la fin de la séance 7, trois questions ont été posées à Fabien (`2026-11-15-consolidation-de-la-grille/questions-pour-fabien.md`). Ses réponses suivent, telles qu'il les a tapées, sans correction (`paroles-de-fabien/2026-11-15.md`) :
+
+Déclarations lues : 5/5 · rejets : 12 · changements de position : 5 · apports : 16.
+
+- Convergence suspecte : tous les participants déclarent avoir changé de position.
+- Tournant possible : 5 changement(s) de position déclaré(s).
+- 1 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.
+- Mémoire à rafraîchir : 2 oublis relevés chez E ; lui renvoyer le corpus et la grille (`rafraichir`).
+- Citations à vérifier : 13 passage(s) entre guillemets introuvable(s) (voir Contrôles mécaniques).
+- Écho possible : E reprend sans guillemets une part notable d'un autre texte (voir Contrôles mécaniques).
+- Réception partielle : B déclare un texte central incomplet ; renvoyer le corpus.
+- Question pour Fabien : La précision « globalement souveraines » (13 h 51), reprise dans la définition du principe 2, désigne-t-elle uniquement le seuil empirique où s'enclenche l'accumulation du savoir commun, ou un collectif comportant une minorité privée de recours demeure-t-il un ensemble captateur au sens du principe 8 et de la section 8 de hacefiance_essentiel.md ?
+- Question pour Fabien : Dans 'globalement souveraines', une société dont la majorité des parties est souveraine mais qui tient une minorité durablement hors de la capacité de signaler et de contester réalise-t-elle déjà le n+1, ou reste-t-elle un ensemble partiellement captateur ? La réponse fixerait la frontière entre le principe 2 et la section 13.
+- Question pour Fabien : Dans « Et il sera » (13 h 23), « il » désigne-t-il le ressenti ou le n+1 ? Si c'est le ressenti, la question ouverte pente ou nécessité n'est pas déplacée et la précision du principe 3 est à récrire ; si c'est le n+1, la question de A et de B sur la nécessité s'applique.
+
+Carte complète : `2026-11-15-reponses-et-definition-du-n1/carte.md`.

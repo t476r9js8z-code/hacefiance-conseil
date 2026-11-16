@@ -152,3 +152,8 @@
 - 2026-11-15T19:55:08-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · tour 3 · grok (E) · relais · tour-3/grok.md · sha256:7ed12a7bfa86af7c
 - 2026-11-15T19:55:18-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · tour 3 · gemini (B) · note du greffe ajoutée (puces d'interface retirées avant dépôt ; texte relayé sha256:4101bc4cf07d0a34) · tour-3/gemini.md · sha256:b0800ec0a974d2af
 - 2026-11-15T19:55:18-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · tour 2 · fable (C) · erreur de relais : le dossier fable-tour-2.dossier.md n'a pas été joint ; Fable a travaillé sur le dossier du tour 1, présent dans la même discussion (il le signale dans sa réponse) · relais/fable-tour-2.dossier.md
+- 2026-11-15T20:06:06-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · tour 4 · fable (C) · relais · tour-4/fable.md · sha256:7653b672e38d5210
+- 2026-11-15T20:06:06-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · 3 question(s) pour Fabien
+- 2026-11-15T20:06:06-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · carte.md · cartographe mécanique · sha256:a021b8ebf4573ada
+- 2026-11-15T20:06:06-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · état du fil mis à jour · sha256:9c8432fc4e217ba2
+- 2026-11-15T20:06:58-05:00 · paroles de Fabien · message du soir ajouté (texte relevé mot pour mot dans la session ; heure exacte non conservée) · paroles-de-fabien/2026-11-15-soir.md · sha256:eb48216dd2dbd1d8
