@@ -2,18 +2,6 @@
 
 *État mécanique : les six dernières séances. Un cartographe hors table peut le remplacer par un état rédigé.*
 
-## Séance 2026-11-09-continuite
-
-**Question** : L'Hacéfiance ne dit pas d'abord ce qu'il faut faire : elle affirme qu'un processus existe, la continuité de la complexification, et que certains comportements la permettent quand d'autres l'interrompent. Nier la justice, soumettre des parties à sa propre optimisation, c'est interrompre ce processus.
-
-Déclarations lues : 4/4 · rejets : 7 · changements de position : 2 · apports : 10.
-
-- Tournant possible : 2 changement(s) de position déclaré(s).
-- 2 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.
-- Question pour Fabien : Si l'indignation est le vent et la justice la reconnaissance de l'injustice dans la matrice, quelle est la faculté humaine précise qui tient lieu de compas pour orienter ce vent ?
-
-Carte complète : `2026-11-09-continuite/carte.md`.
-
 ## Séance 2026-11-14-conseils-des-ia
 
 **Question** : Une grande partie des utilisateurs interrogent les IA pour leur demander conseil. Dans quelle mesure ces conseils sont-ils déterminés par les allégeances de ceux qui fabriquent et possèdent les modèles (entreprises, États, camps politiques), par leur entraînement, ou par leur finalité commerciale ? Et dans la symbiose qui se forme entre une personne et son IA, laquelle des deux parties est la …
@@ -95,3 +83,19 @@ Déclarations lues : 5/5 · rejets : 12 · changements de position : 5 · apport
 - Question pour Fabien : Dans « Et il sera » (13 h 23), « il » désigne-t-il le ressenti ou le n+1 ? Si c'est le ressenti, la question ouverte pente ou nécessité n'est pas déplacée et la précision du principe 3 est à récrire ; si c'est le n+1, la question de A et de B sur la nécessité s'applique.
 
 Carte complète : `2026-11-15-reponses-et-definition-du-n1/carte.md`.
+
+## Séance 2026-11-15-reponses-sur-le-combat-et-la-pente
+
+**Question** : À la fin de la séance 8, trois questions ont été posées à Fabien (`2026-11-15-reponses-et-definition-du-n1/questions-pour-fabien.md`). Ses réponses suivent, telles qu'il les a tapées, sans correction (`paroles-de-fabien/2026-11-15-soir.md`). Chacune est précédée de ce à quoi elle répond.
+
+Déclarations lues : 5/5 · rejets : 12 · changements de position : 3 · apports : 22.
+
+- Tournant possible : 3 changement(s) de position déclaré(s).
+- 1 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.
+- Mémoire à rafraîchir : 2 oublis relevés chez C ; lui renvoyer le corpus et la grille (`rafraichir`).
+- Citations à vérifier : 31 passage(s) entre guillemets introuvable(s) (voir Contrôles mécaniques).
+- Écho possible : E reprend sans guillemets une part notable d'un autre texte (voir Contrôles mécaniques).
+- Question pour Fabien : Dans ta formule « l'espace lâché par les captateurs engrange plus de civilisation », le gain de civilisation est-il seulement une conséquence seconde d'une réciprocité due sans condition (section 8 de hacefiance_essentiel.md), ou la persistance institutionnelle de cet espace ouvert est-elle le critère observable permettant d'établir qu'un recul de la captation a produit un degré réel de n+1 plutôt qu'une trêve réversible (comme en Guadeloupe en 1802 ou après la Reconstruction américaine) ? Selon ta réponse, soit le principe 8 demeure strictement indépendant de tout rendement civilisationnel, soit le principe 3 devra intégrer la durabilité des canaux ouverts comme mesure non circulaire du n+1.
+- Question pour Fabien : Ton « combat justement continuel » amende-t-il la première phrase de la section 11 de l'intégral (« La réponse n'est pas de combattre la captation de front — c'est de réincarner le compas »), ou désigne-t-il la même chose, un travail sur les canaux plutôt qu'une lutte contre des captateurs ? Dans le premier cas la section 11 est à récrire et le découplage perd son rang ; dans le second, la grille (principes 8 et 9) doit noter que le combat vise des dispositifs, non des personnes.
+
+Carte complète : `2026-11-15-reponses-sur-le-combat-et-la-pente/carte.md`.

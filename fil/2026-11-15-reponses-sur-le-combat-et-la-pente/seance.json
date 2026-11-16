@@ -27,9 +27,47 @@
     "2/gpt",
     "2/gemini",
     "2/grok",
-    "2/fable"
+    "2/fable",
+    "3/claude",
+    "3/grok",
+    "3/fable"
   ],
   "dossier_envoye": {
     "1/gemini": "2111ad7707b4eaf7"
-  }
+  },
+  "cartes": {
+    "carte.md": {
+      "cartographe": "",
+      "date": "2026-11-15T23:19:08-05:00",
+      "resume": {
+        "rejets": 12,
+        "changements": 3,
+        "apports": 22,
+        "desaccords_de_mots": 1,
+        "oublis": 2,
+        "lues": 5,
+        "membres": 5,
+        "signaux": [
+          "**Tournant possible** : 3 changement(s) de position déclaré(s).",
+          "1 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.",
+          "**Mémoire à rafraîchir** : 2 oublis relevés chez C ; lui renvoyer le corpus et la grille (`rafraichir`).",
+          "**Citations à vérifier** : 31 passage(s) entre guillemets introuvable(s) (voir Contrôles mécaniques).",
+          "**Écho possible** : E reprend sans guillemets une part notable d'un autre texte (voir Contrôles mécaniques)."
+        ],
+        "questions": 5,
+        "questions_fabien": [
+          "Dans ta formule « l'espace lâché par les captateurs engrange plus de civilisation », le gain de civilisation est-il seulement une conséquence seconde d'une réciprocité due sans condition (section 8 de hacefiance_essentiel.md), ou la persistance institutionnelle de cet espace ouvert est-elle le critère observable permettant d'établir qu'un recul de la captation a produit un degré réel de n+1 plutôt qu'une trêve réversible (comme en Guadeloupe en 1802 ou après la Reconstruction américaine) ? Selon ta réponse, soit le principe 8 demeure strictement indépendant de tout rendement civilisationnel, soit le principe 3 devra intégrer la durabilité des canaux ouverts comme mesure non circulaire du n+1.",
+          "Ton « combat justement continuel » amende-t-il la première phrase de la section 11 de l'intégral (« La réponse n'est pas de combattre la captation de front — c'est de réincarner le compas »), ou désigne-t-il la même chose, un travail sur les canaux plutôt qu'une lutte contre des captateurs ? Dans le premier cas la section 11 est à récrire et le découplage perd son rang ; dans le second, la grille (principes 8 et 9) doit noter que le combat vise des dispositifs, non des personnes."
+        ],
+        "lettres": {
+          "A": "gpt",
+          "B": "fable",
+          "C": "grok",
+          "D": "gemini",
+          "E": "claude"
+        }
+      }
+    }
+  },
+  "etat_fait": true
 }
