@@ -134,3 +134,8 @@
 - 2026-11-15T19:12:58-05:00 · paroles de Fabien · ajout du message de 19 h 12 · paroles-de-fabien/2026-11-15-soir.md · sha256:ce012d13ab8011b2
 - 2026-11-15T19:18:52-05:00 · paroles de Fabien · ajout du message de 19 h 18 · paroles-de-fabien/2026-11-15-soir.md · sha256:1e41b088c7fc9ca6
 - 2026-11-15T19:22:19-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 ouverte · vérificateur gemini
+- 2026-11-15T19:35:03-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · tour 1 · claude (D) · relais · tour-1/claude.md · sha256:f342db476a1f38be
+- 2026-11-15T19:35:03-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · tour 1 · gpt (A) · relais · tour-1/gpt.md · sha256:9f5a821842c7e52c
+- 2026-11-15T19:35:03-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · tour 1 · gemini (B) · relais · tour-1/gemini.md · sha256:bfb491935bd77e56
+- 2026-11-15T19:35:03-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · tour 1 · grok (E) · relais · tour-1/grok.md · sha256:f5642c6b48803b19
+- 2026-11-15T19:35:03-05:00 · séance 2026-11-15-reponses-et-definition-du-n1 · tour 1 · fable (C) · relais · tour-1/fable.md · sha256:2a37c2d13e301587
