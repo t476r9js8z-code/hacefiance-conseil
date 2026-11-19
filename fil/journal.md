@@ -184,3 +184,5 @@
 - 2026-11-15T23:19:08-05:00 · séance 2026-11-15-reponses-sur-le-combat-et-la-pente · 2 question(s) pour Fabien
 - 2026-11-15T23:19:08-05:00 · séance 2026-11-15-reponses-sur-le-combat-et-la-pente · carte.md · cartographe mécanique · sha256:5ed996a15d4c6dd0
 - 2026-11-15T23:19:08-05:00 · séance 2026-11-15-reponses-sur-le-combat-et-la-pente · état du fil mis à jour · sha256:3eeae24a02fbc894
+- 2026-11-19T18:38:24-05:00 · paroles de Fabien · message de 18:37 · paroles-de-fabien/2026-11-19.md · sha256:b83b9b4f47b6af82
+- 2026-11-19T18:38:24-05:00 · séance 2026-11-15-reponses-sur-le-combat-et-la-pente · réponses de Fabien (B et D) · reponses-de-fabien.md · sha256:a855cc6531f1914d
