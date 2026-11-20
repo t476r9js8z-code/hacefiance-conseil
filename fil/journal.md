@@ -274,3 +274,5 @@
 - 2026-11-20T11:17:29-05:00 · paroles de Fabien · message de 11:17 (partager l'échange ; dernière ronde ; puis la vidéo) · paroles-de-fabien/2026-11-20.md · sha256:abf458f097e5ed27
 - 2026-11-20T11:18:22-05:00 · séance 2026-11-20-echange-avec-fabien ouverte · vérificateur fable
 - 2026-11-20T11:18:30-05:00 · séance 12 ouverte (échange avec Fabien du 20 novembre, une ronde), à la demande de Fabien (11:17)
+- 2026-11-20T11:19:47-05:00 · séance 12, tour 1 : consignes relayées à GPT, Gemini (texte intégral joint), Grok (discussion neuve, dossier et sections 11 à 16 joints) et Fable (discussion neuve dd4bbc96-08f7-405f-82d2-cf214b07c8a6, dossier joint)
+- 2026-11-20T11:20:05-05:00 · séance 12, tour 1 : réponse du greffier (B) déposée · sha256:3e02f7a667e3f735
