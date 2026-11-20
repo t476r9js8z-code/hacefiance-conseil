@@ -238,3 +238,5 @@
 - 2026-11-19T22:28:32-05:00 · paroles de Fabien · message de 22:28 (ordre : clarifier, répondre, définir le tout, débattre ; puis la vidéo) · paroles-de-fabien/2026-11-19.md · sha256:7c4ed4251823d3da
 - 2026-11-19T22:33:05-05:00 · paroles de Fabien · message de 22:32 (style : prose à l'image des sections 1 à 7, phrases pas trop courtes, fluides et belles) · paroles-de-fabien/2026-11-19.md et reponses-de-fabien.md · sha256:bbb1d3f22947df94
 - 2026-11-19T22:33:43-05:00 · séance 2026-11-19-ce-qu-est-le-tout ouverte · vérificateur claude
+- 2026-11-19T22:36:27-05:00 · séance 11, tour 1 : consignes relayées à GPT, Gemini, Grok (discussion neuve, dossier joint) et Fable (discussion neuve 71d04ee7-4bfa-4662-8531-ac3568c8f2c8, dossier joint)
+- 2026-11-19T22:37:14-05:00 · séance 11, tour 1 : réponse du greffier (C) déposée · sha256:da2bef8715cc2350
