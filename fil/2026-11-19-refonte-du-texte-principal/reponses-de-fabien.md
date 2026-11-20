@@ -11,3 +11,7 @@
 **Fabien (21:18) :**
 
     Point 5 : trois affirmations absolues que le texte dément lui-même : faire table rase dans le sans non pris en compte. en effet il n y a pas de premiere fois c est bien un feature du mouvement. section 9 on peut imaginer que si le potentiel a existé il est reactivable. c est aussi un feature les gens y son poussé naturellement mais des facteurs peuvent exister. courte et net car tes proses etaient lourdes et redondante. mais un belle prose peut etre difficile a obtenir. l egypte n est pas une domination. les egyptients obtenaient un statut, un subside et un au dela. le travail apporte la morale et leur role dans la societé faisait sens alors. et si ca a perduré aussi longtemps c est qu il ne sagissait pas d une exploitation. aujourd hui nos connaissances ne permettraient pas de construire des monuments à un dieux redempteur incarné... lol.
+
+**Fabien (21:31) :**
+
+    le vizir n est pas le tout. il faut encore bien diferencier ce que j entend par tout et ensemble organisé. un etat peut chercher à expoiter pour l interet d une catse il ne fait pas un tout. ni même un etat qui respecte la souveraineté populaire. c est un intermédiaire. le tout est vraiment l echelle suppérieur. un dieu dans le sens objet de spiritualité subordonnant ses parties par leur propres perceptions des forces  exercées entre elles qui mênent à un equilibre, une dissipation du bruit, un dialogue qui mêne a un sens commun, à une coordination.
