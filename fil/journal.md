@@ -227,3 +227,4 @@
 - 2026-11-19T21:18:59-05:00 · paroles de Fabien · message de 21:18 (réponse au rapport de la séance 10 : point 5, style, Égypte) · paroles-de-fabien/2026-11-19.md et reponses-de-fabien.md · sha256:46b6eabad845de53
 - 2026-11-19T21:31:58-05:00 · paroles de Fabien · message de 21:31 (le tout n'est pas l'État ni un intermédiaire) · paroles-de-fabien/2026-11-19.md et reponses-de-fabien.md · sha256:832099adb4ad2a23
 - 2026-11-19T21:50:02-05:00 · paroles de Fabien · message de 21:49 (un seul tout universel) · paroles-de-fabien/2026-11-19.md et reponses-de-fabien.md · sha256:82780bdbd9f874bb
+- 2026-11-19T21:55:22-05:00 · paroles de Fabien · message de 21:55 (définition du tout validée ; prochaine séance sur une expérience locale, transcription à venir) · paroles-de-fabien/2026-11-19.md et reponses-de-fabien.md · sha256:bc7ab48827416329
