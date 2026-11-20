@@ -276,3 +276,8 @@
 - 2026-11-20T11:18:30-05:00 · séance 12 ouverte (échange avec Fabien du 20 novembre, une ronde), à la demande de Fabien (11:17)
 - 2026-11-20T11:19:47-05:00 · séance 12, tour 1 : consignes relayées à GPT, Gemini (texte intégral joint), Grok (discussion neuve, dossier et sections 11 à 16 joints) et Fable (discussion neuve dd4bbc96-08f7-405f-82d2-cf214b07c8a6, dossier joint)
 - 2026-11-20T11:20:05-05:00 · séance 12, tour 1 : réponse du greffier (B) déposée · sha256:3e02f7a667e3f735
+- 2026-11-20T11:36:22-05:00 · séance 12, tour 1 : réponse de gpt déposée · sha256:48931b9fddebdf6b
+- 2026-11-20T11:36:22-05:00 · séance 12, tour 1 : réponse de gemini déposée · sha256:e33854f87baaf759
+- 2026-11-20T11:36:22-05:00 · séance 12, tour 1 : réponse de grok déposée · sha256:715c1ef8c7534f9f
+- 2026-11-20T11:36:22-05:00 · séance 12, tour 1 : réponse de fable déposée · sha256:86681da84076848a
+- 2026-11-20T11:36:37-05:00 · séance 12 close après une ronde, comme demandé par Fabien (pas de lecture croisée ni de carte). Note : les mots bruts de Fabien nomment « fable » ; l'anonymat de ce participant est levé pour lui dans cette séance.
