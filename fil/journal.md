@@ -291,3 +291,13 @@
 - 2026-11-20T11:47:53-05:00 · séance 13, pièce versée : transcription-brute.txt · sha256:c5eb88eb4f3d0919
 - 2026-11-20T11:49:36-05:00 · séance 13, tour 1 : consignes et trois pièces relayées à GPT, Gemini, Grok (discussion neuve, dossier joint) et Fable (discussion neuve f831e2d9-1719-4388-b658-2dd366d8349f, dossier joint)
 - 2026-11-20T11:53:50-05:00 · séance 13, tour 1 : réponse de Claude déposée (tour-1/claude.md) · sha256:971045ede7b49b0f
+- 2026-11-20T12:13:32-05:00 · séance 2026-11-20-souverainete-une-video · tour 1 · gpt (A) · relais · tour-1/gpt.md · sha256:ef568d154eb2e2c1
+- 2026-11-20T12:13:32-05:00 · séance 2026-11-20-souverainete-une-video · tour 1 · gemini (D) · relais · tour-1/gemini.md · sha256:2651324d30a16e62
+- 2026-11-20T12:13:32-05:00 · séance 2026-11-20-souverainete-une-video · tour 1 · grok (E) · relais · tour-1/grok.md · sha256:3483e673e77128e1
+- 2026-11-20T12:13:32-05:00 · séance 2026-11-20-souverainete-une-video · tour 1 · fable (C) · relais · tour-1/fable.md · sha256:e2fd74b66823c5a5
+- 2026-11-20T12:13:32-05:00 · séance 13, tour 1 : note du greffier — Gemini déclare le texte central « partiel » (intégral non joint à sa consigne pour cette séance consacrée à la vidéo) ; les trois pièces sont reçues ; Grok complet (6580 caractères, JSON final présent)
+- 2026-11-20T12:13:32-05:00 · séance 2026-11-20-souverainete-une-video · tour 1 · claude (B) · relais · tour-1/claude.md · sha256:971045ede7b49b0f
+- 2026-11-20T12:13:32-05:00 · séance 2026-11-20-souverainete-une-video · tour 1 · gpt (A) · relais · tour-1/gpt.md · sha256:ef568d154eb2e2c1
+- 2026-11-20T12:13:32-05:00 · séance 2026-11-20-souverainete-une-video · tour 1 · gemini (D) · relais · tour-1/gemini.md · sha256:2651324d30a16e62
+- 2026-11-20T12:13:32-05:00 · séance 2026-11-20-souverainete-une-video · tour 1 · grok (E) · relais · tour-1/grok.md · sha256:3483e673e77128e1
+- 2026-11-20T12:13:32-05:00 · séance 2026-11-20-souverainete-une-video · tour 1 · fable (C) · relais · tour-1/fable.md · sha256:e2fd74b66823c5a5
