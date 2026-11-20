@@ -236,3 +236,4 @@
 - 2026-11-19T22:18:11-05:00 · paroles de Fabien · message de 22:18 (souveraineté ; analyser à partir de 1 h 11) · paroles-de-fabien/2026-11-19.md · sha256:d870b5b63277d80e
 - 2026-11-19T22:25:13-05:00 · paroles de Fabien · message de 22:25 (souveraineté : s'exprimer, puis agir collectivement) · paroles-de-fabien/2026-11-19.md · sha256:128f9dab7acc8ad2
 - 2026-11-19T22:28:32-05:00 · paroles de Fabien · message de 22:28 (ordre : clarifier, répondre, définir le tout, débattre ; puis la vidéo) · paroles-de-fabien/2026-11-19.md · sha256:7c4ed4251823d3da
+- 2026-11-19T22:33:05-05:00 · paroles de Fabien · message de 22:32 (style : prose à l'image des sections 1 à 7, phrases pas trop courtes, fluides et belles) · paroles-de-fabien/2026-11-19.md et reponses-de-fabien.md · sha256:bbb1d3f22947df94

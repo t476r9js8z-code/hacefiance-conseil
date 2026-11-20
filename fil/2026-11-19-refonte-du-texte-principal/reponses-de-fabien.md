@@ -29,3 +29,7 @@
 **Fabien (21:57) :**
 
     On veut néanmoins répondre aux questions. Et surtout clarifier définitivement ce qu' est le tout. On fait les deux en même temps ?
+
+**Fabien (22:32) :**
+
+    style. je préfere de la prose a l image du text principale de 1 a 7. des phrases pas trop courtes,  fluides et belle
