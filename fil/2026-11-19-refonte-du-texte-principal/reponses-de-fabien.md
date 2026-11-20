@@ -15,3 +15,7 @@
 **Fabien (21:31) :**
 
     le vizir n est pas le tout. il faut encore bien diferencier ce que j entend par tout et ensemble organisé. un etat peut chercher à expoiter pour l interet d une catse il ne fait pas un tout. ni même un etat qui respecte la souveraineté populaire. c est un intermédiaire. le tout est vraiment l echelle suppérieur. un dieu dans le sens objet de spiritualité subordonnant ses parties par leur propres perceptions des forces  exercées entre elles qui mênent à un equilibre, une dissipation du bruit, un dialogue qui mêne a un sens commun, à une coordination.
+
+**Fabien (21:49) :**
+
+    N y aurait il pas pas un seul universel thermodynamique. Plus efficiente que ces version locale dans le sens relative au propre capacité abouti de ses parties.
