@@ -270,3 +270,4 @@
 - 2026-11-20T10:25:39-05:00 · paroles de Fabien · message de 10:25 (Égypte ; statut du projet ; demande d'explication de la question de B) · paroles-de-fabien/2026-11-20.md et séance 11 reponses-de-fabien.md · sha256:3c7b73fdc54c2731
 - 2026-11-20T10:48:23-05:00 · paroles de Fabien · message de 10:48 (démarche commune, béatitude ; question de B : membres et non-membres, les mineurs) · paroles-de-fabien/2026-11-20.md et séance 11 reponses-de-fabien.md · sha256:6bfe41930bf1d7b2
 - 2026-11-20T10:57:58-05:00 · paroles de Fabien · message de 10:57 (anomie ; cobalt ; acteurs externes) · paroles-de-fabien/2026-11-20.md et séance 11 reponses-de-fabien.md · sha256:28950b1f10fadff1
+- 2026-11-20T11:11:23-05:00 · paroles de Fabien · message de 11:11 (accord sur la réponse à la question de B ; industrie minière canadienne, lobbying) · paroles-de-fabien/2026-11-20.md et séance 11 reponses-de-fabien.md · sha256:9aecf209512c319a
