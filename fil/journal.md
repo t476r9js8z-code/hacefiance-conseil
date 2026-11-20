@@ -272,3 +272,5 @@
 - 2026-11-20T10:57:58-05:00 · paroles de Fabien · message de 10:57 (anomie ; cobalt ; acteurs externes) · paroles-de-fabien/2026-11-20.md et séance 11 reponses-de-fabien.md · sha256:28950b1f10fadff1
 - 2026-11-20T11:11:23-05:00 · paroles de Fabien · message de 11:11 (accord sur la réponse à la question de B ; industrie minière canadienne, lobbying) · paroles-de-fabien/2026-11-20.md et séance 11 reponses-de-fabien.md · sha256:9aecf209512c319a
 - 2026-11-20T11:17:29-05:00 · paroles de Fabien · message de 11:17 (partager l'échange ; dernière ronde ; puis la vidéo) · paroles-de-fabien/2026-11-20.md · sha256:abf458f097e5ed27
+- 2026-11-20T11:18:22-05:00 · séance 2026-11-20-echange-avec-fabien ouverte · vérificateur fable
+- 2026-11-20T11:18:30-05:00 · séance 12 ouverte (échange avec Fabien du 20 novembre, une ronde), à la demande de Fabien (11:17)
