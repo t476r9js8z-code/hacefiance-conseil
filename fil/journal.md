@@ -188,3 +188,4 @@
 - 2026-11-19T18:38:24-05:00 · séance 2026-11-15-reponses-sur-le-combat-et-la-pente · réponses de Fabien (B et D) · reponses-de-fabien.md · sha256:a855cc6531f1914d
 - 2026-11-19T18:44:42-05:00 · paroles de Fabien · message de 18:44 · paroles-de-fabien/2026-11-19.md · sha256:cc17922c13b100d1
 - 2026-11-19T18:44:42-05:00 · séance 2026-11-15-reponses-sur-le-combat-et-la-pente · précision de Fabien (rédaction de l'intégral au-delà de la section 6 ou 8) · reponses-de-fabien.md · sha256:df90cdcb6115edc7
+- 2026-11-19T19:03:42-05:00 · paroles de Fabien · messages de 18:51 et 19:03 (refonte du texte principal envisagée) · paroles-de-fabien/2026-11-19.md · sha256:a63a31b28f4f4b72
