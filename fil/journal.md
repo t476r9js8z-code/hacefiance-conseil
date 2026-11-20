@@ -314,3 +314,10 @@
 - 2026-11-20T12:36:16-05:00 · séance 2026-11-20-souverainete-une-video · tour 2 · grok (E) · relais · tour-2/grok.md · sha256:f570d894846c6f5d
 - 2026-11-20T12:36:16-05:00 · séance 2026-11-20-souverainete-une-video · tour 2 · fable (C) · relais · tour-2/fable.md · sha256:f3cbc8ad21b8dad9
 - 2026-11-20T12:37:02-05:00 · séance 13, tour 3 : consignes relayées à Grok (question de C) et Fable (question de B), consigne seule ; le dossier, identique, est déjà dans leurs discussions
+- 2026-11-20T12:50:28-05:00 · séance 2026-11-20-souverainete-une-video · tour 3 · grok (E) · relais · tour-3/grok.md · sha256:368caaca39580227
+- 2026-11-20T12:50:28-05:00 · séance 2026-11-20-souverainete-une-video · tour 3 · fable (C) · relais · tour-3/fable.md · sha256:bf0187d4d487459e
+- 2026-11-20T12:50:29-05:00 · séance 2026-11-20-souverainete-une-video · tour 3 · grok (E) · relais · tour-3/grok.md · sha256:368caaca39580227
+- 2026-11-20T12:50:29-05:00 · séance 2026-11-20-souverainete-une-video · tour 3 · fable (C) · relais · tour-3/fable.md · sha256:bf0187d4d487459e
+- 2026-11-20T12:50:29-05:00 · séance 2026-11-20-souverainete-une-video · 4 question(s) pour Fabien
+- 2026-11-20T12:50:29-05:00 · séance 2026-11-20-souverainete-une-video · carte.md · cartographe mécanique · sha256:9935f665183e7729
+- 2026-11-20T12:50:29-05:00 · séance 2026-11-20-souverainete-une-video · état du fil mis à jour · sha256:ae3fa4117380aa74

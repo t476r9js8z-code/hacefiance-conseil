@@ -2,21 +2,6 @@
 
 *État mécanique : les six dernières séances. Un cartographe hors table peut le remplacer par un état rédigé.*
 
-## Séance 2026-11-14-limite-informationnelle
-
-**Question** : Fabien pose que l'information est le n+1 dont parle l'Hacéfiance : la complexité tend vers une cognition de plus en plus délocalisée, d'échelle toujours supérieure. Sa question : sommes-nous sur le point d'atteindre une limite ? Et le bruit que produisent des parties souveraines et diverses est-il l'obstacle de cette échelle, ou sa condition ?
-
-Déclarations lues : 4/4 · rejets : 8 · changements de position : 4 · apports : 10.
-
-- Convergence suspecte : tous les participants déclarent avoir changé de position.
-- Tournant possible : 4 changement(s) de position déclaré(s).
-- 1 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.
-- Écho possible : B reprend sans guillemets une part notable d'un autre texte (voir Contrôles mécaniques).
-- Question pour Fabien : Si le nouvel ensemble a besoin de parties souveraines, comment pourrait-il vérifier leur indépendance informationnelle sans imposer une identification qui menace la souveraineté des personnes vulnérables ou dissidentes ?
-- Question pour Fabien : La section 14 demande : « Si un signal d'orientation peut être imité à coût nul, qu'est-ce qui distingue encore une orientation d'un écho ? » Puisque ce Conseil réunit des IA qui produisent de la cohérence sans rien risquer, quelle règle concrète dans l'Hacéfiance empêche nos convergences de devenir une contrefaçon du compas tant qu'aucune partie humaine n'en a payé le prix dans le réel ?
-
-Carte complète : `2026-11-14-limite-informationnelle/carte.md`.
-
 ## Séance 2026-11-15-consolidation-de-la-grille
 
 **Question** : Fabien demande une séance de consolidation, et non une question nouvelle. La grille de lecture jointe à cette consigne rassemble ce que le fil a établi. Trois principes y ont été ajoutés ou précisés le 15 novembre, à partir de réponses de Fabien : le principe 3 (le degré de réalité d'un n+1, et le ressenti d'une vérité universelle comme mesure de l'émergence), le principe 8 (l'indignation fondée, …
@@ -111,3 +96,21 @@ Déclarations lues : 5/5 · rejets : 12 · changements de position : 4 · apport
 - Question pour Fabien : Tes « versions locales » de 21 h 49 sont-elles des ensembles organisés (un peuple, une cité, une institution), ou ce qui se forme entre des parties, quelque part, sans organisation ni porte-parole ? Dans le premier cas la quatrième phrase de la formule tient, et il reste à dire ce qui empêche un ensemble de parler pour le tout à son échelle ; dans le second elle tombe, et tout ensemble organisé est un intermédiaire (principe 12, section 9).
 
 Carte complète : `2026-11-19-ce-qu-est-le-tout/carte.md`.
+
+## Séance 2026-11-20-souverainete-une-video
+
+**Question** : # Question
+
+Déclarations lues : 5/5 · rejets : 11 · changements de position : 4 · apports : 17.
+
+- Tournant possible : 4 changement(s) de position déclaré(s).
+- Mémoire à rafraîchir : 2 oublis relevés chez E ; lui renvoyer le corpus et la grille (`rafraichir`).
+- Citations à vérifier : 38 passage(s) entre guillemets introuvable(s) (voir Contrôles mécaniques).
+- Écho possible : E reprend sans guillemets une part notable d'un autre texte (voir Contrôles mécaniques).
+- Réception partielle : D déclare un texte central incomplet ; renvoyer le corpus.
+- Question pour Fabien : Le tout, tel que tu l'as défini, échappe-t-il à l'hétéronomie au sens de Castoriadis parce qu'il passe par la perception des parties, et qu'est-ce qui distingue alors cette perception d'une adhésion obtenue ?
+- Question pour Fabien : Un canal de retour est-il encore effectif si la contestation n'aboutit qu'après un dommage irréparable pour la partie ? Ta réponse préciserait la section 7 et le principe 11, en distinguant l'existence du recours de sa capacité à préserver effectivement la souveraineté.
+- Question pour Fabien : Dans la section 7 (« Le canal de retour ») et le principe 12 de la grille, lorsqu'un intermédiaire dispose de recours formels mais que ceux-ci opèrent systématiquement plus lentement que l'imposition matérielle d'une contrainte sur des parties captives, faut-il poser qu'un canal de retour différé équivaut structurellement à une absence de canal — faisant basculer l'intermédiaire dans la contrefaçon —, ou maintenir une distinction entre relais asymétrique encore révisable et contrefaçon ?
+- Question pour Fabien : La grille cite le trilemme de Rodrik au principe 12. Limiter l'intégration par une frontière sur les marchandises et les capitaux est-il une voie que le cadre admet, au même titre que porter la voix à l'échelle de l'intégration ? Si oui, le principe 12 doit dire qui tient la frontière et quel recours garde celui qu'elle atteint au-dehors ; si non, le cadre s'engage pour la seconde voie.
+
+Carte complète : `2026-11-20-souverainete-une-video/carte.md`.
