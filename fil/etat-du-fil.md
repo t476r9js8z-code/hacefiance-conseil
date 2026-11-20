@@ -2,20 +2,6 @@
 
 *État mécanique : les six dernières séances. Un cartographe hors table peut le remplacer par un état rédigé.*
 
-## Séance 2026-11-14-conseils-des-ia
-
-**Question** : Une grande partie des utilisateurs interrogent les IA pour leur demander conseil. Dans quelle mesure ces conseils sont-ils déterminés par les allégeances de ceux qui fabriquent et possèdent les modèles (entreprises, États, camps politiques), par leur entraînement, ou par leur finalité commerciale ? Et dans la symbiose qui se forme entre une personne et son IA, laquelle des deux parties est la …
-
-Déclarations lues : 4/4 · rejets : 8 · changements de position : 4 · apports : 11.
-
-- Convergence suspecte : tous les participants déclarent avoir changé de position.
-- Tournant possible : 4 changement(s) de position déclaré(s).
-- 1 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.
-- Écho possible : C reprend sans guillemets une part notable d'un autre texte (voir Contrôles mécaniques).
-- Question pour Fabien : Si l'utilisateur récompense lui-même la complaisance qui l'aveugle (B) et si la contradiction peut être instrumentalisée commercialement (A), l'hôte humain peut-il réellement porter la responsabilité première de maintenir le canal de retour ouvert sans un découplage institutionnel préalable ?
-
-Carte complète : `2026-11-14-conseils-des-ia/carte.md`.
-
 ## Séance 2026-11-14-attributs-de-la-partie
 
 **Question** : Fabien propose un axiome. Une partie se définit par ses attributs : une membrane qu'elle produit et entretient, des fonctions qu'elle seule peut accomplir à l'intérieur, une souveraineté et une expression. Elle ne se suffit pas, puisqu'elle dépend du tout pour se nourrir et traiter ses déchets, et elle a un besoin constant d'empowerment pour devenir ; privée de ses attributs, elle n'est plus …
@@ -99,3 +85,25 @@ Déclarations lues : 5/5 · rejets : 12 · changements de position : 3 · apport
 - Question pour Fabien : Ton « combat justement continuel » amende-t-il la première phrase de la section 11 de l'intégral (« La réponse n'est pas de combattre la captation de front — c'est de réincarner le compas »), ou désigne-t-il la même chose, un travail sur les canaux plutôt qu'une lutte contre des captateurs ? Dans le premier cas la section 11 est à récrire et le découplage perd son rang ; dans le second, la grille (principes 8 et 9) doit noter que le combat vise des dispositifs, non des personnes.
 
 Carte complète : `2026-11-15-reponses-sur-le-combat-et-la-pente/carte.md`.
+
+## Séance 2026-11-19-refonte-du-texte-principal
+
+**Question** : Fabien ouvre la refonte du texte principal (hacefiance_integral.md). Ses mots, tels qu'il les a tapés le 19 novembre (19 h 10) :
+
+Déclarations lues : 5/5 · rejets : 15 · changements de position : 4 · apports : 15.
+
+- Tournant possible : 4 changement(s) de position déclaré(s).
+- 1 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.
+- Mémoire à rafraîchir : 2 oublis relevés chez B ; lui renvoyer le corpus et la grille (`rafraichir`).
+- Mémoire à rafraîchir : 6 oublis relevés chez D ; lui renvoyer le corpus et la grille (`rafraichir`).
+- Mémoire à rafraîchir : 2 oublis relevés chez E ; lui renvoyer le corpus et la grille (`rafraichir`).
+- Citations à vérifier : 4 passage(s) entre guillemets introuvable(s) (voir Contrôles mécaniques).
+- Écho possible : A reprend sans guillemets une part notable d'un autre texte (voir Contrôles mécaniques).
+- Question pour Fabien : La place inconditionnelle d'une partie, la tiens-tu pour un choix posé au départ (un axiome normatif, la « part de foi » de la note d'entrée) ou pour une conséquence de ce qu'un tout doit faire pour durer ? La réponse décide si A8 reste un corollaire ou devient un axiome à part entière.
+- Question pour Fabien : Le 30 octobre, tu demandais « une prose fluide, sans excès de phrases courtes » ; aujourd'hui, tu donnes la v1.1, faite de phrases courtes, comme modèle. Laquelle des deux consignes doit guider les reformulations ?
+- Question pour Fabien : Souhaites-tu maintenir la place inconditionnelle comme une exigence éthique première de l'Hacéfiance, même si elle ne découle pas logiquement de l'existence relationnelle d'un tout ? Ou souhaites-tu démontrer cette exigence par les seules propriétés de l'émergence ? La réponse déterminerait le statut du corollaire d'A8 et les fondements des sections 11 et 13.
+- Question pour Fabien : La place inconditionnelle d'une partie (corollaire de A8 et section 13) repose-t-elle sur une hypothèse empirique de viabilité à long terme ou sur un axiome normatif posé avant toute preuve, même face à une captation plurimillénaire ?
+- Question pour Fabien : Dans la section 11, 'réincarner le compas' et le 'combat justement continuel' que tu as formulé plus tôt désignent-ils deux registres complémentaires ou une priorité de l'un sur l'autre ? La réponse fixerait si la section doit être amendée.
+- Question pour Fabien : La place inconditionnelle est-elle posée, au sens où elle tiendrait même si une captation durable se révélait possible, ou tirée de la persistance, au sens où elle tomberait avec elle ? La réponse fixe le rang du corollaire de A8, celui de la section 13, et l'objet de la « part de foi » de la note d'entrée.
+
+Carte complète : `2026-11-19-refonte-du-texte-principal/carte.md`.

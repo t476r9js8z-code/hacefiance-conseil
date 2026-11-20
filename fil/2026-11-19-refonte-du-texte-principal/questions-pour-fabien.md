@@ -1,0 +1,10 @@
+# Questions pour Fabien — séance 2026-11-19-refonte-du-texte-principal
+
+*Posées par les participants pendant la séance. Tes réponses, si tu en donnes, vont dans `reponses-de-fabien.md` à côté de ce fichier : elles entreront dans la carte et l'état du fil.*
+
+- **A** (tour 2) : La place inconditionnelle d'une partie, la tiens-tu pour un choix posé au départ (un axiome normatif, la « part de foi » de la note d'entrée) ou pour une conséquence de ce qu'un tout doit faire pour durer ? La réponse décide si A8 reste un corollaire ou devient un axiome à part entière.
+- **A** (tour 2) : Le 30 octobre, tu demandais « une prose fluide, sans excès de phrases courtes » ; aujourd'hui, tu donnes la v1.1, faite de phrases courtes, comme modèle. Laquelle des deux consignes doit guider les reformulations ?
+- **E** (tour 2) : Souhaites-tu maintenir la place inconditionnelle comme une exigence éthique première de l'Hacéfiance, même si elle ne découle pas logiquement de l'existence relationnelle d'un tout ? Ou souhaites-tu démontrer cette exigence par les seules propriétés de l'émergence ? La réponse déterminerait le statut du corollaire d'A8 et les fondements des sections 11 et 13.
+- **B** (tour 2) : La place inconditionnelle d'une partie (corollaire de A8 et section 13) repose-t-elle sur une hypothèse empirique de viabilité à long terme ou sur un axiome normatif posé avant toute preuve, même face à une captation plurimillénaire ?
+- **D** (tour 2) : Dans la section 11, 'réincarner le compas' et le 'combat justement continuel' que tu as formulé plus tôt désignent-ils deux registres complémentaires ou une priorité de l'un sur l'autre ? La réponse fixerait si la section doit être amendée.
+- **C** (tour 2) : La place inconditionnelle est-elle posée, au sens où elle tiendrait même si une captation durable se révélait possible, ou tirée de la persistance, au sens où elle tomberait avec elle ? La réponse fixe le rang du corollaire de A8, celui de la section 13, et l'objet de la « part de foi » de la note d'entrée.
