@@ -214,3 +214,4 @@
 - 2026-11-19T20:18:01-05:00 · séance 10, tour 3 : réponse de fable déposée · sha256:95601a600fc0dcb9
 - 2026-11-19T20:18:01-05:00 · séance 2026-11-19-refonte-du-texte-principal · tour 3 · grok (D) · relais · tour-3/grok.md · sha256:e1921a6943e85b85
 - 2026-11-19T20:18:01-05:00 · séance 2026-11-19-refonte-du-texte-principal · tour 3 · fable (C) · relais · tour-3/fable.md · sha256:95601a600fc0dcb9
+- 2026-11-19T20:20:05-05:00 · paroles de Fabien · message de 20:19 · paroles-de-fabien/2026-11-19.md · sha256:7d969f3898b1c873
