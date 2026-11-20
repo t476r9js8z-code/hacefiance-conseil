@@ -253,3 +253,17 @@
 - 2026-11-19T22:58:11-05:00 · séance 2026-11-19-ce-qu-est-le-tout · tour 1 · fable (B) · relais · tour-1/fable.md · sha256:00718e1cd08287b5
 - 2026-11-19T22:59:34-05:00 · séance 11, tour 2 : consignes relayées à GPT, Gemini (texte intégral complet joint), Grok (dossier et sections 11 à 16 joints) et Fable (dossier joint)
 - 2026-11-19T23:00:40-05:00 · séance 11, tour 2 : réponse du greffier (C) déposée · sha256:3baaa6bafb4ce8d7
+- 2026-11-19T23:18:33-05:00 · séance 11, tour 2 : réponse de gpt déposée · sha256:6618ec623434067f
+- 2026-11-19T23:18:33-05:00 · séance 11, tour 2 : réponse de gemini déposée · sha256:8e804e7ce5b34bca
+- 2026-11-19T23:18:33-05:00 · séance 11, tour 2 : réponse de grok déposée · sha256:272fe76ea1be4ce9
+- 2026-11-19T23:18:33-05:00 · séance 11, tour 2 : réponse de fable déposée · sha256:8be3374a39225770
+- 2026-11-19T23:18:33-05:00 · séance 2026-11-19-ce-qu-est-le-tout · tour 2 · claude (C) · relais · tour-2/claude.md · sha256:3baaa6bafb4ce8d7
+- 2026-11-19T23:18:33-05:00 · séance 2026-11-19-ce-qu-est-le-tout · tour 2 · gpt (A) · relais · tour-2/gpt.md · sha256:6618ec623434067f
+- 2026-11-19T23:18:33-05:00 · séance 2026-11-19-ce-qu-est-le-tout · tour 2 · gemini (E) · relais · tour-2/gemini.md · sha256:8e804e7ce5b34bca
+- 2026-11-19T23:18:33-05:00 · séance 2026-11-19-ce-qu-est-le-tout · tour 2 · grok (D) · relais · tour-2/grok.md · sha256:272fe76ea1be4ce9
+- 2026-11-19T23:18:33-05:00 · séance 2026-11-19-ce-qu-est-le-tout · tour 2 · fable (B) · relais · tour-2/fable.md · sha256:8be3374a39225770
+- 2026-11-19T23:19:02-05:00 · séance 11, tour 3 : réponse du greffier (C) à la question de E déposée · sha256:f349062bacebc7ec
+- 2026-11-19T23:19:02-05:00 · séance 2026-11-19-ce-qu-est-le-tout · tour 3 · claude (C) · relais · tour-3/claude.md · sha256:f349062bacebc7ec
+- 2026-11-19T23:19:02-05:00 · séance 2026-11-19-ce-qu-est-le-tout · 6 question(s) pour Fabien
+- 2026-11-19T23:19:02-05:00 · séance 2026-11-19-ce-qu-est-le-tout · carte.md · cartographe mécanique · sha256:cbe029aa10cabb5a
+- 2026-11-19T23:19:02-05:00 · séance 2026-11-19-ce-qu-est-le-tout · état du fil mis à jour · sha256:8adf0643e1559bb7

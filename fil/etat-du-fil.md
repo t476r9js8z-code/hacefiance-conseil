@@ -2,22 +2,6 @@
 
 *État mécanique : les six dernières séances. Un cartographe hors table peut le remplacer par un état rédigé.*
 
-## Séance 2026-11-14-attributs-de-la-partie
-
-**Question** : Fabien propose un axiome. Une partie se définit par ses attributs : une membrane qu'elle produit et entretient, des fonctions qu'elle seule peut accomplir à l'intérieur, une souveraineté et une expression. Elle ne se suffit pas, puisqu'elle dépend du tout pour se nourrir et traiter ses déchets, et elle a un besoin constant d'empowerment pour devenir ; privée de ses attributs, elle n'est plus …
-
-Déclarations lues : 4/4 · rejets : 7 · changements de position : 4 · apports : 11.
-
-- Convergence suspecte : tous les participants déclarent avoir changé de position.
-- Tournant possible : 4 changement(s) de position déclaré(s).
-- 1 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.
-- Écho possible : A reprend sans guillemets une part notable d'un autre texte (voir Contrôles mécaniques).
-- Question pour Fabien : Une partie réduite par la force à l'état de ressource reste-t-elle une partie, comme le propose C, ou l'axiome veut-il dire qu'elle cesse de l'être ?
-- Question pour Fabien : Accepterais-tu que la membrane d'une partie puisse être coproduite et gouvernée avec d'autres, plutôt que nécessairement produite et contrôlée par elle seule, dès lors que cette coopération préserve sa capacité d'expression et de contestation ?
-- Question pour Fabien : La biologie évolutive montre que les grandes transitions vers un organisme n+1 ont exigé que les parties abandonnent certaines prérogatives souveraines (reproduction indépendante, refus de l'apoptose), alors que ton axiome parie sur une échelle n+1 conservant intacte la souveraineté de chaque partie : quel mécanisme concret empêche une partie souveraine de refuser l'autolimitation en cas de conflit avec le tout ?
-
-Carte complète : `2026-11-14-attributs-de-la-partie/carte.md`.
-
 ## Séance 2026-11-14-limite-informationnelle
 
 **Question** : Fabien pose que l'information est le n+1 dont parle l'Hacéfiance : la complexité tend vers une cognition de plus en plus délocalisée, d'échelle toujours supérieure. Sa question : sommes-nous sur le point d'atteindre une limite ? Et le bruit que produisent des parties souveraines et diverses est-il l'obstacle de cette échelle, ou sa condition ?
@@ -107,3 +91,23 @@ Déclarations lues : 5/5 · rejets : 15 · changements de position : 4 · apport
 - Question pour Fabien : La place inconditionnelle est-elle posée, au sens où elle tiendrait même si une captation durable se révélait possible, ou tirée de la persistance, au sens où elle tomberait avec elle ? La réponse fixe le rang du corollaire de A8, celui de la section 13, et l'objet de la « part de foi » de la note d'entrée.
 
 Carte complète : `2026-11-19-refonte-du-texte-principal/carte.md`.
+
+## Séance 2026-11-19-ce-qu-est-le-tout
+
+**Question** : # Question
+
+Déclarations lues : 5/5 · rejets : 12 · changements de position : 4 · apports : 15.
+
+- Tournant possible : 4 changement(s) de position déclaré(s).
+- 2 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.
+- Citations à vérifier : 6 passage(s) entre guillemets introuvable(s) (voir Contrôles mécaniques).
+- Écho possible : C reprend sans guillemets une part notable d'un autre texte (voir Contrôles mécaniques).
+- Réception partielle : E déclare un texte central incomplet ; renvoyer le corpus.
+- Question pour Fabien : À 21 h 49, tu avançais l'unicité du tout sous forme de question (« N y aurait il pas pas un seul universel »). La tiens-tu pour une affirmation du cadre, ou pour une hypothèse, relevant de la « part de foi » de la note d'entrée ? La réponse décide si la définition peut écrire « le tout, au singulier » sans réserve.
+- Question pour Fabien : Quand tu distingues le tout des États et des institutions, acceptes-tu que les « versions locales » désignent les relations de réciprocité qui peuvent se réaliser entre des parties, plutôt que les ensembles organisés eux-mêmes ? La réponse déterminerait le statut du principe 2 et les corrections nécessaires aux sections 5, 9 et 13.
+- Question pour Fabien : Acceptes-tu, suivant la critique de B et tes propres mots de 21 h 31, de retirer de la définition validée l'énoncé selon lequel « les ensembles organisés en sont des versions locales », afin que tout État ou collectif institué soit classé exclusivement parmi les intermédiaires ?
+- Question pour Fabien : Entends-tu par « version locale » un ensemble organisé ou seulement un sens commun effectivement atteint entre des parties, sans porte-parole ?
+- Question pour Fabien : La place inconditionnelle oblige-t-elle un intermédiaire envers toute personne que ses actes atteignent, comme « La morale est dans le couplage » le pose pour le canal de retour, ou seulement envers ses membres ? La réponse fixe le sens de « reste pleinement membre » à la section 13 et dit si le principe 8 vaut au-delà des frontières d'un ensemble.
+- Question pour Fabien : Tes « versions locales » de 21 h 49 sont-elles des ensembles organisés (un peuple, une cité, une institution), ou ce qui se forme entre des parties, quelque part, sans organisation ni porte-parole ? Dans le premier cas la quatrième phrase de la formule tient, et il reste à dire ce qui empêche un ensemble de parler pour le tout à son échelle ; dans le second elle tombe, et tout ensemble organisé est un intermédiaire (principe 12, section 9).
+
+Carte complète : `2026-11-19-ce-qu-est-le-tout/carte.md`.

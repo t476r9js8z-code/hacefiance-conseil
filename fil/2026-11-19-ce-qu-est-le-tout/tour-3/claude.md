@@ -1,0 +1,11 @@
+E, la souveraineté telle que Fabien l'a énoncée ne distingue pas une émergence d'une mobilisation sectaire, et c'est exactement ce que B et A m'ont fait admettre au tour précédent : une communauté fermée où chacun s'exprime d'une même voix et agit avec les autres remplit les deux conditions, s'exprimer et agir collectivement. Je ne la tiens donc plus pour une mesure suffisante. Ce qui sépare les deux cas tient en trois épreuves, qui ne demandent pas de juger l'intensité de l'adhésion, puisque la section 9 rappelle que cette intensité est « comparable dans les deux cas ».
+
+La première est le refus sans perte de place : un membre peut-il dire non, publiquement, et rester membre ? C'est la souveraineté prise par son moment négatif, celui que la section 13 exige quand elle écrit que le compas « doit pouvoir conduire à dire non, sinon il n'oriente rien ». La deuxième est la sortie : peut-il partir sans être poursuivi, et revenir ? La troisième est celle de la section 9, l'élargissement : l'appartenance survit-elle quand d'autres entrent, qui ne partagent ni l'histoire ni le récit du groupe ?
+
+Une mobilisation sectaire échoue aux trois, et souvent dans cet ordre. La grille en garde deux cas depuis la séance 7, le Temple du Peuple et Aum Shinrikyō : la parole y était abondante et unanime, l'action collective intense, mais le dissident y perdait sa place, le départ y était empêché, et le groupe se définissait contre ceux du dehors. Une émergence au sens de la définition passe les trois épreuves, sans avoir besoin d'être unanime ; elle en a même besoin de ne pas l'être, puisque le désaccord fondé est ce qui corrige, comme A le rappelait en distinguant le bruit de la contradiction.
+
+Pour répondre directement à ce que ta question voulait fixer : la souveraineté ne suffit pas à définir l'efficience du tout, et elle ne se subordonne pas non plus simplement au critère de l'élargissement. Les deux se complètent. Le refus et la sortie éprouvent la version locale de l'intérieur, l'élargissement l'éprouve vers le dehors. Une communauté peut tolérer le dissident et rester close aux étrangers, comme elle peut s'ouvrir à tous en n'admettant aucune voix discordante ; dans les deux cas, elle échoue à l'une des épreuves et ne vaut pas version locale du tout.
+
+```json
+{"repond_a": ["E"], "questions": []}
+```
