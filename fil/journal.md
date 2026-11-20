@@ -228,3 +228,4 @@
 - 2026-11-19T21:31:58-05:00 · paroles de Fabien · message de 21:31 (le tout n'est pas l'État ni un intermédiaire) · paroles-de-fabien/2026-11-19.md et reponses-de-fabien.md · sha256:832099adb4ad2a23
 - 2026-11-19T21:50:02-05:00 · paroles de Fabien · message de 21:49 (un seul tout universel) · paroles-de-fabien/2026-11-19.md et reponses-de-fabien.md · sha256:82780bdbd9f874bb
 - 2026-11-19T21:55:22-05:00 · paroles de Fabien · message de 21:55 (définition du tout validée ; prochaine séance sur une expérience locale, transcription à venir) · paroles-de-fabien/2026-11-19.md et reponses-de-fabien.md · sha256:bc7ab48827416329
+- 2026-11-19T21:57:20-05:00 · paroles de Fabien · message de 21:57 · paroles-de-fabien/2026-11-19.md et reponses-de-fabien.md · sha256:76b5f80df672c3b3
