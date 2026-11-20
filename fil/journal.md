@@ -269,3 +269,4 @@
 - 2026-11-19T23:19:02-05:00 · séance 2026-11-19-ce-qu-est-le-tout · état du fil mis à jour · sha256:8adf0643e1559bb7
 - 2026-11-20T10:25:39-05:00 · paroles de Fabien · message de 10:25 (Égypte ; statut du projet ; demande d'explication de la question de B) · paroles-de-fabien/2026-11-20.md et séance 11 reponses-de-fabien.md · sha256:3c7b73fdc54c2731
 - 2026-11-20T10:48:23-05:00 · paroles de Fabien · message de 10:48 (démarche commune, béatitude ; question de B : membres et non-membres, les mineurs) · paroles-de-fabien/2026-11-20.md et séance 11 reponses-de-fabien.md · sha256:6bfe41930bf1d7b2
+- 2026-11-20T10:57:58-05:00 · paroles de Fabien · message de 10:57 (anomie ; cobalt ; acteurs externes) · paroles-de-fabien/2026-11-20.md et séance 11 reponses-de-fabien.md · sha256:28950b1f10fadff1
