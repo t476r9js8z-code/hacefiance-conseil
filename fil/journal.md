@@ -241,3 +241,4 @@
 - 2026-11-19T22:36:27-05:00 · séance 11, tour 1 : consignes relayées à GPT, Gemini, Grok (discussion neuve, dossier joint) et Fable (discussion neuve 71d04ee7-4bfa-4662-8531-ac3568c8f2c8, dossier joint)
 - 2026-11-19T22:37:14-05:00 · séance 11, tour 1 : réponse du greffier (C) déposée · sha256:da2bef8715cc2350
 - 2026-11-19T22:43:31-05:00 · paroles de Fabien · message de 22:43 (préparer les participants à la séance sur la vidéo) · paroles-de-fabien/2026-11-19.md · sha256:8f80251cb7a16ca7
+- 2026-11-19T22:49:14-05:00 · paroles de Fabien · message de 22:49 · paroles-de-fabien/2026-11-19.md · sha256:f264ace272830fba
