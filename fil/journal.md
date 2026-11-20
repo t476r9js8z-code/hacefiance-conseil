@@ -301,3 +301,6 @@
 - 2026-11-20T12:13:32-05:00 · séance 2026-11-20-souverainete-une-video · tour 1 · gemini (D) · relais · tour-1/gemini.md · sha256:2651324d30a16e62
 - 2026-11-20T12:13:32-05:00 · séance 2026-11-20-souverainete-une-video · tour 1 · grok (E) · relais · tour-1/grok.md · sha256:3483e673e77128e1
 - 2026-11-20T12:13:32-05:00 · séance 2026-11-20-souverainete-une-video · tour 1 · fable (C) · relais · tour-1/fable.md · sha256:e2fd74b66823c5a5
+- 2026-11-20T12:15:20-05:00 · séance 13, tour 2 : consignes relayées à GPT, Gemini (avec le texte intégral, qui manquait au tour 1), Grok et Fable (dossiers joints), dans les discussions du tour 1
+- 2026-11-20T12:15:50-05:00 · séance 13, tour 1 : note du greffier — la réponse de GPT (tour-1/gpt.md) arrive en deux messages ; le second reprend mot pour mot la seconde moitié du premier (« Le premier mécanisme convaincant… » jusqu'au JSON) ; déposée et relayée telle quelle ; les balises <Cite ref=…> sont des marques de citation de l'interface de GPT, sans lien lisible
+- 2026-11-20T12:17:07-05:00 · séance 2026-11-20-souverainete-une-video · tour 2 · claude (B) · relais · tour-2/claude.md · sha256:f207984b8078cdae
