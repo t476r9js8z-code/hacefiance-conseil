@@ -189,3 +189,5 @@
 - 2026-11-19T18:44:42-05:00 · paroles de Fabien · message de 18:44 · paroles-de-fabien/2026-11-19.md · sha256:cc17922c13b100d1
 - 2026-11-19T18:44:42-05:00 · séance 2026-11-15-reponses-sur-le-combat-et-la-pente · précision de Fabien (rédaction de l'intégral au-delà de la section 6 ou 8) · reponses-de-fabien.md · sha256:df90cdcb6115edc7
 - 2026-11-19T19:03:42-05:00 · paroles de Fabien · messages de 18:51 et 19:03 (refonte du texte principal envisagée) · paroles-de-fabien/2026-11-19.md · sha256:a63a31b28f4f4b72
+- 2026-11-19T19:11:20-05:00 · paroles de Fabien · message de 19:10 (consigne de la séance 10) · paroles-de-fabien/2026-11-19.md · sha256:bf64827ee96ae74c
+- 2026-11-19T19:11:35-05:00 · séance 2026-11-19-refonte-du-texte-principal ouverte · vérificateur grok
