@@ -17,5 +17,9 @@
     "fable": "C"
   },
   "verificateur": "grok",
-  "journalise": []
+  "journalise": [
+    "1/claude",
+    "1/gemini",
+    "1/grok"
+  ]
 }

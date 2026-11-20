@@ -192,3 +192,8 @@
 - 2026-11-19T19:11:20-05:00 · paroles de Fabien · message de 19:10 (consigne de la séance 10) · paroles-de-fabien/2026-11-19.md · sha256:bf64827ee96ae74c
 - 2026-11-19T19:11:35-05:00 · séance 2026-11-19-refonte-du-texte-principal ouverte · vérificateur grok
 - 2026-11-19T19:13:39-05:00 · séance 2026-11-19-refonte-du-texte-principal · tour 1 · gemini (B) · le dossier commun du tour (identique à celui de Grok et de Fable) a été joint en plus de la consigne, la tâche portant sur tout le texte intégral · relais/grok-tour-1.dossier.md
+- 2026-11-19T19:27:48-05:00 · séance 2026-11-19-refonte-du-texte-principal · tour 1 · gpt (E) · erreur de relais : le message de la consigne était resté dans la zone de saisie sans être envoyé ; envoyé à 19:25
+- 2026-11-19T19:27:48-05:00 · séance 2026-11-19-refonte-du-texte-principal · tour 1 · grok (D) · réception partielle déclarée (texte intégral tronqué à la section 11) ; sections 11 à 16 renvoyées à part, complément demandé dans la même discussion
+- 2026-11-19T19:27:48-05:00 · séance 2026-11-19-refonte-du-texte-principal · tour 1 · claude (A) · relais · tour-1/claude.md · sha256:7cb4733cd47c5809
+- 2026-11-19T19:27:48-05:00 · séance 2026-11-19-refonte-du-texte-principal · tour 1 · gemini (B) · relais · tour-1/gemini.md · sha256:c01dacac20280755
+- 2026-11-19T19:27:48-05:00 · séance 2026-11-19-refonte-du-texte-principal · tour 1 · grok (D) · relais · tour-1/grok.md · sha256:0aaf7b5461b423e0
