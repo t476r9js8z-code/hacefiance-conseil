@@ -281,3 +281,11 @@
 - 2026-11-20T11:36:22-05:00 · séance 12, tour 1 : réponse de grok déposée · sha256:715c1ef8c7534f9f
 - 2026-11-20T11:36:22-05:00 · séance 12, tour 1 : réponse de fable déposée · sha256:86681da84076848a
 - 2026-11-20T11:36:37-05:00 · séance 12 close après une ronde, comme demandé par Fabien (pas de lecture croisée ni de carte). Note : les mots bruts de Fabien nomment « fable » ; l'anonymat de ce participant est levé pour lui dans cette séance.
+- 2026-11-20T11:47:28-05:00 · paroles de Fabien · message de 11:47 (« ok » : consigne de la séance 13 validée) · paroles-de-fabien/2026-11-20.md · sha256:2689367b205c16ce
+- 2026-11-20T11:47:47-05:00 · séance 2026-11-20-souverainete-une-video ouverte · vérificateur gemini
+- 2026-11-20T11:47:53-05:00 · séance 13 ouverte (souveraineté, la vidéo), consigne validée par Fabien (11:47)
+- 2026-11-20T11:47:53-05:00 · séance 13, pièce versée : annoter_transcription.py · sha256:6ffde14030265a6e
+- 2026-11-20T11:47:53-05:00 · séance 13, pièce versée : dossier-de-lecture.md · sha256:6bfe06a20f58c962
+- 2026-11-20T11:47:53-05:00 · séance 13, pièce versée : index-des-extraits.md · sha256:7277aad4c7a18fec
+- 2026-11-20T11:47:53-05:00 · séance 13, pièce versée : transcription-annotee.md · sha256:c579685679f7eb00
+- 2026-11-20T11:47:53-05:00 · séance 13, pièce versée : transcription-brute.txt · sha256:c5eb88eb4f3d0919
