@@ -231,3 +231,4 @@
 - 2026-11-19T21:57:20-05:00 · paroles de Fabien · message de 21:57 · paroles-de-fabien/2026-11-19.md et reponses-de-fabien.md · sha256:76b5f80df672c3b3
 - 2026-11-19T21:59:24-05:00 · paroles de Fabien · message de 21:59 · paroles-de-fabien/2026-11-19.md · sha256:54c42b0fcd033ef9
 - 2026-11-19T22:01:15-05:00 · paroles de Fabien · message de 22:00 (script d'annotation et dossier de lecture sur la vidéo « L'arnaque de la transition écologique ») · paroles-de-fabien/2026-11-19.md · sha256:f0aefe7bcaa064c3
+- 2026-11-19T22:11:52-05:00 · paroles de Fabien · message de 22:11 (index des extraits ; aucun axiome écologique non versé) · paroles-de-fabien/2026-11-19.md · sha256:1ee2c82b23ef8565
