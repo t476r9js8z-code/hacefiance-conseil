@@ -19,3 +19,7 @@
     oui on parlait du cobalt. puis tu as fait le lien avec le congo. mais le point est que l industrie minière est très puissante au canada et exploite des mines un peu partout dans le monde. et ses leviers son lobying est fort. et là ou une juridiction permettrait de faire evoluer des pratiques la volonté politique est fortement dégradée. ce qui dans une certaines mesure impacte aussi les canadiens.
 
 *Note du greffier : ce « oui » répond à la question de reformulation posée par le greffier en réponse au message de 10 h 57 : « Puis-je inscrire au dossier ta réponse à la question 3 de Fable ainsi : l'obligation d'un intermédiaire suit ses actes et non l'appartenance, et celui qui entretient l'anomie ailleurs en répond ? » La formulation est du greffier.*
+
+**Fabien (20 novembre, 11:17) :**
+
+    ok cet echange était assez clair, et constructif essais de ne pas trop l interpréter. et partage le. derniere ronde puis on discute de la transcription de la video ? avec les trois fichiers analysés de manière profonde.
