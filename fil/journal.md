@@ -289,3 +289,5 @@
 - 2026-11-20T11:47:53-05:00 · séance 13, pièce versée : index-des-extraits.md · sha256:7277aad4c7a18fec
 - 2026-11-20T11:47:53-05:00 · séance 13, pièce versée : transcription-annotee.md · sha256:c579685679f7eb00
 - 2026-11-20T11:47:53-05:00 · séance 13, pièce versée : transcription-brute.txt · sha256:c5eb88eb4f3d0919
+- 2026-11-20T11:49:36-05:00 · séance 13, tour 1 : consignes et trois pièces relayées à GPT, Gemini, Grok (discussion neuve, dossier joint) et Fable (discussion neuve f831e2d9-1719-4388-b658-2dd366d8349f, dossier joint)
+- 2026-11-20T11:53:50-05:00 · séance 13, tour 1 : réponse de Claude déposée (tour-1/claude.md) · sha256:971045ede7b49b0f
