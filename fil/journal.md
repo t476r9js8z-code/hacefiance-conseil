@@ -251,3 +251,5 @@
 - 2026-11-19T22:58:11-05:00 · séance 2026-11-19-ce-qu-est-le-tout · tour 1 · gemini (E) · relais · tour-1/gemini.md · sha256:e3f5805089e908d4
 - 2026-11-19T22:58:11-05:00 · séance 2026-11-19-ce-qu-est-le-tout · tour 1 · grok (D) · relais · tour-1/grok.md · sha256:be38b125ef705482
 - 2026-11-19T22:58:11-05:00 · séance 2026-11-19-ce-qu-est-le-tout · tour 1 · fable (B) · relais · tour-1/fable.md · sha256:00718e1cd08287b5
+- 2026-11-19T22:59:34-05:00 · séance 11, tour 2 : consignes relayées à GPT, Gemini (texte intégral complet joint), Grok (dossier et sections 11 à 16 joints) et Fable (dossier joint)
+- 2026-11-19T23:00:40-05:00 · séance 11, tour 2 : réponse du greffier (C) déposée · sha256:3baaa6bafb4ce8d7
