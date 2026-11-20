@@ -267,3 +267,4 @@
 - 2026-11-19T23:19:02-05:00 · séance 2026-11-19-ce-qu-est-le-tout · 6 question(s) pour Fabien
 - 2026-11-19T23:19:02-05:00 · séance 2026-11-19-ce-qu-est-le-tout · carte.md · cartographe mécanique · sha256:cbe029aa10cabb5a
 - 2026-11-19T23:19:02-05:00 · séance 2026-11-19-ce-qu-est-le-tout · état du fil mis à jour · sha256:8adf0643e1559bb7
+- 2026-11-20T10:25:39-05:00 · paroles de Fabien · message de 10:25 (Égypte ; statut du projet ; demande d'explication de la question de B) · paroles-de-fabien/2026-11-20.md et séance 11 reponses-de-fabien.md · sha256:3c7b73fdc54c2731
