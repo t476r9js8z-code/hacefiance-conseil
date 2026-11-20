@@ -197,3 +197,6 @@
 - 2026-11-19T19:27:48-05:00 · séance 2026-11-19-refonte-du-texte-principal · tour 1 · claude (A) · relais · tour-1/claude.md · sha256:7cb4733cd47c5809
 - 2026-11-19T19:27:48-05:00 · séance 2026-11-19-refonte-du-texte-principal · tour 1 · gemini (B) · relais · tour-1/gemini.md · sha256:c01dacac20280755
 - 2026-11-19T19:27:48-05:00 · séance 2026-11-19-refonte-du-texte-principal · tour 1 · grok (D) · relais · tour-1/grok.md · sha256:0aaf7b5461b423e0
+- 2026-11-19T19:44:34-05:00 · séance 10, tour 1 : complément de Grok sur les sections 11 à 16 ajouté à tour-1/grok.md sous un intertitre de greffe · sha256:3a1896db15a6c965
+- 2026-11-19T19:44:34-05:00 · séance 2026-11-19-refonte-du-texte-principal · tour 1 · gpt (E) · relais · tour-1/gpt.md · sha256:8909eaa1d3fc5cc5
+- 2026-11-19T19:44:34-05:00 · séance 2026-11-19-refonte-du-texte-principal · tour 1 · fable (C) · relais · tour-1/fable.md · sha256:2d3adc869a07afb5

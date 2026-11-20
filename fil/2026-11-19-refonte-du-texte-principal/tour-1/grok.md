@@ -23,3 +23,26 @@ Je ne propose donc aucune reformulation majeure ni aucun retrait. Quelques clari
 ```json
 {"recu": {"texte_central": "partiel", "manquent": ["fin de la section 11 et suivantes du texte intégral (tronqué dans le dossier reçu)"], "grille": true}}
 ```
+
+
+*[Complément du greffe : le dossier était tronqué à la section 11 pour Grok ; les sections 11 à 16 lui ont été envoyées à part. Voici sa réponse sur ces sections, telle que reçue.]*
+
+Les sections 11 à 16 confirment ce que les premières laissaient entrevoir : le texte passe d’une base axiomatique relativement économe à un développement opérationnel plus dense, plus prescriptif, et plus exposé aux tensions déjà relevées dans le fil.
+
+La section 11 pose le retournement. Le passage central reste clair : « La réponse n’est pas de combattre la captation de front — c’est de réincarner le compas. » Il ancre la spiritualité sur des fondations observables et refuse le retour aux anciens récits. Le découplage des interfaces soudées est concret et utile : séparer financement et régulation, évaluation et application, rendre le recours externe obligatoire. Ces opérations sont banales et c’est précisément ce qui les rend vérifiables. Le critère du coût de maintien est l’un des apports les plus solides du cadre : il porte sur des flux, non sur des intentions, et il est réfutable. La borne qui suit est encore plus importante : « Ce critère porte sur des composants fonctionnels […] Il ne porte jamais sur des personnes. » Trois raisons sont données — erreur de catégorie, axiome A8, perte de rapport d’échelle — et elles tiennent. C’est cohérent avec tout ce qui précède. On pourrait seulement noter que la formule « combat de front » a déjà été nuancée par Fabien lui-même dans le fil (« combat justement continuel ») ; la tension entre les deux formulations mérite d’être explicitée plutôt que laissée en suspens, faute de quoi le lecteur croit à une opposition qui n’est peut-être qu’une différence d’accent.
+
+La section 12 sur l’IA prolonge sans rupture le miroir déjà posé. L’idée que l’IA produit de la concordance à coût presque nul, et qu’elle peut donc contrefaire le signal d’orientation, est exacte. L’exigence « qu’elle dise non quelque part » reste la meilleure protection proposée. La leçon sur la diversité des intelligences (biologique, artificielle, futures) comme condition du prochain palier est juste et s’accorde avec A8. Rien à retirer ; le ton reste fluide.
+
+La section 13 développe la réciprocité. Ce que le composant doit au tout et ce que le tout doit aux parties sont énoncés avec une clarté rare. La place inconditionnelle — « un enfant, une personne malade, quelqu’un qui ne peut plus contribuer reste pleinement membre » — découle directement de A8 et du refus d’appliquer le critère aux personnes. C’est l’un des points où le texte est le plus net et le moins négociable. Les valeurs listées ne sont pas des ornements ; elles sont présentées comme conditions structurelles. Le risque de lecture normative existe, mais le texte le contient en rappelant que recevoir fait partie du sens autant que donner.
+
+Les sections 14 à 16 sont bien placées. Les questions ouvertes ne sont pas des lacunes décoratives ; elles maintiennent le mouvement. Le glossaire opérationnel est utile, même s’il reprend des définitions déjà données — c’est le prix d’un document autonome. L’invitation à la contribution reste fidèle à l’esprit d’ouverture.
+
+Sur le style, l’écart avec les sections 1-7 s’accentue. Les axiomes avançaient par propositions courtes et sourcées. Ici le texte s’allonge, multiplie les listes et les reformulations. Ce n’est pas une erreur, c’est un changement de registre : de la fondation à l’application. On peut le garder, à condition de ne pas laisser croire que la densité opérationnelle est déjà de l’axiome. Quelques anticipations et reprises (réciprocité, contrefaçon, canal de retour) pourraient être signalées comme fil conducteur plutôt que redécouvertes.
+
+Mes trois points les plus importants ne changent pas de nature, mais ils se précisent. Premier : le socle 1-7 reste solide et peut servir de modèle de clarté. Deuxième : le critère du coût de maintien et sa borne stricte sur les personnes constituent l’apport le plus opératoire et le plus cohérent avec A8 ; il faut le préserver intact. Troisième : la principale tension ouverte n’est plus dans les axiomes, mais dans l’articulation entre « réincarner le compas » et le « combat justement continuel » déjà formulé par Fabien — tension de formulation plus que de fond, mais qu’il faudra trancher pour éviter une lecture contradictoire.
+
+Aucune reformulation majeure ni aucun retrait ne s’imposent d’emblée pour 11-16. Des clarifications de statut (axiome / conséquence / proposition opérationnelle) et un resserrement des reprises suffiraient. Le texte tient.
+
+```json
+{"recu": {"texte_central": "complet", "manquent": [], "grille": true}}
+```
