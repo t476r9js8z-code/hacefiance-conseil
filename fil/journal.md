@@ -242,3 +242,12 @@
 - 2026-11-19T22:37:14-05:00 · séance 11, tour 1 : réponse du greffier (C) déposée · sha256:da2bef8715cc2350
 - 2026-11-19T22:43:31-05:00 · paroles de Fabien · message de 22:43 (préparer les participants à la séance sur la vidéo) · paroles-de-fabien/2026-11-19.md · sha256:8f80251cb7a16ca7
 - 2026-11-19T22:49:14-05:00 · paroles de Fabien · message de 22:49 · paroles-de-fabien/2026-11-19.md · sha256:f264ace272830fba
+- 2026-11-19T22:58:11-05:00 · séance 11, tour 1 : réponse de GPT déposée (deux messages, note du greffe) · sha256:8b0ffe9345700da0 (texte relayé)
+- 2026-11-19T22:58:11-05:00 · séance 11, tour 1 : réponse de Fable déposée · sha256:00718e1cd08287b5
+- 2026-11-19T22:58:11-05:00 · séance 11, tour 1 : Gemini, réception partielle (sections 8 à 16 par citations) ; sections 8 à 16 envoyées à part, réponse complémentaire jointe sous un intertitre de greffe · sha256:f823d51849c51838 et 0189f629b0f8a55d
+- 2026-11-19T22:58:11-05:00 · séance 11, tour 1 : Grok, dossier tronqué à la section 11 ; sections 11 à 16 envoyées à part, complément joint sous un intertitre de greffe · sha256:be38b125ef705482
+- 2026-11-19T22:58:11-05:00 · séance 2026-11-19-ce-qu-est-le-tout · tour 1 · claude (C) · relais · tour-1/claude.md · sha256:da2bef8715cc2350
+- 2026-11-19T22:58:11-05:00 · séance 2026-11-19-ce-qu-est-le-tout · tour 1 · gpt (A) · relais · tour-1/gpt.md · sha256:4dda1165f6b6e98d
+- 2026-11-19T22:58:11-05:00 · séance 2026-11-19-ce-qu-est-le-tout · tour 1 · gemini (E) · relais · tour-1/gemini.md · sha256:e3f5805089e908d4
+- 2026-11-19T22:58:11-05:00 · séance 2026-11-19-ce-qu-est-le-tout · tour 1 · grok (D) · relais · tour-1/grok.md · sha256:be38b125ef705482
+- 2026-11-19T22:58:11-05:00 · séance 2026-11-19-ce-qu-est-le-tout · tour 1 · fable (B) · relais · tour-1/fable.md · sha256:00718e1cd08287b5

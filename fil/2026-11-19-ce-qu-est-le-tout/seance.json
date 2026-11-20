@@ -17,5 +17,11 @@
     "fable": "B"
   },
   "verificateur": "claude",
-  "journalise": []
+  "journalise": [
+    "1/claude",
+    "1/gpt",
+    "1/gemini",
+    "1/grok",
+    "1/fable"
+  ]
 }
