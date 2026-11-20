@@ -210,3 +210,7 @@
 - 2026-11-19T20:06:55-05:00 · séance 10, tour 2 : réponse de gemini déposée · sha256:5015342e36d34990
 - 2026-11-19T20:06:55-05:00 · séance 10, tour 2 : réponse de grok déposée · sha256:6e9341c6245cca2a
 - 2026-11-19T20:06:55-05:00 · séance 10, tour 2 : réponse de fable déposée · sha256:6462928cd3f50733
+- 2026-11-19T20:18:01-05:00 · séance 10, tour 3 : réponse de grok déposée · sha256:e1921a6943e85b85
+- 2026-11-19T20:18:01-05:00 · séance 10, tour 3 : réponse de fable déposée · sha256:95601a600fc0dcb9
+- 2026-11-19T20:18:01-05:00 · séance 2026-11-19-refonte-du-texte-principal · tour 3 · grok (D) · relais · tour-3/grok.md · sha256:e1921a6943e85b85
+- 2026-11-19T20:18:01-05:00 · séance 2026-11-19-refonte-du-texte-principal · tour 3 · fable (C) · relais · tour-3/fable.md · sha256:95601a600fc0dcb9

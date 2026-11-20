@@ -27,6 +27,8 @@
     "2/gpt",
     "2/gemini",
     "2/grok",
-    "2/fable"
+    "2/fable",
+    "3/grok",
+    "3/fable"
   ]
 }
