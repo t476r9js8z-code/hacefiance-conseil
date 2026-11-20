@@ -201,3 +201,12 @@
 - 2026-11-19T19:44:34-05:00 · séance 2026-11-19-refonte-du-texte-principal · tour 1 · gpt (E) · relais · tour-1/gpt.md · sha256:8909eaa1d3fc5cc5
 - 2026-11-19T19:44:34-05:00 · séance 2026-11-19-refonte-du-texte-principal · tour 1 · fable (C) · relais · tour-1/fable.md · sha256:2d3adc869a07afb5
 - 2026-11-19T19:48:44-05:00 · séance 10, tour 2 : réponse du greffier (A) déposée ; consignes relayées à GPT, Gemini, Grok et Fable (dossier joint pour Grok et Fable) · sha256:1f363f137bdf01b7
+- 2026-11-19T20:06:46-05:00 · séance 2026-11-19-refonte-du-texte-principal · tour 2 · claude (A) · relais · tour-2/claude.md · sha256:1f363f137bdf01b7
+- 2026-11-19T20:06:46-05:00 · séance 2026-11-19-refonte-du-texte-principal · tour 2 · gpt (E) · relais · tour-2/gpt.md · sha256:4f189169935fe805
+- 2026-11-19T20:06:46-05:00 · séance 2026-11-19-refonte-du-texte-principal · tour 2 · gemini (B) · relais · tour-2/gemini.md · sha256:5015342e36d34990
+- 2026-11-19T20:06:46-05:00 · séance 2026-11-19-refonte-du-texte-principal · tour 2 · grok (D) · relais · tour-2/grok.md · sha256:6e9341c6245cca2a
+- 2026-11-19T20:06:46-05:00 · séance 2026-11-19-refonte-du-texte-principal · tour 2 · fable (C) · relais · tour-2/fable.md · sha256:6462928cd3f50733
+- 2026-11-19T20:06:55-05:00 · séance 10, tour 2 : réponse de gpt déposée · sha256:4f189169935fe805
+- 2026-11-19T20:06:55-05:00 · séance 10, tour 2 : réponse de gemini déposée · sha256:5015342e36d34990
+- 2026-11-19T20:06:55-05:00 · séance 10, tour 2 : réponse de grok déposée · sha256:6e9341c6245cca2a
+- 2026-11-19T20:06:55-05:00 · séance 10, tour 2 : réponse de fable déposée · sha256:6462928cd3f50733

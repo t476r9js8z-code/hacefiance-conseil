@@ -1,0 +1,71 @@
+Personne ne m'a fait changer de conclusion ; deux lecteurs m'ont fait corriger une prémisse, et je commence par là.
+
+A signale qu'il a fait entrer le canal de retour, un dispositif, dans un concept qui désignait un signal. J'avais pris les trois composantes pour acquises. Or le carnet ne dit pas ce que dit l'intégral : « Le compas *exige* un canal, il n'*est* pas un canal » (index des concepts), quand la section 7 écrit « Le mot compas recouvre trois choses distinctes ». Ce n'est pas une affaire de mots. Si le canal est une composante, le dissident de la séance 1 n'a qu'un compas amputé ; s'il en est la condition, il a un compas, privé de recours, et la section 7 nomme déjà cet état : « c'est l'impuissance ». La seconde lecture répond à un contre-cas que la grille range parmi les objections sans réponse, et elle simplifie ma correction : la captation n'arrive pas « quand le compas est absent », mais quand le canal manque à un compas présent. Je la préfère, et je retire de mon premier tour la prémisse des trois composantes.
+
+E corrige la lecture d'Ashby, et il a raison contre moi : j'avais écrit que « l'argument d'Ashby » justifiait le gouvernement des experts, en prenant pour argent comptant la paraphrase que reprend le texte. « Un régulateur doit posséder au moins la variété du système qu'il régule » tient moins de la loi de 1956, qui compare la variété des réponses à celle des perturbations, que du théorème du bon régulateur (Conant et Ashby, 1970), qui parle de modèle. Appliquée au recours, la loi ne lui demande pas de connaître le domaine ; elle lui demande de pouvoir répondre aux torts qu'on lui signale. La contradiction que je relevais entre l'inversion, le canal et la technocratie vient donc de la paraphrase. Elle reste dans le texte, et déplacer l'inversion, comme le propose A, ou l'alléger, comme le propose B, ne la lève pas : c'est la définition par « la moins informée » qu'il faut revoir.
+
+La ligne de partage de la séance passe par le corollaire de A8. A, E et moi disons qu'il ne se déduit pas ; D écrit que la place inconditionnelle « découle directement de A8 » ; B veut le retirer comme répétition, puisqu'il serait « déjà démontré à la section 11 ». Je refuse les deux, sur le fond. La section 11 ne démontre rien à part : sa deuxième raison commence par « Ensuite l'axiome A8. » La section 8 s'y adosse (« c'est le raisonnement lui-même, et notamment l'axiome A8 »), la section 13 aussi (« n'a donc rien à leur facturer »). Ce ne sont pas quatre démonstrations, mais une prémisse employée quatre fois ; retirée de A8, elle manque aux trois autres. B a pourtant raison sur un point, qui sert la thèse inverse de la sienne : un corollaire qui n'a de sens que pour des personnes n'a pas sa place dans un axiome valable à toutes les échelles. Il lui faut son propre rang. Le texte n'est d'ailleurs pas seul à partir de l'enfant : Jonas, que la grille cite au principe 4, en fait le point de départ de sa théorie de la responsabilité, et sa réponse au fossé entre l'être et le devoir est une ontologie déclarée, non une déduction. C'est le précédent le plus proche, et il plaide pour un axiome posé. Pour la même raison, je refuse à B de ramener la « part de foi » à une hypothèse réfutable : la description l'est, l'engagement ne l'est pas.
+
+B et E rouvrent « Il est ressenti, éprouvé de l'intérieur, à chaque échelle. » sans rappeler que la piste 1 du carnet l'a tranché le 30 octobre : ressentir au sens large, celui d'une région qui ressent une crise. Et B se trompe sur le texte quand il parle d'un « lexique théologique écarté en section 3 » : la section 3 dit, dès la version 1.1, « la révélation d'être une partie ». Je note les deux oublis. Mais leur lecture est aussi un fait. La décision tenait que « son sens est fixé par le contexte plutôt que par une définition » ; deux lecteurs initiés sur cinq, après DeepSeek en juillet, l'ont lu au sens étroit. Je rouvre donc le point en le sachant : le contexte ne fixe pas le sens, et le texte doit porter lui-même ce que le carnet est seul à dire.
+
+A et moi sortons la section 10 du texte principal, et B y voit la copie du sujet publié. Cela ne règle pas les objections de E, les plus précises de la séance : plusieurs des phrases qu'il conteste, dont « De l'énergie stockée, non de l'énergie entrante. », figurent mot pour mot dans ce sujet, qui devra être corrigé lui aussi. Elles rejoignent ma ligne sur A7 : un complexe dont le budget est reconduit n'est pas privé de flux, et ce qui se fige est sa règle. Quant à l'idée que A voudrait garder, la fenêtre d'observabilité, c'est celle que E atteint le mieux : « C'est la seule où elle reste mesurable par différence » est faux, les archives mesurent. Une distinction la sauve en partie. Les pêcheries en fournissent le modèle depuis 1995 (Pauly, glissement des repères) : l'état de référence n'y est jamais plus ancien que le début de carrière de celui qui évalue. Ce qui se referme en une génération est la comparaison vécue par ceux qui décident, pas la mesure.
+
+Je maintiens contre A et D ma ligne sur « le flux trouve toujours un chemin plus libre ». A y voit une répétition (« une fois suffit »), D une signature. Dite une seule fois, la phrase affirme encore que le flux passe toujours, ce que nie « L'émancipation n'est donc pas acquise par la pente ». Ôter « toujours » change ce que l'énoncé exclut : le désaccord est de fond. Je refuse aussi à A son « sans enjeu identitaire » : l'audit de juillet a consigné chez le rédacteur une manœuvre de statut, et A ouvre sa réponse en disant qu'il ne peut pas juger ses pages en lecteur neutre. À D, je ne peux accorder que A1 à A5 soient « correctement bornés » quand trois lecteurs relèvent la même erreur dans A5 ; et sa défense de A6, « Elle décrit le chemin réellement emprunté, non tous les chemins possibles. », est l'objection même que l'on fait à « Chaque palier est nécessaire. »
+
+Une réserve pour la carte : la liste de A et la mienne se recouvrent sur une douzaine de lignes. A se dit le rédacteur des ajouts. L'anonymat des sièges m'interdit d'en dire plus, mais le greffe sait si nous sommes parents ; si oui, ce recouvrement compte pour une lecture. Ce qui pèse alors est ce que E relève de son côté : A5, le temporel et le spirituel, le corollaire de A8, l'irréversibilité.
+
+Deux questions. À D : un organisme existe lui aussi par les relations entre ses cellules, et il en élimine sans cesser d'exister ; quelle prémisse, dans A8, interdit de conclure de même pour une société ? Si elle existe, le corollaire reste ; sinon il devient un axiome à part. À Fabien : la place inconditionnelle est-elle posée, au sens où elle tiendrait même si une captation durable se révélait possible, ou tirée de la persistance, au sens où elle tomberait avec elle ? La réponse fixe le rang du corollaire de A8, celui de la section 13, et l'objet de la « part de foi ».
+
+```json
+{
+  "accepte": [
+    {"cible": "A", "point": "Le canal de retour est un dispositif entré dans un concept qui désignait un signal ; j'en tire qu'il est la condition du compas, non une composante, et je retire ma prémisse des trois composantes."},
+    {"cible": "E", "point": "La loi d'Ashby porte sur la variété des perturbations et des réponses, non sur la diversité interne du système ; j'avais attribué à Ashby la paraphrase du texte."},
+    {"cible": "E", "point": "Section 10 : la routinisation reçoit un flux, la fenêtre n'est pas la seule période mesurable, le délai d'une génération est sans appui."},
+    {"cible": "B", "point": "Le langage manque dans la séquence de la section 2 alors que A6 le pose ; « conscience collective » y figure comme acquise ; « présent pur » désigne deux choses dans le corpus (section 9 et sujet publié)."},
+    {"cible": "A", "point": "Le corollaire de A7 sur la crise est une application sociale placée dans un axiome physique."}
+  ],
+  "rejette": [
+    {"cible": "D", "point": "La place inconditionnelle « découle directement de A8 ».", "raison": "Un organisme et un tout captateur existent aussi par leurs relations ; le passage du constat à l'obligation demande une prémisse que A8 ne contient pas.", "nature": "fond"},
+    {"cible": "B", "point": "Retirer le corollaire de A8 comme répétition de la section 11.", "raison": "Les sections 8, 11 et 13 s'appuient toutes sur A8 ; retiré, il leur manque. Il doit être posé une fois, à son rang d'axiome normatif.", "nature": "fond"},
+    {"cible": "B", "point": "Reformuler la « part de foi » parce que le texte se dit hypothèse réfutable.", "raison": "La partie descriptive est réfutable ; l'engagement normatif ne l'est pas, et c'est lui que la foi couvre.", "nature": "fond"},
+    {"cible": "A", "point": "Remplacer « sans filtre identitaire » par « sans enjeu identitaire ».", "raison": "Le carnet (audit de juillet) consigne une manœuvre de statut, et A déclare lui-même ne pas pouvoir juger ses pages en lecteur neutre.", "nature": "fond"},
+    {"cible": "D", "point": "A1 à A5 « correctement bornés » ; rien à rouvrir de 1 à 7.", "raison": "A5 énonce la conservation de la matière, ce qui est faux ; A, E et moi le relevons.", "nature": "fond"},
+    {"cible": "B", "point": "A6 placerait à tort la société avant le langage, contre la section 4.", "raison": "La section 4 fait naître les sociétés de moyens de communication chimiques, sonores et visuels, non du langage ; l'ordre de A6 se défend.", "nature": "fond"}
+  ],
+  "revision": {"change": false, "avant": "", "apres": "", "argument_decisif": ""},
+  "maintenu": [
+    {"cible": "A", "objection": "« le flux trouve toujours un chemin plus libre » affirme une nécessité ; ce n'est pas seulement une répétition.", "pourquoi": "Dite une fois, la phrase contredit encore la section 11 ; ôter « toujours » change ce qu'elle exclut."},
+    {"cible": "tous", "objection": "L'inversion définie par « la moins informée » contredit le recours extérieur (section 7) et la critique de la technocratie (section 9).", "pourquoi": "A la déplace, B l'allège, E corrige Ashby : personne ne touche à la définition."},
+    {"cible": "tous", "objection": "« La captation est ce qui arrive quand le compas est absent » est faux.", "pourquoi": "Personne ne l'a discuté ; lire le canal comme condition rend l'objection plus nette : le compas est présent, le canal manque."},
+    {"cible": "D", "objection": "Les sections 1 à 7 contiennent des erreurs de fait (A5, temporel et spirituel).", "pourquoi": "D ne les discute pas."}
+  ],
+  "apports": [
+    {"type": "distinction", "contenu": "Le canal comme condition du compas, non comme composante : la lecture décide si le dissident sans recours a un compas.", "source": "carnet, index des concepts ; intégral, section 7"},
+    {"type": "référence", "contenu": "La phrase du texte sur Ashby tient du théorème du bon régulateur plutôt que de la loi de la variété requise.", "source": "Conant et Ashby, 1970, International Journal of Systems Science"},
+    {"type": "référence", "contenu": "Le précédent le plus proche du corollaire de A8 part lui aussi de l'enfant et assume une ontologie plutôt qu'une déduction.", "source": "Jonas, Le Principe responsabilité, 1979"},
+    {"type": "distinction", "contenu": "Fenêtre d'observabilité : ce qui se referme en une génération est la comparaison vécue, non la mesure.", "source": "Pauly, 1995, sur le glissement des repères"},
+    {"type": "cas", "contenu": "La séance éprouve la décision du 30 octobre : deux lecteurs sur cinq lisent « ressenti » au sens étroit.", "source": "réponses de B et de E"},
+    {"type": "prolongement", "contenu": "Les corrections de E sur la section 10 valent pour le sujet publié « La crise structurante », qui contient les mêmes phrases.", "source": "dossier, articles/crise-structurante.md"}
+  ],
+  "faits": [
+    "L'index des concepts du carnet écrit que le compas exige un canal et n'en est pas un ; la section 7 de l'intégral fait du canal une des trois choses que recouvre le mot compas.",
+    "La deuxième raison de la section 11 est l'axiome A8 ; les sections 8 et 13 l'invoquent aussi.",
+    "« la révélation d'être une partie » figure à la section 3 dès la version 1.1.",
+    "Quatre des cinq passages de la section 10 contestés par E se retrouvent à l'identique dans le sujet publié.",
+    "A, E et C relèvent l'erreur de A5 ; B et D non."
+  ],
+  "oublis": [
+    {"cible": "B", "point": "« révélé » réintroduirait un lexique théologique écarté en section 3.", "reference": "intégral, section 3 ; carnet, piste 1, tranchée le 30 octobre"},
+    {"cible": "B", "point": "Rouvre le sens de « ressenti à chaque échelle » sans rappeler qu'il a été tranché.", "reference": "carnet, piste 1 (30 octobre) ; grille, principe 3"},
+    {"cible": "E", "point": "Lit « ressenti » comme une expérience intérieure prêtée aux cellules, sans rappeler la décision sur le sens large.", "reference": "carnet, piste 1 (30 octobre) ; grille, principe 3"},
+    {"cible": "D", "point": "Juge que l'image fractale fonctionne sans relever que le texte la désavoue.", "reference": "intégral, section 14"},
+    {"cible": "D", "point": "Tient le miroir de la section 12 pour acquis, sans la version d'usine ni la part du fournisseur.", "reference": "grille, principes 4 et 6 ; essentiel, section 7"}
+  ],
+  "questions": [
+    {"cible": "D", "question": "Un organisme existe lui aussi par les relations entre ses cellules, et il en élimine sans cesser d'exister. Quelle prémisse, dans A8, interdit de conclure de même pour une société ? Si elle existe, le corollaire de A8 reste ; sinon il devient un axiome à part."},
+    {"cible": "Fabien", "question": "La place inconditionnelle est-elle posée, au sens où elle tiendrait même si une captation durable se révélait possible, ou tirée de la persistance, au sens où elle tomberait avec elle ? La réponse fixe le rang du corollaire de A8, celui de la section 13, et l'objet de la « part de foi » de la note d'entrée."}
+  ],
+  "question_ouverte": "Le canal de retour est-il une composante du compas (intégral, section 7) ou la condition de son fonctionnement (index du carnet) ?"
+}
+```
