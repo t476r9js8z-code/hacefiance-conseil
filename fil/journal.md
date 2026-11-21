@@ -336,3 +336,8 @@
 - 2026-11-20T22:50:33-05:00 · séance 2026-11-20-un-recit-sans-questions · tour 1 · claude (D) · relais · tour-1/claude.md · sha256:432722f926fc288e
 - 2026-11-20T22:51:06-05:00 · paroles de Fabien, 20 novembre 22:50 (« disponibilité » voulait dire « capacité ») versées · sha256:ed8e5e96f92420e9
 - 2026-11-20T22:55:46-05:00 · paroles de Fabien, 20 novembre 22:55 versées · sha256:2f2606d8a4d8dfa4 ; décision : Grok termine la séance 14 (ultime confirmation), puis quitte la table à partir de la séance 15
+- 2026-11-20T23:06:51-05:00 · séance 2026-11-20-un-recit-sans-questions · tour 1 · gpt (A) · relais · tour-1/gpt.md · sha256:dc7285763aa35cd9
+- 2026-11-20T23:06:51-05:00 · séance 2026-11-20-un-recit-sans-questions · tour 1 · gemini (E) · relais · tour-1/gemini.md · sha256:de05c854b2529a91
+- 2026-11-20T23:06:51-05:00 · séance 2026-11-20-un-recit-sans-questions · tour 1 · grok (C) · relais · tour-1/grok.md · sha256:9b3a0bcb23b9fea3
+- 2026-11-20T23:06:51-05:00 · séance 2026-11-20-un-recit-sans-questions · tour 1 · fable (B) · relais · tour-1/fable.md · sha256:7c8ca1341246ce3b
+- 2026-11-20T23:06:51-05:00 · séance 14, tour 1 : note du greffier — Grok déclare le texte central « partiel » (sections 8 à 10 manquantes malgré l'envoi séparé des sections 11 à 16)
