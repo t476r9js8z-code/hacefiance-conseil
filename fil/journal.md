@@ -324,3 +324,7 @@
 - 2026-11-20T13:04:09-05:00 · paroles de Fabien, 20 novembre 13:03 (pas une ronde unique ; questions gardées de côté) versées dans paroles-de-fabien/2026-11-20.md · sha256:6accaaed9ee60b21
 - 2026-11-20T13:04:09-05:00 · séance 13 : reponses-de-fabien.md créé, questions-pour-fabien.md annoté (questions gardées de côté) · sha256:d5bfb6c089f4afa4
 - 2026-11-20T13:14:38-05:00 · paroles de Fabien, 20 novembre 13:14 (le message de 13:03 visait la séance 12) versées · sha256:26f09b7631944f58 ; correction de la note du greffier sur les questions de la séance 13, qui ne sont pas mises de côté
+- 2026-11-20T22:30:07-05:00 · paroles de Fabien, 20 novembre 22:29 (réponses aux sept questions) versées dans fil/paroles-de-fabien/2026-11-20.md · sha256:b7ebb31ef336dd80
+- 2026-11-20T22:30:07-05:00 · paroles de Fabien, 20 novembre 22:29 (réponses aux sept questions) versées dans fil/2026-11-19-ce-qu-est-le-tout/reponses-de-fabien.md · sha256:717138eea24d4a68
+- 2026-11-20T22:30:07-05:00 · paroles de Fabien, 20 novembre 22:29 (réponses aux sept questions) versées dans fil/2026-11-20-echange-avec-fabien/reponses-de-fabien.md · sha256:2e8498bebaad8997
+- 2026-11-20T22:30:07-05:00 · paroles de Fabien, 20 novembre 22:29 (réponses aux sept questions) versées dans fil/2026-11-20-souverainete-une-video/reponses-de-fabien.md · sha256:4b21b4dcbfb68832
