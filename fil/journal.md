@@ -341,3 +341,10 @@
 - 2026-11-20T23:06:51-05:00 · séance 2026-11-20-un-recit-sans-questions · tour 1 · grok (C) · relais · tour-1/grok.md · sha256:9b3a0bcb23b9fea3
 - 2026-11-20T23:06:51-05:00 · séance 2026-11-20-un-recit-sans-questions · tour 1 · fable (B) · relais · tour-1/fable.md · sha256:7c8ca1341246ce3b
 - 2026-11-20T23:06:51-05:00 · séance 14, tour 1 : note du greffier — Grok déclare le texte central « partiel » (sections 8 à 10 manquantes malgré l'envoi séparé des sections 11 à 16)
+- 2026-11-20T23:06:53-05:00 · séance 2026-11-20-un-recit-sans-questions · tour 1 · claude (D) · relais · tour-1/claude.md · sha256:432722f926fc288e
+- 2026-11-20T23:06:53-05:00 · séance 2026-11-20-un-recit-sans-questions · tour 1 · gpt (A) · relais · tour-1/gpt.md · sha256:dc7285763aa35cd9
+- 2026-11-20T23:06:53-05:00 · séance 2026-11-20-un-recit-sans-questions · tour 1 · gemini (E) · relais · tour-1/gemini.md · sha256:de05c854b2529a91
+- 2026-11-20T23:06:53-05:00 · séance 2026-11-20-un-recit-sans-questions · tour 1 · grok (C) · relais · tour-1/grok.md · sha256:9b3a0bcb23b9fea3
+- 2026-11-20T23:06:53-05:00 · séance 2026-11-20-un-recit-sans-questions · tour 1 · fable (B) · relais · tour-1/fable.md · sha256:7c8ca1341246ce3b
+- 2026-11-20T23:08:38-05:00 · séance 14, tour 2 : consignes relayées à GPT, Gemini, Grok et Fable (consigne seule, dans les discussions du tour 1)
+- 2026-11-20T23:08:38-05:00 · séance 2026-11-20-un-recit-sans-questions · tour 2 · claude (D) · relais · tour-2/claude.md · sha256:ad9e5ea1c1b10179
