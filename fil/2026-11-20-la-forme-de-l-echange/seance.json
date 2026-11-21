@@ -15,6 +15,11 @@
     "fable": "D"
   },
   "verificateur": "gemini",
-  "journalise": [],
+  "journalise": [
+    "1/claude",
+    "1/gpt",
+    "1/gemini",
+    "1/fable"
+  ],
   "mode": "recit"
 }

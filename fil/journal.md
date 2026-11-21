@@ -368,3 +368,9 @@
 - 2026-11-20T23:42:03-05:00 · séance 15 ouverte en mode récit (la forme de l'échange), consigne validée par Fabien (« Ok », 23:41) ; table à quatre, Grok hors table
 - 2026-11-20T23:42:46-05:00 · séance 15, tour 1 : consignes relayées à GPT, Gemini (discussions du conseil) et Fable (nouvelle discussion d98bbacb…, consigne et dossier)
 - 2026-11-20T23:56:45-05:00 · séance 2026-11-20-la-forme-de-l-echange · tour 1 · claude (A) · relais · tour-1/claude.md · sha256:2f52a96f6256e592
+- 2026-11-21T00:01:14-05:00 · séance 2026-11-20-la-forme-de-l-echange · tour 1 · claude (A) · relais · tour-1/claude.md · sha256:2f52a96f6256e592
+- 2026-11-21T00:01:14-05:00 · séance 2026-11-20-la-forme-de-l-echange · tour 1 · gpt (B) · relais · tour-1/gpt.md · sha256:342bb94ebfb2305d
+- 2026-11-21T00:01:14-05:00 · séance 2026-11-20-la-forme-de-l-echange · tour 1 · gemini (C) · relais · tour-1/gemini.md · sha256:ed53ac10d85bd079
+- 2026-11-21T00:01:14-05:00 · séance 2026-11-20-la-forme-de-l-echange · tour 1 · fable (D) · relais · tour-1/fable.md · sha256:66787cc860e7c765
+- 2026-11-21T00:01:21-05:00 · séance 15, tour 1 : note du greffier — la ligne claude (A) de 00:01:14 répète celle de 23:56:45 (même empreinte), réécrite par « seance » au dépôt des trois autres réponses
+- 2026-11-21T00:01:21-05:00 · séance 15, tour 1 : note du greffier — Gemini déclare le texte central « partiel » (intégral non joint à cette séance consacrée à la forme) ; GPT laisse dans sa prose deux balises de citation de son outil de recherche (<Cite ref=…/>), conservées telles quelles ; Fable déclare avoir consulté la conversation de la séance 14, la mémoire de l'application et la recherche en ligne
