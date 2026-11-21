@@ -328,3 +328,5 @@
 - 2026-11-20T22:30:07-05:00 · paroles de Fabien, 20 novembre 22:29 (réponses aux sept questions) versées dans fil/2026-11-19-ce-qu-est-le-tout/reponses-de-fabien.md · sha256:717138eea24d4a68
 - 2026-11-20T22:30:07-05:00 · paroles de Fabien, 20 novembre 22:29 (réponses aux sept questions) versées dans fil/2026-11-20-echange-avec-fabien/reponses-de-fabien.md · sha256:2e8498bebaad8997
 - 2026-11-20T22:30:07-05:00 · paroles de Fabien, 20 novembre 22:29 (réponses aux sept questions) versées dans fil/2026-11-20-souverainete-une-video/reponses-de-fabien.md · sha256:4b21b4dcbfb68832
+- 2026-11-20T22:38:04-05:00 · paroles de Fabien, 20 novembre 22:37 (indignation organique et inorganique) versées dans fil/paroles-de-fabien/2026-11-20.md · sha256:361630183db2a313
+- 2026-11-20T22:38:04-05:00 · paroles de Fabien, 20 novembre 22:37 (indignation organique et inorganique) versées dans fil/2026-11-20-souverainete-une-video/reponses-de-fabien.md · sha256:6cdbaf4f6170e8ef
