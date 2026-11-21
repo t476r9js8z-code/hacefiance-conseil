@@ -565,7 +565,8 @@ def preparer(conseil: Conseil, s: Seance, tour: int, p: dict) -> tuple[str, str,
             )
             ctx["verificateur"] = True
         grille = conseil.grille() if p["siege"] != "etranger" else "(Tu ne reçois pas la grille de lecture.)"
-        consigne = conseil.consigne("tour2").format(
+        gabarit = "tour2-recit" if s.meta.get("mode") == "recit" else "tour2"
+        consigne = conseil.consigne(gabarit).format(
             seance=s.nom, siege=siege, lettre=s.lettre(p["id"]), question=s.question_pour(p), grille=grille,
             propre=s.reponse(1, p["id"]).strip(), autres=blocs, longueur=conseil.longueur, verification=verif,
         )
@@ -1012,6 +1013,8 @@ def cmd_nouvelle(conseil: Conseil, a) -> None:
         "verificateur": candidats[(numero - 1) % len(candidats)],
         "journalise": [],
     }
+    if getattr(a, "recit", False):
+        meta["mode"] = "recit"  # séance d'écriture : pas de champ « questions », la séance se clôt après la lecture croisée
     ecrire(d / "00-question.md", f"# Question\n\n{question.strip()}\n")
     ecrire(d / "seance.json", json.dumps(meta, ensure_ascii=False, indent=2) + "\n")
     s = Seance(conseil, d)
@@ -1132,6 +1135,8 @@ def principal(argv: list[str] | None = None) -> None:
     x.add_argument("question", nargs="?")
     x.add_argument("--fichier", help="lire la question dans un fichier")
     x.add_argument("--slug", help="nom court de la séance")
+    x.add_argument("--recit", action="store_true",
+                   help="séance d'écriture : chacun écrit un passage du récit, sans questions (seul un blocage d'écriture est déclaré)")
     x.set_defaults(f=cmd_nouvelle)
 
     x = sp.add_parser("tour", help="lancer un tour (1 = à l'aveugle, 2 = lecture croisée, 3-4 = questions et réponses)")

@@ -330,3 +330,5 @@
 - 2026-11-20T22:30:07-05:00 · paroles de Fabien, 20 novembre 22:29 (réponses aux sept questions) versées dans fil/2026-11-20-souverainete-une-video/reponses-de-fabien.md · sha256:4b21b4dcbfb68832
 - 2026-11-20T22:38:04-05:00 · paroles de Fabien, 20 novembre 22:37 (indignation organique et inorganique) versées dans fil/paroles-de-fabien/2026-11-20.md · sha256:361630183db2a313
 - 2026-11-20T22:38:04-05:00 · paroles de Fabien, 20 novembre 22:37 (indignation organique et inorganique) versées dans fil/2026-11-20-souverainete-une-video/reponses-de-fabien.md · sha256:6cdbaf4f6170e8ef
+- 2026-11-20T22:48:12-05:00 · séance 2026-11-20-un-recit-sans-questions ouverte · vérificateur gpt
+- 2026-11-20T22:48:20-05:00 · séance 14 ouverte en mode récit (nouveau gabarit consignes/tour2-recit.md, option --recit de conseil.py) : les réponses de Fabien de 22:29 et 22:37 sont renvoyées au conseil, qui écrit un passage du récit sans poser de questions, sur la demande de Fabien (22:45 et 22:47)

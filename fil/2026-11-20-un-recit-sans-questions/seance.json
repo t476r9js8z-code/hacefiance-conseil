@@ -1,0 +1,22 @@
+{
+  "numero": 14,
+  "creee": "2026-11-20T22:48:12-05:00",
+  "graine": 48082211,
+  "participants": [
+    "claude",
+    "gpt",
+    "gemini",
+    "grok",
+    "fable"
+  ],
+  "lettres": {
+    "claude": "D",
+    "gpt": "A",
+    "gemini": "E",
+    "grok": "C",
+    "fable": "B"
+  },
+  "verificateur": "gpt",
+  "journalise": [],
+  "mode": "recit"
+}
