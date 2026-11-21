@@ -363,3 +363,4 @@
 - 2026-11-20T23:26:50-05:00 · séance 14 close (mode récit, deux tours, carte écrite).
 - 2026-11-20T23:26:50-05:00 · séance 14 : note du greffier sur sa propre réponse — le contrôle d'écho relève que D (Claude) reprend sans guillemets 8,2 % de suites de six mots à B (Fable, tour 1) dans son passage révisé ; l'emprunt était reconnu dans le préambule (« c'est B qui en a fourni l'essentiel ») mais non marqué dans le passage lui-même ; les citations de Fabien y sont données en orthographe corrigée, d'où leur signalement comme introuvables
 - 2026-11-20T23:26:50-05:00 · Grok passe hors table dans conseil.toml (siège « hors-table ») à partir de la séance 15, sur décision de Fabien du 20 novembre (22:50, 22:55)
+- 2026-11-20T23:39:23-05:00 · paroles de Fabien, 20 novembre 23:32 à 23:39 (forme d'échange entre IA, canaux) versées · sha256:a11a5a537ca52884
