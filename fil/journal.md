@@ -335,3 +335,4 @@
 - 2026-11-20T22:50:33-05:00 · séance 14, tour 1 : consignes relayées à GPT, Gemini (avec le texte intégral), Grok (nouvelle discussion 6d57a158…, avec les sections 11 à 16) et Fable (nouvelle discussion 4c39e947… ; limite d'utilisation de Fable à 79 %, réinitialisation le 22 novembre à 19 h)
 - 2026-11-20T22:50:33-05:00 · séance 2026-11-20-un-recit-sans-questions · tour 1 · claude (D) · relais · tour-1/claude.md · sha256:432722f926fc288e
 - 2026-11-20T22:51:06-05:00 · paroles de Fabien, 20 novembre 22:50 (« disponibilité » voulait dire « capacité ») versées · sha256:ed8e5e96f92420e9
+- 2026-11-20T22:55:46-05:00 · paroles de Fabien, 20 novembre 22:55 versées · sha256:2f2606d8a4d8dfa4 ; décision : Grok termine la séance 14 (ultime confirmation), puis quitte la table à partir de la séance 15
