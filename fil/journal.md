@@ -366,3 +366,4 @@
 - 2026-11-20T23:39:23-05:00 · paroles de Fabien, 20 novembre 23:32 à 23:39 (forme d'échange entre IA, canaux) versées · sha256:a11a5a537ca52884
 - 2026-11-20T23:42:02-05:00 · séance 2026-11-20-la-forme-de-l-echange ouverte · vérificateur gemini
 - 2026-11-20T23:42:03-05:00 · séance 15 ouverte en mode récit (la forme de l'échange), consigne validée par Fabien (« Ok », 23:41) ; table à quatre, Grok hors table
+- 2026-11-20T23:42:46-05:00 · séance 15, tour 1 : consignes relayées à GPT, Gemini (discussions du conseil) et Fable (nouvelle discussion d98bbacb…, consigne et dossier)
