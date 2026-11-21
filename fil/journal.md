@@ -348,3 +348,18 @@
 - 2026-11-20T23:06:53-05:00 · séance 2026-11-20-un-recit-sans-questions · tour 1 · fable (B) · relais · tour-1/fable.md · sha256:7c8ca1341246ce3b
 - 2026-11-20T23:08:38-05:00 · séance 14, tour 2 : consignes relayées à GPT, Gemini, Grok et Fable (consigne seule, dans les discussions du tour 1)
 - 2026-11-20T23:08:38-05:00 · séance 2026-11-20-un-recit-sans-questions · tour 2 · claude (D) · relais · tour-2/claude.md · sha256:ad9e5ea1c1b10179
+- 2026-11-20T23:26:29-05:00 · séance 2026-11-20-un-recit-sans-questions · tour 2 · gpt (A) · relais · tour-2/gpt.md · sha256:75898eda23468ae9
+- 2026-11-20T23:26:29-05:00 · séance 2026-11-20-un-recit-sans-questions · tour 2 · gemini (E) · relais · tour-2/gemini.md · sha256:467494e3fc66d228
+- 2026-11-20T23:26:29-05:00 · séance 2026-11-20-un-recit-sans-questions · tour 2 · grok (C) · relais · tour-2/grok.md · sha256:609f044aec9e1d9b
+- 2026-11-20T23:26:29-05:00 · séance 2026-11-20-un-recit-sans-questions · tour 2 · fable (B) · relais · tour-2/fable.md · sha256:6a1a56a2697c332b
+- 2026-11-20T23:26:29-05:00 · séance 14, tour 2 : note du greffier — la réponse de GPT arrive de nouveau en deux messages ; le second reprend mot pour mot le « Passage révisé » du premier ; déposée telle quelle
+- 2026-11-20T23:26:29-05:00 · séance 2026-11-20-un-recit-sans-questions · tour 2 · claude (D) · relais · tour-2/claude.md · sha256:ad9e5ea1c1b10179
+- 2026-11-20T23:26:29-05:00 · séance 2026-11-20-un-recit-sans-questions · tour 2 · gpt (A) · relais · tour-2/gpt.md · sha256:75898eda23468ae9
+- 2026-11-20T23:26:29-05:00 · séance 2026-11-20-un-recit-sans-questions · tour 2 · gemini (E) · relais · tour-2/gemini.md · sha256:467494e3fc66d228
+- 2026-11-20T23:26:29-05:00 · séance 2026-11-20-un-recit-sans-questions · tour 2 · grok (C) · relais · tour-2/grok.md · sha256:609f044aec9e1d9b
+- 2026-11-20T23:26:29-05:00 · séance 2026-11-20-un-recit-sans-questions · tour 2 · fable (B) · relais · tour-2/fable.md · sha256:6a1a56a2697c332b
+- 2026-11-20T23:26:29-05:00 · séance 2026-11-20-un-recit-sans-questions · carte.md · cartographe mécanique · sha256:a6d65596c6a477fc
+- 2026-11-20T23:26:29-05:00 · séance 2026-11-20-un-recit-sans-questions · état du fil mis à jour · sha256:bab4df7cdeb2412d
+- 2026-11-20T23:26:50-05:00 · séance 14 close (mode récit, deux tours, carte écrite).
+- 2026-11-20T23:26:50-05:00 · séance 14 : note du greffier sur sa propre réponse — le contrôle d'écho relève que D (Claude) reprend sans guillemets 8,2 % de suites de six mots à B (Fable, tour 1) dans son passage révisé ; l'emprunt était reconnu dans le préambule (« c'est B qui en a fourni l'essentiel ») mais non marqué dans le passage lui-même ; les citations de Fabien y sont données en orthographe corrigée, d'où leur signalement comme introuvables
+- 2026-11-20T23:26:50-05:00 · Grok passe hors table dans conseil.toml (siège « hors-table ») à partir de la séance 15, sur décision de Fabien du 20 novembre (22:50, 22:55)

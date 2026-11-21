@@ -22,7 +22,45 @@
     "1/gpt",
     "1/gemini",
     "1/grok",
-    "1/fable"
+    "1/fable",
+    "2/claude",
+    "2/gpt",
+    "2/gemini",
+    "2/grok",
+    "2/fable"
   ],
-  "mode": "recit"
+  "mode": "recit",
+  "cartes": {
+    "carte.md": {
+      "cartographe": "",
+      "date": "2026-11-20T23:26:29-05:00",
+      "resume": {
+        "rejets": 13,
+        "changements": 3,
+        "apports": 9,
+        "desaccords_de_mots": 2,
+        "oublis": 3,
+        "lues": 5,
+        "membres": 5,
+        "signaux": [
+          "**Tournant possible** : 3 changement(s) de position déclaré(s).",
+          "2 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.",
+          "Aucune objection maintenue chez : C.",
+          "**Citations à vérifier** : 9 passage(s) entre guillemets introuvable(s) (voir Contrôles mécaniques).",
+          "**Écho possible** : D reprend sans guillemets une part notable d'un autre texte (voir Contrôles mécaniques).",
+          "**Réception partielle** : C déclare un texte central incomplet ; renvoyer le corpus."
+        ],
+        "questions": 0,
+        "questions_fabien": [],
+        "lettres": {
+          "A": "gpt",
+          "B": "fable",
+          "C": "grok",
+          "D": "claude",
+          "E": "gemini"
+        }
+      }
+    }
+  },
+  "etat_fait": true
 }

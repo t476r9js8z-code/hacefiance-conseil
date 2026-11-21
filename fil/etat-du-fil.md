@@ -2,24 +2,6 @@
 
 *État mécanique : les six dernières séances. Un cartographe hors table peut le remplacer par un état rédigé.*
 
-## Séance 2026-11-15-consolidation-de-la-grille
-
-**Question** : Fabien demande une séance de consolidation, et non une question nouvelle. La grille de lecture jointe à cette consigne rassemble ce que le fil a établi. Trois principes y ont été ajoutés ou précisés le 15 novembre, à partir de réponses de Fabien : le principe 3 (le degré de réalité d'un n+1, et le ressenti d'une vérité universelle comme mesure de l'émergence), le principe 8 (l'indignation fondée, …
-
-Déclarations lues : 4/4 · rejets : 7 · changements de position : 4 · apports : 10.
-
-- Convergence suspecte : tous les participants déclarent avoir changé de position.
-- Tournant possible : 4 changement(s) de position déclaré(s).
-- 1 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.
-- Mémoire à rafraîchir : 2 oublis relevés chez A ; lui renvoyer le corpus et la grille (`rafraichir`).
-- Citations à vérifier : 3 passage(s) entre guillemets introuvable(s) (voir Contrôles mécaniques).
-- Écho possible : C reprend sans guillemets une part notable d'un autre texte (voir Contrôles mécaniques).
-- Question pour Fabien : Accepterais-tu de dire qu'un tout captateur existe bien par ses relations (A8), et que ce qui lui manque est la réciprocité, plutôt que de dire qu'il n'est pas un vrai n+1 ? La réponse changerait les principes 1 et 3 de la grille.
-- Question pour Fabien : Au principe 3, le ressenti humain d'une vérité universelle doit-il être retenu comme une condition définitionnelle de l'existence d'un n+1 ou seulement comme le mode de reconnaissance humain d'un palier déjà constitué par les interactions selon l'axiome A8 et vérifiable par le canal de retour de la section 7 ?
-- Question pour Fabien : Accepterais-tu que le principe 3 soit reformulé de façon à rendre le ressenti indissociable, dans la mesure, des deux autres composantes du compas (traduction morale et canal de retour) ?
-
-Carte complète : `2026-11-15-consolidation-de-la-grille/carte.md`.
-
 ## Séance 2026-11-15-reponses-et-definition-du-n1
 
 **Question** : À la fin de la séance 7, trois questions ont été posées à Fabien (`2026-11-15-consolidation-de-la-grille/questions-pour-fabien.md`). Ses réponses suivent, telles qu'il les a tapées, sans correction (`paroles-de-fabien/2026-11-15.md`) :
@@ -114,3 +96,18 @@ Déclarations lues : 5/5 · rejets : 11 · changements de position : 4 · apport
 - Question pour Fabien : La grille cite le trilemme de Rodrik au principe 12. Limiter l'intégration par une frontière sur les marchandises et les capitaux est-il une voie que le cadre admet, au même titre que porter la voix à l'échelle de l'intégration ? Si oui, le principe 12 doit dire qui tient la frontière et quel recours garde celui qu'elle atteint au-dehors ; si non, le cadre s'engage pour la seconde voie.
 
 Carte complète : `2026-11-20-souverainete-une-video/carte.md`.
+
+## Séance 2026-11-20-un-recit-sans-questions
+
+**Question** : ## Avant de commencer
+
+Déclarations lues : 5/5 · rejets : 13 · changements de position : 3 · apports : 9.
+
+- Tournant possible : 3 changement(s) de position déclaré(s).
+- 2 désaccord(s) déclaré(s) comme portant sur les mots : à régler par une formulation commune.
+- Aucune objection maintenue chez : C.
+- Citations à vérifier : 9 passage(s) entre guillemets introuvable(s) (voir Contrôles mécaniques).
+- Écho possible : D reprend sans guillemets une part notable d'un autre texte (voir Contrôles mécaniques).
+- Réception partielle : C déclare un texte central incomplet ; renvoyer le corpus.
+
+Carte complète : `2026-11-20-un-recit-sans-questions/carte.md`.

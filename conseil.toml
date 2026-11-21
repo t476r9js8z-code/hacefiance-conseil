@@ -60,7 +60,10 @@ fil_persistant = true
 [[participant]]
 id = "grok"
 nom = "Grok"
-siege = "initie"
+# Retiré de la table à partir de la séance 15, sur décision de Fabien (20 novembre, 22:50 et 22:55) :
+# capacité la plus faible du conseil (mode Rapide, dossiers tronqués, reprises sans guillemets).
+# La séance 14 lui a servi d'ultime confirmation.
+siege = "hors-table"
 adaptateur = "manuel"
 relais = "Chrome : grok.com (compte Byron Wat), discussion neuve à chaque séance ; joindre le dossier"
 joindre_dossier = true
