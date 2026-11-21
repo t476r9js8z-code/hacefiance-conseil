@@ -374,3 +374,5 @@
 - 2026-11-21T00:01:14-05:00 · séance 2026-11-20-la-forme-de-l-echange · tour 1 · fable (D) · relais · tour-1/fable.md · sha256:66787cc860e7c765
 - 2026-11-21T00:01:21-05:00 · séance 15, tour 1 : note du greffier — la ligne claude (A) de 00:01:14 répète celle de 23:56:45 (même empreinte), réécrite par « seance » au dépôt des trois autres réponses
 - 2026-11-21T00:01:21-05:00 · séance 15, tour 1 : note du greffier — Gemini déclare le texte central « partiel » (intégral non joint à cette séance consacrée à la forme) ; GPT laisse dans sa prose deux balises de citation de son outil de recherche (<Cite ref=…/>), conservées telles quelles ; Fable déclare avoir consulté la conversation de la séance 14, la mémoire de l'application et la recherche en ligne
+- 2026-11-21T00:02:34-05:00 · séance 15, tour 2 : consignes relayées à GPT, Gemini (avec le texte central intégral, déclaré manquant au tour 1) et Fable (même discussion d98bbacb… ; Fable signale 83 % de sa limite hebdomadaire)
+- 2026-11-21T00:03:47-05:00 · séance 2026-11-20-la-forme-de-l-echange · tour 2 · claude (A) · relais · tour-2/claude.md · sha256:9208911d8944746e

@@ -19,7 +19,8 @@
     "1/claude",
     "1/gpt",
     "1/gemini",
-    "1/fable"
+    "1/fable",
+    "2/claude"
   ],
   "mode": "recit"
 }
